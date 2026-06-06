@@ -43,8 +43,12 @@ REPRT_ANNUAL = "11011"          # 사업보고서(연간)
 REPRT_QUARTERS = ["11014", "11012", "11013"]  # 3분기 · 반기 · 1분기
 
 
-def _get(url: str, timeout: int = 30, retries: int = 3) -> bytes:
-    """일시적 네트워크/throttle 실패를 backoff 로 재시도. 데이터 결측을 줄인다."""
+def _get(url: str, timeout: int = 20, retries: int = 2) -> bytes:
+    """일시적 네트워크/throttle 실패를 가벼운 backoff 로 재시도.
+
+    재시도/대기를 짧게(2회·0.6s) 둬서 opendart throttle 시 sleep 누적으로
+    전체 빌드가 길어지는 것을 막는다. 마지막 시도엔 sleep 없음.
+    """
     last = None
     for i in range(retries):
         try:
@@ -53,7 +57,8 @@ def _get(url: str, timeout: int = 30, retries: int = 3) -> bytes:
                 return r.read()
         except Exception as e:  # noqa: BLE001
             last = e
-            time.sleep(1.2 * (i + 1))
+            if i < retries - 1:
+                time.sleep(0.6)
     raise last
 
 
@@ -212,9 +217,14 @@ def _ttm_from_cumulative(cum_rev: dict, cum_op: dict) -> dict | None:
             "q_spread": round(op_yoy - rev_yoy, 1)}
 
 
-def _cum(key: str, corp_code: str, year: int, reprt: str):
-    """(year, reprt) 의 누적 매출·영업이익 → (rev, op) 또는 None."""
-    for fs in ("CFS", "OFS"):
+def _cum(key: str, corp_code: str, year: int, reprt: str,
+         fs_order: tuple = ("CFS", "OFS")):
+    """(year, reprt) 의 누적 매출·영업이익 → (rev, op) 또는 None.
+
+    fs_order 로 시도할 재무유형을 제한할 수 있다(연간에서 확인된 CFS/OFS 하나만
+    쓰면 분기 호출 수가 절반 — opendart throttle 완화).
+    """
+    for fs in fs_order:
         rows = _statement(key, corp_code, year, reprt, fs)
         if not rows:
             continue
@@ -225,11 +235,14 @@ def _cum(key: str, corp_code: str, year: int, reprt: str):
     return None
 
 
-def ttm_yoy(key: str, corp_code: str, this_year: int | None = None) -> dict | None:
+def ttm_yoy(key: str, corp_code: str, this_year: int | None = None,
+            prefer_fs: str | None = None) -> dict | None:
     """DART 에서 최근 3개 사업연도의 누적공시를 모아 정밀 TTM 스프레드 계산.
 
-    미래/미공시 분기는 자동으로 건너뛴다(404). 8분기 연속 확보 시에만 산출.
+    미래/미공시 분기는 자동으로 건너뛴다. 8분기 연속 확보 시에만 산출.
+    prefer_fs("CFS"/"OFS") 가 주어지면 그 재무유형만 조회(호출 수 절반).
     """
+    fs_order = (prefer_fs,) if prefer_fs in ("CFS", "OFS") else ("CFS", "OFS")
     today = date.today()
     yr = this_year or today.year
     cum_rev, cum_op = {}, {}
@@ -240,7 +253,7 @@ def ttm_yoy(key: str, corp_code: str, this_year: int | None = None) -> dict | No
             # 지나지 않았으면 호출 생략(불필요한 네트워크 라운드트립 제거).
             if y > today.year or (y == today.year and 3 * q > today.month):
                 continue
-            cv = _cum(key, corp_code, y, reprt)
+            cv = _cum(key, corp_code, y, reprt, fs_order)
             if cv:
                 cum_rev[(y, q)], cum_op[(y, q)] = cv
     return _ttm_from_cumulative(cum_rev, cum_op)
