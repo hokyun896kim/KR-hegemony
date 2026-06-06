@@ -434,11 +434,13 @@ def _member_dart(key: str, tk: str, nm: str, corp_map: dict) -> dict:
             ann = dart.annual_spread(key, cc, y)
             if ann:
                 break
+        ann_fs = None
         if ann:
             rev, op, spread = ann["rev"], ann["op"], ann["spread"]
             eps = ann.get("eps")             # PER = 종가 ÷ EPS (merge 에서 계산)
+            ann_fs = ann.get("fs")           # 분기 TTM 도 같은 재무유형만 조회(호출 절반)
         # ① 정밀 4분기 롤링 TTM (누적공시 역산) — 미국판과 동일
-        ttm = dart.ttm_yoy(key, cc)
+        ttm = dart.ttm_yoy(key, cc, prefer_fs=ann_fs)
         if ttm:
             q_spread, q_op = ttm["q_spread"], ttm["q_op"]
             q_note = "정상"
@@ -544,7 +546,7 @@ def build(mode: str) -> dict:
         results = [_one(e) for e in UNIVERSE]          # 합성은 즉시 — 병렬 불필요
     else:
         from concurrent.futures import ThreadPoolExecutor, as_completed
-        workers = 6 if mode == "dart" else 10          # DART 는 throttle 회피로 보수적
+        workers = 4 if mode == "dart" else 10          # DART 는 throttle 회피로 보수적
         results = []
         done = 0
         with ThreadPoolExecutor(max_workers=workers) as ex:
