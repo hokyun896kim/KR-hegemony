@@ -1,0 +1,62 @@
+name: Update KR Hegemony Tree
+
+# 별도 레포(루트에 파일 배치)용 자동 갱신 워크플로.
+# 매주 토요일 오전(KST) DART+pykrx 로 tree_kr.json 을 갱신·커밋한다.
+#
+# 사전 준비(딱 한 번):
+#   1) 레포 → Settings → Secrets and variables → Actions → New repository secret
+#      Name: DART_API_KEY,  Value: https://opendart.fss.or.kr 무료 인증키
+#   2) (선택) Netlify 를 이 레포에 연결하면 커밋마다 자동 재배포(루트 배포라 Base directory 불필요).
+
+on:
+  schedule:
+    - cron: '0 1 * * 6'      # 매주 토 01:00 UTC = 토 10:00 KST
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kr-tree-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install --quiet yfinance pykrx pytest pandas
+
+      - name: Test parsing/aggregation logic (offline)
+        run: pytest -q
+
+      - name: Build tree_kr.json
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: |
+          if [ -n "$DART_API_KEY" ]; then
+            echo "▶ DART + pykrx 모드"
+            python build_tree_kr.py --dart || { echo "DART 실패 → yfinance 폴백"; python build_tree_kr.py; }
+          else
+            echo "▶ DART_API_KEY 미설정 → yfinance 모드"
+            python build_tree_kr.py
+          fi
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tree_kr.json
+          if git diff --staged --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "chore: 헤게모니 데이터 자동 갱신 ($(date -u +%Y-%m-%d))"
+            git push
+          fi
