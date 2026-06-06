@@ -62,25 +62,39 @@ def _eok(won) -> float | None:
 
 
 # ----------------------------- 네트워크(pykrx) -----------------------------
+def _candidate_dates(date_str: str | None = None, span: int = 10):
+    """기준일부터 하루씩 거슬러 올라가는 날짜 문자열(YYYYMMDD) 생성기.
+
+    워크플로가 매주 토요일(+공휴일)에 도는데 pykrx 스냅샷은 휴장일에 비어 있다.
+    실제 데이터가 나올 때까지 최근 거래일로 후퇴하기 위함.
+    """
+    from datetime import date, datetime, timedelta
+    base = (datetime.strptime(date_str, "%Y%m%d").date()
+            if date_str else date.today())
+    for back in range(span):
+        yield (base - timedelta(days=back)).strftime("%Y%m%d")
+
+
 def foreign_pct_map(date_str: str | None = None) -> dict[str, float]:
-    """외국인 지분율 맵 {종목코드6: 지분율%} (1회 호출)."""
+    """외국인 지분율 맵 {종목코드6: 지분율%}. 휴장일이면 직전 거래일로 후퇴."""
     from pykrx import stock
-    from datetime import date
-    d = date_str or date.today().strftime("%Y%m%d")
-    out = {}
-    for mkt in ("KOSPI", "KOSDAQ"):
-        try:
-            df = stock.get_exhaustion_rates_of_foreign_investment(d, mkt)
-            col = "지분율" if "지분율" in df.columns else None
-            if col:
-                for code, row in df.iterrows():
-                    try:
-                        out[str(code)] = float(row[col])
-                    except (TypeError, ValueError):
-                        pass
-        except Exception:
-            continue
-    return out
+    for d in _candidate_dates(date_str):
+        out = {}
+        for mkt in ("KOSPI", "KOSDAQ"):
+            try:
+                df = stock.get_exhaustion_rates_of_foreign_investment(d, mkt)
+                col = "지분율" if "지분율" in df.columns else None
+                if col:
+                    for code, row in df.iterrows():
+                        try:
+                            out[str(code).zfill(6)] = float(row[col])
+                        except (TypeError, ValueError):
+                            pass
+            except Exception:
+                continue
+        if out:
+            return out
+    return {}
 
 
 def _per_from_df(df) -> dict:
@@ -131,22 +145,23 @@ def _netmap_from_df(df) -> dict:
 
 
 def per_map(date_str: str | None = None) -> dict[str, float]:
-    """PER 맵 {종목코드6: PER} — pykrx 펀더멘털 일괄(시장별 1회씩)."""
+    """PER 맵 {종목코드6: PER} — pykrx 펀더멘털 일괄. 휴장일이면 직전 거래일로 후퇴."""
     from pykrx import stock
-    from datetime import date
-    d = date_str or date.today().strftime("%Y%m%d")
-    out = {}
-    for mkt in ("KOSPI", "KOSDAQ"):
-        df = None
-        try:
-            df = stock.get_market_fundamental_by_ticker(d, market=mkt)
-        except Exception:
+    for d in _candidate_dates(date_str):
+        out = {}
+        for mkt in ("KOSPI", "KOSDAQ"):
+            df = None
             try:
-                df = stock.get_market_fundamental(d, market=mkt)
+                df = stock.get_market_fundamental_by_ticker(d, market=mkt)
             except Exception:
-                df = None
-        out.update(_per_from_df(df))
-    return out
+                try:
+                    df = stock.get_market_fundamental(d, market=mkt)
+                except Exception:
+                    df = None
+            out.update(_per_from_df(df))
+        if out:
+            return out
+    return {}
 
 
 def net_flow_maps(days: int = 20) -> tuple[dict, dict]:
@@ -156,20 +171,24 @@ def net_flow_maps(days: int = 20) -> tuple[dict, dict]:
     함수가 없거나 실패하면 빈 맵 반환(호출측에서 None 처리).
     """
     from pykrx import stock
-    from datetime import date, timedelta
-    to = date.today().strftime("%Y%m%d")
-    fr = (date.today() - timedelta(days=days * 2)).strftime("%Y%m%d")
-    fmap, imap = {}, {}
+    from datetime import datetime, timedelta
     fn = getattr(stock, "get_market_net_purchases_of_equities", None)
     if fn is None:
-        return fmap, imap
-    for mkt in ("KOSPI", "KOSDAQ"):
-        for inv, target in (("외국인", fmap), ("기관합계", imap)):
-            try:
-                target.update(_netmap_from_df(fn(fr, to, mkt, inv)))
-            except Exception:
-                pass
-    return fmap, imap
+        return {}, {}
+    # 종료일을 직전 거래일로 후퇴(토요일·공휴일 실행 대비)
+    for to in _candidate_dates(span=10):
+        fr = (datetime.strptime(to, "%Y%m%d").date()
+              - timedelta(days=days * 2)).strftime("%Y%m%d")
+        fmap, imap = {}, {}
+        for mkt in ("KOSPI", "KOSDAQ"):
+            for inv, target in (("외국인", fmap), ("기관합계", imap)):
+                try:
+                    target.update(_netmap_from_df(fn(fr, to, mkt, inv)))
+                except Exception:
+                    pass
+        if fmap or imap:
+            return fmap, imap
+    return {}, {}
 
 
 def net_flows(code6: str, days: int = 20) -> tuple:
