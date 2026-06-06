@@ -2891,39 +2891,6 @@
      "supply": "— 수급 미확인"
     },
     {
-     "tk": "316140.KS",
-     "nm": "우리금융지주",
-     "spread": null,
-     "q_spread": null,
-     "accel": null,
-     "op": null,
-     "rev": null,
-     "q_op": null,
-     "q_note": "분기 미확인",
-     "d_until": null,
-     "ir": {
-      "date": "2026-06",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=316140"
-       }
-      ]
-     },
-     "rs3": -64.4,
-     "rs6": -110.6,
-     "gap": 5.5,
-     "gaplvl": "M",
-     "from_high": -21.5,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
      "tk": "055550.KS",
      "nm": "신한지주",
      "spread": null,
@@ -2981,6 +2948,39 @@
      "gap": 6.9,
      "gaplvl": "M",
      "from_high": -29.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "316140.KS",
+     "nm": "우리금융지주",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "분기 미확인",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=316140"
+       }
+      ]
+     },
+     "rs3": -64.4,
+     "rs6": -110.6,
+     "gap": 5.5,
+     "gaplvl": "M",
+     "from_high": -21.5,
      "pe": null,
      "fpe": null,
      "peg": null,
