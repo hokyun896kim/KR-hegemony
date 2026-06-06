@@ -401,6 +401,36 @@ def _price_maps(tickers: list[str], bench) -> dict:
     return out
 
 
+def _per_map_yf(tickers: list[str]) -> dict:
+    """{종목코드6: PER} — yfinance .info(trailingPE, 없으면 forwardPE) 병렬 수집.
+
+    KRX(pykrx)·네이버는 해외(Actions) IP 를 막지만 Yahoo 는 허용하므로,
+    클라우드 자동 빌드에서 PER 의 안정적 출처가 된다. 결측·적자는 제외.
+    """
+    import yfinance as yf
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    def one(tk):
+        try:
+            info = yf.Ticker(tk).info or {}
+            pe = info.get("trailingPE") or info.get("forwardPE")
+            pe = float(pe) if pe is not None else None
+            return tk.split(".")[0], (round(pe, 1) if pe and pe > 0 else None)
+        except Exception:
+            return tk.split(".")[0], None
+
+    out = {}
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        for f in as_completed([ex.submit(one, tk) for tk in tickers]):
+            try:
+                c6, pe = f.result()
+            except Exception:
+                continue
+            if pe is not None:
+                out[c6] = pe
+    return out
+
+
 def _member_dart(key: str, tk: str, nm: str, corp_map: dict) -> dict:
     """DART 연결재무 기반 스프레드. 시세·PER·수급은 build()에서 일괄 merge."""
     import dart
@@ -496,64 +526,30 @@ def build(mode: str) -> dict:
             print(f"  → 시세 {ok}/{len(tickers)}종목")
         except Exception as e:
             print(f"  (시세 생략: {e})")
+        # PER: yfinance(Yahoo) — KRX/네이버와 달리 해외(Actions) IP 허용. 안정적.
+        try:
+            print("· PER 수집(yfinance)…")
+            per_m = _per_map_yf(tickers)
+            print(f"  → PER {len(per_m)}/{len(tickers)}종목")
+        except Exception as e:
+            print(f"  (PER 생략: {e})")
+        # 수급·지분율: pykrx. 로컬(한국 IP)에선 정상 수집, 해외 Actions 에선 KRX 가
+        # 차단해 공란 → 도구의 '종목 상세 → AI 웹검색'이 외국인·기관 동향을 보완.
         try:
             import contextlib
             import io as _io
             import supply as _sup
-            print("· PER·수급·지분율 일괄 로드(pykrx)…")
-            # pykrx 는 KRX 응답이 비면 "Expecting value…" 를 종목마다 stdout 으로
-            # 쏟아낸다(해외 IP 차단 시 전부 빈 응답). 로그 오염 방지로 캡처.
+            print("· 수급·지분율 로드(pykrx; 한국 IP 전용)…")
             with contextlib.redirect_stdout(_io.StringIO()):
-                per_m = _sup.per_map()
                 fnet_m, inet_m = _sup.net_flow_maps(20)
                 fpct_map = _sup.foreign_pct_map()
-            if per_m or fnet_m or fpct_map:
-                print(f"  → PER {len(per_m)} · 외국인순매수 {len(fnet_m)} · "
-                      f"기관순매수 {len(inet_m)} · 지분율 {len(fpct_map)}")
+            if fnet_m or fpct_map:
+                print(f"  → 외국인순매수 {len(fnet_m)} · 기관순매수 {len(inet_m)} · "
+                      f"지분율 {len(fpct_map)}")
             else:
-                print("  ⚠ KRX(pykrx) 응답 없음(해외 IP 차단 추정) "
-                      "→ 네이버 금융 폴백 시도…")
+                print("  · 수급 공란(해외 IP 차단) — 종목 상세의 AI 웹검색으로 보완.")
         except Exception as e:
-            print(f"  (pykrx 생략: {e})")
-
-        # ── 클라우드 폴백: pykrx 가 비면 네이버에서 종목별로 PER·수급·지분율 ──
-        if not (per_m or fnet_m or fpct_map):
-            try:
-                import naver as _nv
-                from concurrent.futures import ThreadPoolExecutor, as_completed
-                got = 0
-                with contextlib.redirect_stdout(_io.StringIO()), \
-                        ThreadPoolExecutor(max_workers=8) as ex:
-                    def _nv_one(tk):
-                        c6 = tk.split(".")[0]
-                        close = (price_maps.get(tk) or {}).get("close")
-                        return c6, _nv.enrich(c6, 20, close)
-                    nvf = {ex.submit(_nv_one, tk): tk for tk in tickers}
-                    for f in as_completed(nvf):
-                        try:
-                            c6, d = f.result()
-                        except Exception:
-                            continue
-                        if d.get("per") is not None:
-                            per_m[c6] = d["per"]
-                        if d.get("foreign_pct") is not None:
-                            fpct_map[c6] = d["foreign_pct"]
-                        if d.get("foreign_net") is not None:
-                            fnet_m[c6] = d["foreign_net"]
-                        if d.get("inst_net") is not None:
-                            inet_m[c6] = d["inst_net"]
-                        if any(d.get(k) is not None for k in
-                               ("per", "foreign_net", "foreign_pct")):
-                            got += 1
-                if got:
-                    print(f"  → 네이버 폴백 성공: {got}/{len(tickers)}종목 "
-                          f"(PER {len(per_m)} · 외국인순매수 {len(fnet_m)} · "
-                          f"지분율 {len(fpct_map)})")
-                else:
-                    print("  ⚠ 네이버도 응답 없음 — 수급·PER 생략"
-                          "(DART 재무·랭킹은 정상).")
-            except Exception as e:
-                print(f"  (네이버 폴백 생략: {e})")
+            print(f"  (수급 생략: {e})")
 
     # 세부산업별 멤버 구성 — 재무(DART/yfinance)는 종목별이라 병렬로 수집.
     def _one(entry):
