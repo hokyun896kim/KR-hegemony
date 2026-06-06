@@ -83,6 +83,95 @@ def foreign_pct_map(date_str: str | None = None) -> dict[str, float]:
     return out
 
 
+def _per_from_df(df) -> dict:
+    """pykrx 펀더멘털 스냅샷(index=종목코드) → {코드6: PER}. 순수 함수(테스트용).
+
+    PER ≤ 0(적자·결측)은 제외 → 스코어러가 결측으로 처리하게 둔다.
+    """
+    if df is None or "PER" not in getattr(df, "columns", []):
+        return {}
+    out = {}
+    for code, row in df.iterrows():
+        try:
+            v = float(row["PER"])
+        except (TypeError, ValueError):
+            continue
+        if v and v > 0:
+            out[str(code).zfill(6)] = round(v, 1)
+    return out
+
+
+def _netmap_from_df(df) -> dict:
+    """투자자 순매수 일괄 DataFrame(index=종목코드) → {코드6: 억원}. 순수 함수.
+
+    '순매수거래대금' 우선, 없으면 '순매수' 포함 컬럼을 자동 선택.
+    """
+    if df is None:
+        return {}
+    cols = list(getattr(df, "columns", []))
+    col = None
+    for c in cols:
+        if "순매수" in str(c) and "대금" in str(c):
+            col = c
+            break
+    if col is None:
+        for c in cols:
+            if "순매수" in str(c):
+                col = c
+                break
+    if col is None:
+        return {}
+    out = {}
+    for code, row in df.iterrows():
+        try:
+            out[str(code).zfill(6)] = round(float(row[col]) / 1e8, 1)
+        except (TypeError, ValueError):
+            pass
+    return out
+
+
+def per_map(date_str: str | None = None) -> dict[str, float]:
+    """PER 맵 {종목코드6: PER} — pykrx 펀더멘털 일괄(시장별 1회씩)."""
+    from pykrx import stock
+    from datetime import date
+    d = date_str or date.today().strftime("%Y%m%d")
+    out = {}
+    for mkt in ("KOSPI", "KOSDAQ"):
+        df = None
+        try:
+            df = stock.get_market_fundamental_by_ticker(d, market=mkt)
+        except Exception:
+            try:
+                df = stock.get_market_fundamental(d, market=mkt)
+            except Exception:
+                df = None
+        out.update(_per_from_df(df))
+    return out
+
+
+def net_flow_maps(days: int = 20) -> tuple[dict, dict]:
+    """({코드6: 외국인순매수억}, {코드6: 기관순매수억}) — pykrx 일괄.
+
+    종목별 호출 대신 투자자별 전체 순매수를 시장×투자자 4회로 받는다.
+    함수가 없거나 실패하면 빈 맵 반환(호출측에서 None 처리).
+    """
+    from pykrx import stock
+    from datetime import date, timedelta
+    to = date.today().strftime("%Y%m%d")
+    fr = (date.today() - timedelta(days=days * 2)).strftime("%Y%m%d")
+    fmap, imap = {}, {}
+    fn = getattr(stock, "get_market_net_purchases_of_equities", None)
+    if fn is None:
+        return fmap, imap
+    for mkt in ("KOSPI", "KOSDAQ"):
+        for inv, target in (("외국인", fmap), ("기관합계", imap)):
+            try:
+                target.update(_netmap_from_df(fn(fr, to, mkt, inv)))
+            except Exception:
+                pass
+    return fmap, imap
+
+
 def net_flows(code6: str, days: int = 20) -> tuple:
     """최근 days 거래일 외국인·기관 순매수(원). pykrx."""
     from pykrx import stock
