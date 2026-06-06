@@ -1,295 +1,1639 @@
 {
  "updated": "2026-06-06",
- "demo": true,
+ "demo": false,
  "market": {
   "vix": 18.5,
-  "vix_state": "경계",
-  "spy3": 4.2,
-  "spy6": 7.8
+  "vix_state": "—",
+  "spy3": 46.1,
+  "spy6": 104.7
  },
  "sectors": [
   {
-   "gics": "통신·유틸리티",
-   "med": 17.0,
+   "gics": "2차전지·소재",
+   "med": 40.7,
    "n_sub": 2,
-   "n_co": 2
+   "n_co": 13
   },
   {
-   "gics": "IT·반도체",
-   "med": 16.7,
-   "n_sub": 3,
-   "n_co": 8
+   "gics": "미디어·엔터",
+   "med": 29.0,
+   "n_sub": 2,
+   "n_co": 7
   },
   {
-   "gics": "인터넷·게임",
-   "med": 8.6,
-   "n_sub": 2,
-   "n_co": 4
+   "gics": "방산·우주",
+   "med": 10.1,
+   "n_sub": 1,
+   "n_co": 3
   },
   {
    "gics": "바이오·헬스케어",
-   "med": 6.6,
+   "med": 6.8,
+   "n_sub": 3,
+   "n_co": 22
+  },
+  {
+   "gics": "소비재",
+   "med": 1.3,
+   "n_sub": 4,
+   "n_co": 24
+  },
+  {
+   "gics": "소재·산업재",
+   "med": 0.3,
+   "n_sub": 7,
+   "n_co": 37
+  },
+  {
+   "gics": "금융",
+   "med": -0.9,
+   "n_sub": 3,
+   "n_co": 19
+  },
+  {
+   "gics": "IT·반도체",
+   "med": -3.1,
+   "n_sub": 4,
+   "n_co": 25
+  },
+  {
+   "gics": "자동차",
+   "med": -6.6,
+   "n_sub": 2,
+   "n_co": 10
+  },
+  {
+   "gics": "지주",
+   "med": -6.7,
+   "n_sub": 1,
+   "n_co": 5
+  },
+  {
+   "gics": "IT 서비스",
+   "med": -8.9,
    "n_sub": 1,
    "n_co": 4
   },
   {
-   "gics": "소비재",
-   "med": 5.0,
-   "n_sub": 1,
-   "n_co": 2
-  },
-  {
-   "gics": "2차전지·소재",
-   "med": 4.8,
+   "gics": "인터넷·게임",
+   "med": -10.4,
    "n_sub": 2,
-   "n_co": 6
+   "n_co": 12
   },
   {
-   "gics": "자동차",
-   "med": 3.7,
+   "gics": "통신·유틸리티",
+   "med": -23.1,
    "n_sub": 2,
-   "n_co": 3
+   "n_co": 7
   },
   {
-   "gics": "소재·산업재",
-   "med": 1.2,
-   "n_sub": 1,
-   "n_co": 2
-  },
-  {
-   "gics": "금융",
-   "med": -9.3,
-   "n_sub": 1,
-   "n_co": 3
+   "gics": "운송",
+   "med": -30.8,
+   "n_sub": 3,
+   "n_co": 8
   }
  ],
  "subs": [
   {
-   "sic": "TELCO",
-   "ko": "통신",
-   "desc": "TELCO",
-   "gics": "통신·유틸리티",
+   "sic": "SHIP",
+   "ko": "조선",
+   "desc": "SHIP",
+   "gics": "소재·산업재",
    "members": [
     {
-     "tk": "017670.KS",
-     "nm": "SK텔레콤",
-     "spread": 25.9,
-     "q_spread": 37.9,
-     "accel": 12.0,
-     "rs3": 0.6,
-     "rs6": 38.3,
-     "gap": 3.4,
-     "gaplvl": "L",
-     "from_high": -44.9,
-     "foreign_net": -286.1,
-     "inst_net": -46.0,
-     "foreign_pct": 35.7,
-     "supply": "🔴 동반 순매도(이탈)",
-     "op": 42.5,
-     "rev": 16.6,
-     "q_op": 48.7,
-     "pe": 30.0,
-     "fpe": 27.0,
-     "peg": null,
+     "tk": "042660.KS",
+     "nm": "한화오션",
+     "spread": 372.2,
+     "q_spread": 193.9,
+     "accel": -178.3,
+     "op": 390.8,
+     "rev": 18.6,
+     "q_op": 204.4,
      "q_note": "정상",
-     "d_until": 24,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=017670"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=042660"
        }
       ]
-     }
-    }
-   ],
-   "med": 25.9,
-   "n": 1
-  },
-  {
-   "sic": "ELEC",
-   "ko": "전자부품",
-   "desc": "ELEC",
-   "gics": "IT·반도체",
-   "members": [
-    {
-     "tk": "066570.KS",
-     "nm": "LG전자",
-     "spread": 23.8,
-     "q_spread": 27.3,
-     "accel": 3.5,
-     "rs3": -38.8,
-     "rs6": -29.8,
-     "gap": 7.8,
+     },
+     "rs3": -54.3,
+     "rs6": -103.1,
+     "gap": 6.8,
      "gaplvl": "M",
-     "from_high": -9.6,
-     "foreign_net": -181.9,
-     "inst_net": 297.9,
-     "foreign_pct": 12.9,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 46.5,
-     "rev": 22.7,
-     "q_op": 50.1,
+     "from_high": -25.2,
      "pe": null,
      "fpe": null,
      "peg": null,
-     "q_note": "정상",
-     "d_until": -10,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=066570"
-       }
-      ]
-     }
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     },
     {
-     "tk": "009150.KS",
-     "nm": "삼성전기",
-     "spread": 21.6,
-     "q_spread": 30.1,
-     "accel": 8.5,
-     "rs3": -3.6,
-     "rs6": -28.3,
-     "gap": 6.0,
-     "gaplvl": "M",
-     "from_high": -13.9,
-     "foreign_net": -172.7,
-     "inst_net": 87.4,
-     "foreign_pct": 32.6,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 16.4,
-     "rev": -5.2,
-     "q_op": 36.4,
-     "pe": 32.2,
-     "fpe": 29.0,
-     "peg": null,
+     "tk": "009540.KS",
+     "nm": "HD한국조선해양",
+     "spread": 155.1,
+     "q_spread": 89.5,
+     "accel": -65.6,
+     "op": 172.3,
+     "rev": 17.2,
+     "q_op": 106.3,
      "q_note": "정상",
-     "d_until": 17,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=009150"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=009540"
        }
       ]
-     }
+     },
+     "rs3": -53.0,
+     "rs6": -114.2,
+     "gap": 7.1,
+     "gaplvl": "M",
+     "from_high": -20.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "010620.KS",
+     "nm": "HD현대미포",
+     "spread": 143.3,
+     "q_spread": 745.7,
+     "accel": 602.4,
+     "op": 157.9,
+     "rev": 14.6,
+     "q_op": 761.6,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=010620"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": null,
+     "gaplvl": "M",
+     "from_high": null,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "010140.KS",
+     "nm": "삼성중공업",
+     "spread": 64.0,
+     "q_spread": 74.7,
+     "accel": 10.7,
+     "op": 71.5,
+     "rev": 7.5,
+     "q_op": 84.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=010140"
+       }
+      ]
+     },
+     "rs3": -44.1,
+     "rs6": -95.0,
+     "gap": 7.9,
+     "gaplvl": "M",
+     "from_high": -19.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     }
    ],
-   "med": 22.7,
-   "n": 2
+   "med": 149.2,
+   "n": 4
   },
   {
-   "sic": "SEMIEQ",
-   "ko": "반도체 장비·소재",
-   "desc": "SEMIEQ",
+   "sic": "DISP",
+   "ko": "디스플레이",
+   "desc": "DISP",
    "gics": "IT·반도체",
    "members": [
     {
-     "tk": "058470.KQ",
-     "nm": "리노공업",
-     "spread": 24.9,
-     "q_spread": 34.7,
-     "accel": 9.8,
-     "rs3": 18.3,
-     "rs6": 7.9,
-     "gap": 10.1,
-     "gaplvl": "H",
-     "from_high": -34.7,
-     "foreign_net": -185.0,
-     "inst_net": 315.6,
-     "foreign_pct": 42.0,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 41.1,
-     "rev": 16.2,
-     "q_op": 60.8,
-     "pe": 10.2,
-     "fpe": 9.2,
-     "peg": null,
+     "tk": "056190.KQ",
+     "nm": "에스에프에이",
+     "spread": 297.7,
+     "q_spread": 212.4,
+     "accel": -85.3,
+     "op": 277.4,
+     "rev": -20.3,
+     "q_op": 197.6,
      "q_note": "정상",
-     "d_until": 65,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=058470"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=056190"
        }
       ]
-     }
-    },
-    {
-     "tk": "240810.KQ",
-     "nm": "원익IPS",
-     "spread": 15.7,
-     "q_spread": 27.1,
-     "accel": 11.4,
-     "rs3": 9.2,
-     "rs6": -4.6,
-     "gap": 5.4,
+     },
+     "rs3": -61.0,
+     "rs6": -83.2,
+     "gap": 6.4,
      "gaplvl": "M",
-     "from_high": -11.2,
-     "foreign_net": 159.2,
-     "inst_net": -257.5,
-     "foreign_pct": 48.3,
-     "supply": "🟢 외국인 매집",
-     "op": 32.6,
-     "rev": 16.9,
-     "q_op": 46.4,
-     "pe": 31.6,
-     "fpe": 28.4,
+     "from_high": -28.3,
+     "pe": null,
+     "fpe": null,
      "peg": null,
-     "q_note": "정상",
-     "d_until": 68,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=240810"
-       }
-      ]
-     }
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     },
     {
-     "tk": "357780.KQ",
-     "nm": "솔브레인",
-     "spread": 12.5,
-     "q_spread": 5.2,
-     "accel": -7.3,
-     "rs3": 77.6,
-     "rs6": 44.3,
-     "gap": 9.6,
-     "gaplvl": "H",
-     "from_high": -15.6,
-     "foreign_net": 167.0,
-     "inst_net": 339.0,
-     "foreign_pct": 48.8,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": 6.4,
-     "rev": -6.1,
-     "q_op": 15.7,
-     "pe": 26.6,
-     "fpe": 23.9,
-     "peg": null,
+     "tk": "034220.KS",
+     "nm": "LG디스플레이",
+     "spread": 195.2,
+     "q_spread": 1200.1,
+     "accel": 1004.9,
+     "op": 192.2,
+     "rev": -3.0,
+     "q_op": 1192.3,
      "q_note": "정상",
-     "d_until": 59,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=357780"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=034220"
        }
       ]
-     }
+     },
+     "rs3": -15.4,
+     "rs6": -84.9,
+     "gap": 7.3,
+     "gaplvl": "M",
+     "from_high": -8.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "108320.KQ",
+     "nm": "LX세미콘",
+     "spread": -22.7,
+     "q_spread": -43.7,
+     "accel": -21.0,
+     "op": -34.8,
+     "rev": -12.1,
+     "q_op": -61.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=108320"
+       }
+      ]
+     },
+     "rs3": -45.6,
+     "rs6": -101.8,
+     "gap": 6.8,
+     "gaplvl": "M",
+     "from_high": -21.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "213420.KQ",
+     "nm": "덕산네오룩스",
+     "spread": -46.5,
+     "q_spread": -61.4,
+     "accel": -14.9,
+     "op": 15.8,
+     "rev": 62.2,
+     "q_op": 30.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=213420"
+       }
+      ]
+     },
+     "rs3": -53.4,
+     "rs6": -120.7,
+     "gap": 6.7,
+     "gaplvl": "M",
+     "from_high": -37.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     }
    ],
-   "med": 15.7,
+   "med": 86.2,
+   "n": 4
+  },
+  {
+   "sic": "BATT",
+   "ko": "2차전지 셀",
+   "desc": "BATT",
+   "gics": "2차전지·소재",
+   "members": [
+    {
+     "tk": "373220.KS",
+     "nm": "LG에너지솔루션",
+     "spread": 141.6,
+     "q_spread": 3.3,
+     "accel": -138.3,
+     "op": 134.0,
+     "rev": -7.6,
+     "q_op": -3.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=373220"
+       }
+      ]
+     },
+     "rs3": -34.7,
+     "rs6": -110.2,
+     "gap": 12.0,
+     "gaplvl": "H",
+     "from_high": -19.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "051910.KS",
+     "nm": "LG화학",
+     "spread": 40.7,
+     "q_spread": -30.7,
+     "accel": -71.4,
+     "op": 35.0,
+     "rev": -5.7,
+     "q_op": -37.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=051910"
+       }
+      ]
+     },
+     "rs3": -37.9,
+     "rs6": -115.9,
+     "gap": 6.7,
+     "gaplvl": "M",
+     "from_high": -18.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "006400.KS",
+     "nm": "삼성SDI",
+     "spread": -554.0,
+     "q_spread": -320.4,
+     "accel": 233.6,
+     "op": -574.1,
+     "rev": -20.0,
+     "q_op": -327.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=006400"
+       }
+      ]
+     },
+     "rs3": -1.4,
+     "rs6": -17.2,
+     "gap": 6.7,
+     "gaplvl": "M",
+     "from_high": -20.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 40.7,
+   "n": 3
+  },
+  {
+   "sic": "ENT",
+   "ko": "엔터",
+   "desc": "ENT",
+   "gics": "미디어·엔터",
+   "members": [
+    {
+     "tk": "122870.KQ",
+     "nm": "와이지엔터테인먼트",
+     "spread": 397.6,
+     "q_spread": 2064.8,
+     "accel": 1667.2,
+     "op": 447.0,
+     "rev": 49.4,
+     "q_op": 2121.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=122870"
+       }
+      ]
+     },
+     "rs3": -81.4,
+     "rs6": -137.6,
+     "gap": 5.6,
+     "gaplvl": "M",
+     "from_high": -61.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "041510.KQ",
+     "nm": "에스엠",
+     "spread": 91.0,
+     "q_spread": 59.1,
+     "accel": -31.9,
+     "op": 109.7,
+     "rev": 18.7,
+     "q_op": 81.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=041510"
+       }
+      ]
+     },
+     "rs3": -70.7,
+     "rs6": -131.0,
+     "gap": 6.9,
+     "gaplvl": "M",
+     "from_high": -50.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "035900.KQ",
+     "nm": "JYP Ent.",
+     "spread": -15.5,
+     "q_spread": 4.8,
+     "accel": 20.3,
+     "op": 21.0,
+     "rev": 36.6,
+     "q_op": 47.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=035900"
+       }
+      ]
+     },
+     "rs3": -58.6,
+     "rs6": -122.0,
+     "gap": 3.8,
+     "gaplvl": "L",
+     "from_high": -36.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "352820.KS",
+     "nm": "하이브",
+     "spread": -90.7,
+     "q_spread": -207.2,
+     "accel": -116.5,
+     "op": -73.2,
+     "rev": 17.5,
+     "q_op": -188.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=352820"
+       }
+      ]
+     },
+     "rs3": -85.0,
+     "rs6": -134.2,
+     "gap": 7.4,
+     "gaplvl": "M",
+     "from_high": -48.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 37.8,
+   "n": 4
+  },
+  {
+   "sic": "CONST",
+   "ko": "건설",
+   "desc": "CONST",
+   "gics": "소재·산업재",
+   "members": [
+    {
+     "tk": "000720.KS",
+     "nm": "현대건설",
+     "spread": 156.6,
+     "q_spread": 153.0,
+     "accel": -3.6,
+     "op": 151.7,
+     "rev": -4.9,
+     "q_op": 147.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000720"
+       }
+      ]
+     },
+     "rs3": -54.1,
+     "rs6": -1.3,
+     "gap": 7.2,
+     "gaplvl": "M",
+     "from_high": -30.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "006360.KS",
+     "nm": "GS건설",
+     "spread": 56.3,
+     "q_spread": 62.6,
+     "accel": 6.3,
+     "op": 53.1,
+     "rev": -3.2,
+     "q_op": 54.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=006360"
+       }
+      ]
+     },
+     "rs3": -4.5,
+     "rs6": -57.0,
+     "gap": 11.7,
+     "gaplvl": "H",
+     "from_high": -35.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "375500.KS",
+     "nm": "DL이앤씨",
+     "spread": 53.8,
+     "q_spread": 70.3,
+     "accel": 16.5,
+     "op": 42.8,
+     "rev": -11.0,
+     "q_op": 59.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=375500"
+       }
+      ]
+     },
+     "rs3": 17.3,
+     "rs6": -22.5,
+     "gap": 9.4,
+     "gaplvl": "H",
+     "from_high": -29.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "294870.KS",
+     "nm": "HDC현대산업개발",
+     "spread": 37.2,
+     "q_spread": 46.4,
+     "accel": 9.2,
+     "op": 34.7,
+     "rev": -2.6,
+     "q_op": 39.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=294870"
+       }
+      ]
+     },
+     "rs3": -49.8,
+     "rs6": -101.4,
+     "gap": 4.4,
+     "gaplvl": "M",
+     "from_high": -25.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "028260.KS",
+     "nm": "삼성물산",
+     "spread": 13.6,
+     "q_spread": 8.7,
+     "accel": -4.9,
+     "op": 10.4,
+     "rev": -3.2,
+     "q_op": 9.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=028260"
+       }
+      ]
+     },
+     "rs3": 11.0,
+     "rs6": -3.4,
+     "gap": 13.4,
+     "gaplvl": "H",
+     "from_high": -13.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "028050.KS",
+     "nm": "삼성E&A",
+     "spread": -9.1,
+     "q_spread": -5.5,
+     "accel": 3.6,
+     "op": -18.5,
+     "rev": -9.4,
+     "q_op": -10.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=028050"
+       }
+      ]
+     },
+     "rs3": -0.3,
+     "rs6": -11.0,
+     "gap": 13.7,
+     "gaplvl": "H",
+     "from_high": -24.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "047040.KS",
+     "nm": "대우건설",
+     "spread": -279.0,
+     "q_spread": -240.3,
+     "accel": 38.7,
+     "op": -302.3,
+     "rev": -23.3,
+     "q_op": -261.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=047040"
+       }
+      ]
+     },
+     "rs3": 108.5,
+     "rs6": 420.3,
+     "gap": 12.4,
+     "gaplvl": "H",
+     "from_high": -41.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 37.2,
+   "n": 7
+  },
+  {
+   "sic": "SEC",
+   "ko": "증권",
+   "desc": "SEC",
+   "gics": "금융",
+   "members": [
+    {
+     "tk": "003540.KS",
+     "nm": "대신증권",
+     "spread": 236.9,
+     "q_spread": 586.7,
+     "accel": 349.8,
+     "op": 260.6,
+     "rev": 23.7,
+     "q_op": 639.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=003540"
+       }
+      ]
+     },
+     "rs3": -68.6,
+     "rs6": -90.3,
+     "gap": 6.8,
+     "gaplvl": "M",
+     "from_high": -36.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "006800.KS",
+     "nm": "미래에셋증권",
+     "spread": 29.5,
+     "q_spread": 61.9,
+     "accel": 32.4,
+     "op": 61.2,
+     "rev": 31.7,
+     "q_op": 132.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=006800"
+       }
+      ]
+     },
+     "rs3": -58.6,
+     "rs6": 52.3,
+     "gap": 8.3,
+     "gaplvl": "H",
+     "from_high": -32.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "138040.KS",
+     "nm": "메리츠금융지주",
+     "spread": 29.2,
+     "q_spread": 22.7,
+     "accel": -6.5,
+     "op": 8.7,
+     "rev": -20.5,
+     "q_op": -5.4,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=138040"
+       }
+      ]
+     },
+     "rs3": -53.5,
+     "rs6": -105.7,
+     "gap": 5.7,
+     "gaplvl": "M",
+     "from_high": -26.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "016360.KS",
+     "nm": "삼성증권",
+     "spread": 9.9,
+     "q_spread": 14.2,
+     "accel": 4.3,
+     "op": 14.1,
+     "rev": 4.2,
+     "q_op": 36.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=016360"
+       }
+      ]
+     },
+     "rs3": -16.5,
+     "rs6": -41.3,
+     "gap": 16.8,
+     "gaplvl": "H",
+     "from_high": -17.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "039490.KS",
+     "nm": "키움증권",
+     "spread": -16.3,
+     "q_spread": -21.6,
+     "accel": -5.3,
+     "op": 35.5,
+     "rev": 51.8,
+     "q_op": 64.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=039490"
+       }
+      ]
+     },
+     "rs3": -63.6,
+     "rs6": -64.7,
+     "gap": 9.6,
+     "gaplvl": "H",
+     "from_high": -26.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005940.KS",
+     "nm": "NH투자증권",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "분기 미확인",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005940"
+       }
+      ]
+     },
+     "rs3": -43.2,
+     "rs6": -45.6,
+     "gap": 6.7,
+     "gaplvl": "M",
+     "from_high": -17.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 29.2,
+   "n": 6
+  },
+  {
+   "sic": "MEDIA",
+   "ko": "미디어·콘텐츠",
+   "desc": "MEDIA",
+   "gics": "미디어·엔터",
+   "members": [
+    {
+     "tk": "036420.KQ",
+     "nm": "콘텐트리중앙",
+     "spread": 95.5,
+     "q_spread": 120.4,
+     "accel": 24.9,
+     "op": 118.7,
+     "rev": 23.2,
+     "q_op": 139.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=036420"
+       }
+      ]
+     },
+     "rs3": -73.5,
+     "rs6": -153.7,
+     "gap": 2.5,
+     "gaplvl": "L",
+     "from_high": -64.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "035760.KQ",
+     "nm": "CJ ENM",
+     "spread": 29.0,
+     "q_spread": 41.8,
+     "accel": 12.8,
+     "op": 27.2,
+     "rev": -1.9,
+     "q_op": 43.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=035760"
+       }
+      ]
+     },
+     "rs3": -86.8,
+     "rs6": -144.0,
+     "gap": 4.3,
+     "gaplvl": "M",
+     "from_high": -53.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "253450.KQ",
+     "nm": "스튜디오드래곤",
+     "spread": -13.1,
+     "q_spread": 57.5,
+     "accel": 70.6,
+     "op": -16.6,
+     "rev": -3.5,
+     "q_op": 69.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=253450"
+       }
+      ]
+     },
+     "rs3": -81.6,
+     "rs6": -139.7,
+     "gap": 3.6,
+     "gaplvl": "L",
+     "from_high": -55.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 29.0,
+   "n": 3
+  },
+  {
+   "sic": "BATTMAT",
+   "ko": "2차전지 소재·장비",
+   "desc": "BATTMAT",
+   "gics": "2차전지·소재",
+   "members": [
+    {
+     "tk": "003670.KS",
+     "nm": "포스코퓨처엠",
+     "spread": 4472.0,
+     "q_spread": 283.0,
+     "accel": -4189.0,
+     "op": 4451.5,
+     "rev": -20.6,
+     "q_op": 266.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=003670"
+       }
+      ]
+     },
+     "rs3": -45.5,
+     "rs6": -103.6,
+     "gap": 5.2,
+     "gaplvl": "M",
+     "from_high": -29.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "247540.KQ",
+     "nm": "에코프로비엠",
+     "spread": 528.7,
+     "q_spread": 517.1,
+     "accel": -11.6,
+     "op": 520.1,
+     "rev": -8.5,
+     "q_op": 520.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=247540"
+       }
+      ]
+     },
+     "rs3": -53.9,
+     "rs6": -82.1,
+     "gap": 6.4,
+     "gaplvl": "M",
+     "from_high": -26.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "086520.KQ",
+     "nm": "에코프로",
+     "spread": 163.8,
+     "q_spread": 185.1,
+     "accel": 21.3,
+     "op": 172.9,
+     "rev": 9.1,
+     "q_op": 202.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=086520"
+       }
+      ]
+     },
+     "rs3": -72.4,
+     "rs6": -59.8,
+     "gap": 6.6,
+     "gaplvl": "M",
+     "from_high": -35.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "278280.KQ",
+     "nm": "천보",
+     "spread": 123.9,
+     "q_spread": -131.5,
+     "accel": -255.4,
+     "op": 116.3,
+     "rev": -7.6,
+     "q_op": -132.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=278280"
+       }
+      ]
+     },
+     "rs3": -56.7,
+     "rs6": -132.2,
+     "gap": 14.8,
+     "gaplvl": "H",
+     "from_high": -48.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "066970.KQ",
+     "nm": "엘앤에프",
+     "spread": 59.0,
+     "q_spread": 65.8,
+     "accel": 6.8,
+     "op": 71.9,
+     "rev": 13.0,
+     "q_op": 120.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=066970"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": null,
+     "gaplvl": "M",
+     "from_high": null,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "137400.KQ",
+     "nm": "피엔티",
+     "spread": -13.6,
+     "q_spread": -5.9,
+     "accel": 7.7,
+     "op": -41.7,
+     "rev": -28.0,
+     "q_op": -35.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=137400"
+       }
+      ]
+     },
+     "rs3": -60.5,
+     "rs6": -101.5,
+     "gap": 5.9,
+     "gaplvl": "M",
+     "from_high": -33.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "137950.KQ",
+     "nm": "대주전자재료",
+     "spread": -27.9,
+     "q_spread": -53.5,
+     "accel": -25.6,
+     "op": -27.8,
+     "rev": 0.1,
+     "q_op": -39.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=137950"
+       }
+      ]
+     },
+     "rs3": -55.4,
+     "rs6": -108.7,
+     "gap": 9.7,
+     "gaplvl": "H",
+     "from_high": -45.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "348370.KQ",
+     "nm": "엔켐",
+     "spread": -41.1,
+     "q_spread": -36.9,
+     "accel": 4.2,
+     "op": -55.5,
+     "rev": -14.5,
+     "q_op": -44.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=348370"
+       }
+      ]
+     },
+     "rs3": -90.9,
+     "rs6": -154.1,
+     "gap": 29.8,
+     "gaplvl": "H",
+     "from_high": -66.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005070.KS",
+     "nm": "코스모신소재",
+     "spread": -70.6,
+     "q_spread": -72.2,
+     "accel": -1.6,
+     "op": -90.5,
+     "rev": -19.9,
+     "q_op": -89.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005070"
+       }
+      ]
+     },
+     "rs3": -52.4,
+     "rs6": -108.6,
+     "gap": 7.5,
+     "gaplvl": "M",
+     "from_high": -29.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "020150.KS",
+     "nm": "롯데에너지머티리얼즈",
+     "spread": -100.4,
+     "q_spread": 26.2,
+     "accel": 126.6,
+     "op": -125.4,
+     "rev": -24.9,
+     "q_op": 9.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=020150"
+       }
+      ]
+     },
+     "rs3": 2.3,
+     "rs6": -63.4,
+     "gap": 17.6,
+     "gaplvl": "H",
+     "from_high": -29.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 22.7,
+   "n": 10
+  },
+  {
+   "sic": "SEMI",
+   "ko": "반도체",
+   "desc": "SEMI",
+   "gics": "IT·반도체",
+   "members": [
+    {
+     "tk": "000660.KS",
+     "nm": "SK하이닉스",
+     "spread": 54.4,
+     "q_spread": 91.1,
+     "accel": 36.7,
+     "op": 101.2,
+     "rev": 46.8,
+     "q_op": 176.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000660"
+       }
+      ]
+     },
+     "rs3": 73.9,
+     "rs6": 176.6,
+     "gap": 11.1,
+     "gaplvl": "H",
+     "from_high": -12.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005930.KS",
+     "nm": "삼성전자",
+     "spread": 22.4,
+     "q_spread": 160.9,
+     "accel": 138.5,
+     "op": 33.2,
+     "rev": 10.9,
+     "q_op": 187.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005930"
+       }
+      ]
+     },
+     "rs3": 25.9,
+     "rs6": 115.4,
+     "gap": 9.2,
+     "gaplvl": "H",
+     "from_high": -8.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "000990.KS",
+     "nm": "DB하이텍",
+     "spread": 21.8,
+     "q_spread": 16.3,
+     "accel": -5.5,
+     "op": 45.3,
+     "rev": 23.5,
+     "q_op": 42.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000990"
+       }
+      ]
+     },
+     "rs3": 38.5,
+     "rs6": 71.1,
+     "gap": 13.2,
+     "gaplvl": "H",
+     "from_high": -21.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 22.4,
    "n": 3
   },
   {
@@ -301,72 +1645,4516 @@
     {
      "tk": "035720.KS",
      "nm": "카카오",
-     "spread": 21.3,
-     "q_spread": 19.4,
-     "accel": -1.9,
-     "rs3": 14.8,
-     "rs6": 33.3,
-     "gap": 3.0,
-     "gaplvl": "L",
-     "from_high": -29.8,
-     "foreign_net": 521.0,
-     "inst_net": -142.1,
-     "foreign_pct": 5.0,
-     "supply": "🟢 외국인 매집",
-     "op": 29.5,
-     "rev": 8.2,
-     "q_op": 42.0,
-     "pe": 23.8,
-     "fpe": 21.4,
-     "peg": null,
+     "spread": 44.8,
+     "q_spread": 82.6,
+     "accel": 37.8,
+     "op": 47.8,
+     "rev": 3.0,
+     "q_op": 88.2,
      "q_note": "정상",
-     "d_until": 1,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
         "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=035720"
        }
       ]
-     }
+     },
+     "rs3": -67.4,
+     "rs6": -137.2,
+     "gap": 4.3,
+     "gaplvl": "M",
+     "from_high": -42.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     },
     {
      "tk": "035420.KS",
      "nm": "NAVER",
-     "spread": -3.8,
-     "q_spread": -0.9,
-     "accel": 2.9,
-     "rs3": -1.5,
-     "rs6": -5.1,
-     "gap": 9.7,
-     "gaplvl": "H",
-     "from_high": -25.0,
-     "foreign_net": -282.7,
-     "inst_net": 246.8,
-     "foreign_pct": 50.2,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 2.4,
-     "rev": 6.2,
-     "q_op": 17.9,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
+     "spread": -0.5,
+     "q_spread": -3.8,
+     "accel": -3.3,
+     "op": 11.6,
+     "rev": 12.1,
+     "q_op": 9.7,
      "q_note": "정상",
-     "d_until": 48,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
         "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=035420"
        }
       ]
-     }
+     },
+     "rs3": -30.0,
+     "rs6": -102.0,
+     "gap": 7.3,
+     "gaplvl": "M",
+     "from_high": -11.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     }
    ],
-   "med": 8.8,
+   "med": 22.1,
    "n": 2
+  },
+  {
+   "sic": "PHARMA",
+   "ko": "제약",
+   "desc": "PHARMA",
+   "gics": "바이오·헬스케어",
+   "members": [
+    {
+     "tk": "271980.KS",
+     "nm": "제일약품",
+     "spread": 228.8,
+     "q_spread": 263.1,
+     "accel": 34.3,
+     "op": 209.3,
+     "rev": -19.5,
+     "q_op": 239.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=271980"
+       }
+      ]
+     },
+     "rs3": -78.3,
+     "rs6": -133.9,
+     "gap": 3.9,
+     "gaplvl": "L",
+     "from_high": -41.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "170900.KS",
+     "nm": "동아에스티",
+     "spread": 86.6,
+     "q_spread": 181.6,
+     "accel": 95.0,
+     "op": 102.5,
+     "rev": 15.9,
+     "q_op": 196.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=170900"
+       }
+      ]
+     },
+     "rs3": -61.7,
+     "rs6": -127.1,
+     "gap": 4.5,
+     "gaplvl": "M",
+     "from_high": -29.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "000100.KS",
+     "nm": "유한양행",
+     "spread": 84.4,
+     "q_spread": 70.8,
+     "accel": -13.6,
+     "op": 90.2,
+     "rev": 5.7,
+     "q_op": 75.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000100"
+       }
+      ]
+     },
+     "rs3": -67.7,
+     "rs6": -139.9,
+     "gap": 6.0,
+     "gaplvl": "M",
+     "from_high": -42.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "069620.KS",
+     "nm": "대웅제약",
+     "spread": 22.6,
+     "q_spread": 4.5,
+     "accel": -18.1,
+     "op": 33.0,
+     "rev": 10.4,
+     "q_op": 14.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=069620"
+       }
+      ]
+     },
+     "rs3": -73.2,
+     "rs6": -135.4,
+     "gap": 5.0,
+     "gaplvl": "M",
+     "from_high": -37.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "128940.KS",
+     "nm": "한미약품",
+     "spread": 15.8,
+     "q_spread": 22.6,
+     "accel": 6.8,
+     "op": 19.2,
+     "rev": 3.5,
+     "q_op": 27.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=128940"
+       }
+      ]
+     },
+     "rs3": -50.6,
+     "rs6": -94.4,
+     "gap": 16.1,
+     "gaplvl": "H",
+     "from_high": -20.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "001060.KS",
+     "nm": "JW중외제약",
+     "spread": 6.7,
+     "q_spread": 26.4,
+     "accel": 19.7,
+     "op": 14.5,
+     "rev": 7.8,
+     "q_op": 35.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=001060"
+       }
+      ]
+     },
+     "rs3": -65.2,
+     "rs6": -101.0,
+     "gap": 14.7,
+     "gaplvl": "H",
+     "from_high": -32.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "185750.KS",
+     "nm": "종근당",
+     "spread": -25.7,
+     "q_spread": -5.6,
+     "accel": 20.1,
+     "op": -19.0,
+     "rev": 6.7,
+     "q_op": 1.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=185750"
+       }
+      ]
+     },
+     "rs3": -58.6,
+     "rs6": -118.7,
+     "gap": 3.0,
+     "gaplvl": "L",
+     "from_high": -23.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "087010.KQ",
+     "nm": "펩트론",
+     "spread": -107.4,
+     "q_spread": -73.9,
+     "accel": 33.5,
+     "op": -28.6,
+     "rev": 78.8,
+     "q_op": -34.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=087010"
+       }
+      ]
+     },
+     "rs3": -48.8,
+     "rs6": -122.4,
+     "gap": 6.3,
+     "gaplvl": "M",
+     "from_high": -34.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 19.2,
+   "n": 8
+  },
+  {
+   "sic": "OIL",
+   "ko": "정유·에너지",
+   "desc": "OIL",
+   "gics": "소재·산업재",
+   "members": [
+    {
+     "tk": "267250.KS",
+     "nm": "HD현대",
+     "spread": 99.3,
+     "q_spread": 112.1,
+     "accel": 12.8,
+     "op": 104.5,
+     "rev": 5.2,
+     "q_op": 120.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=267250"
+       }
+      ]
+     },
+     "rs3": -47.0,
+     "rs6": -68.4,
+     "gap": 8.3,
+     "gaplvl": "H",
+     "from_high": -12.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "096770.KS",
+     "nm": "SK이노베이션",
+     "spread": 18.0,
+     "q_spread": 842.1,
+     "accel": 824.1,
+     "op": 26.1,
+     "rev": 8.1,
+     "q_op": 850.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=096770"
+       }
+      ]
+     },
+     "rs3": -55.3,
+     "rs6": -106.0,
+     "gap": 4.0,
+     "gaplvl": "M",
+     "from_high": -23.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "010950.KS",
+     "nm": "S-Oil",
+     "spread": -37.7,
+     "q_spread": 2889.2,
+     "accel": 2926.9,
+     "op": -44.2,
+     "rev": -6.5,
+     "q_op": 2883.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=010950"
+       }
+      ]
+     },
+     "rs3": -62.1,
+     "rs6": -59.1,
+     "gap": 7.5,
+     "gaplvl": "M",
+     "from_high": -19.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 18.0,
+   "n": 3
+  },
+  {
+   "sic": "RETAIL",
+   "ko": "유통",
+   "desc": "RETAIL",
+   "gics": "소비재",
+   "members": [
+    {
+     "tk": "139480.KS",
+     "nm": "이마트",
+     "spread": 585.0,
+     "q_spread": 114.9,
+     "accel": -470.1,
+     "op": 584.8,
+     "rev": -0.2,
+     "q_op": 114.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=139480"
+       }
+      ]
+     },
+     "rs3": -46.0,
+     "rs6": -87.6,
+     "gap": 5.4,
+     "gaplvl": "M",
+     "from_high": -28.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "008770.KS",
+     "nm": "호텔신라",
+     "spread": 357.6,
+     "q_spread": 278.7,
+     "accel": -78.9,
+     "op": 360.6,
+     "rev": 3.1,
+     "q_op": 284.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=008770"
+       }
+      ]
+     },
+     "rs3": -17.1,
+     "rs6": -83.7,
+     "gap": 4.3,
+     "gaplvl": "M",
+     "from_high": -20.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "069960.KS",
+     "nm": "현대백화점",
+     "spread": 32.0,
+     "q_spread": 17.0,
+     "accel": -15.0,
+     "op": 33.1,
+     "rev": 1.0,
+     "q_op": 11.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=069960"
+       }
+      ]
+     },
+     "rs3": 17.3,
+     "rs6": -40.4,
+     "gap": 6.4,
+     "gaplvl": "M",
+     "from_high": 0.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "023530.KS",
+     "nm": "롯데쇼핑",
+     "spread": 17.4,
+     "q_spread": 29.1,
+     "accel": 11.7,
+     "op": 15.6,
+     "rev": -1.8,
+     "q_op": 28.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=023530"
+       }
+      ]
+     },
+     "rs3": 38.6,
+     "rs6": 41.6,
+     "gap": 7.9,
+     "gaplvl": "M",
+     "from_high": -1.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "007070.KS",
+     "nm": "GS리테일",
+     "spread": 10.8,
+     "q_spread": 48.8,
+     "accel": 38.0,
+     "op": 14.1,
+     "rev": 3.3,
+     "q_op": 52.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=007070"
+       }
+      ]
+     },
+     "rs3": -19.6,
+     "rs6": -89.3,
+     "gap": 3.2,
+     "gaplvl": "L",
+     "from_high": -18.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "057050.KS",
+     "nm": "현대홈쇼핑",
+     "spread": 2.1,
+     "q_spread": 23.6,
+     "accel": 21.5,
+     "op": 0.5,
+     "rev": -1.7,
+     "q_op": 23.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=057050"
+       }
+      ]
+     },
+     "rs3": -44.0,
+     "rs6": -61.1,
+     "gap": 9.7,
+     "gaplvl": "H",
+     "from_high": -16.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "282330.KS",
+     "nm": "BGF리테일",
+     "spread": -3.3,
+     "q_spread": 6.9,
+     "accel": 10.2,
+     "op": 0.9,
+     "rev": 4.2,
+     "q_op": 11.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=282330"
+       }
+      ]
+     },
+     "rs3": -33.9,
+     "rs6": -80.9,
+     "gap": 4.7,
+     "gaplvl": "M",
+     "from_high": -12.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 17.4,
+   "n": 7
+  },
+  {
+   "sic": "BIO",
+   "ko": "바이오",
+   "desc": "BIO",
+   "gics": "바이오·헬스케어",
+   "members": [
+    {
+     "tk": "196170.KQ",
+     "nm": "알테오젠",
+     "spread": 210.9,
+     "q_spread": -11.2,
+     "accel": -222.1,
+     "op": 320.8,
+     "rev": 109.9,
+     "q_op": 23.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=196170"
+       }
+      ]
+     },
+     "rs3": -56.8,
+     "rs6": -140.8,
+     "gap": 11.3,
+     "gaplvl": "H",
+     "from_high": -40.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "068270.KS",
+     "nm": "셀트리온",
+     "spread": 120.5,
+     "q_spread": 92.3,
+     "accel": -28.2,
+     "op": 137.5,
+     "rev": 17.0,
+     "q_op": 114.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=068270"
+       }
+      ]
+     },
+     "rs3": -61.1,
+     "rs6": -107.1,
+     "gap": 4.3,
+     "gaplvl": "M",
+     "from_high": -27.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "326030.KS",
+     "nm": "SK바이오팜",
+     "spread": 82.6,
+     "q_spread": 103.2,
+     "accel": 20.6,
+     "op": 111.7,
+     "rev": 29.1,
+     "q_op": 139.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=326030"
+       }
+      ]
+     },
+     "rs3": -63.5,
+     "rs6": -141.3,
+     "gap": 9.3,
+     "gaplvl": "H",
+     "from_high": -37.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "207940.KS",
+     "nm": "삼성바이오로직스",
+     "spread": 26.3,
+     "q_spread": 44.3,
+     "accel": 18.0,
+     "op": 56.6,
+     "rev": 30.3,
+     "q_op": 36.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=207940"
+       }
+      ]
+     },
+     "rs3": -64.8,
+     "rs6": -123.3,
+     "gap": 4.6,
+     "gaplvl": "M",
+     "from_high": -31.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "214450.KQ",
+     "nm": "파마리서치",
+     "spread": 16.9,
+     "q_spread": 13.3,
+     "accel": -3.6,
+     "op": 70.1,
+     "rev": 53.2,
+     "q_op": 57.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=214450"
+       }
+      ]
+     },
+     "rs3": -55.8,
+     "rs6": -139.3,
+     "gap": 5.3,
+     "gaplvl": "M",
+     "from_high": -59.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "145020.KQ",
+     "nm": "휴젤",
+     "spread": 6.9,
+     "q_spread": -0.7,
+     "accel": -7.6,
+     "op": 20.8,
+     "rev": 14.0,
+     "q_op": 15.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=145020"
+       }
+      ]
+     },
+     "rs3": -50.8,
+     "rs6": -92.9,
+     "gap": 5.4,
+     "gaplvl": "M",
+     "from_high": -36.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "085660.KQ",
+     "nm": "차바이오텍",
+     "spread": -3.1,
+     "q_spread": -28.2,
+     "accel": -25.1,
+     "op": 18.3,
+     "rev": 21.4,
+     "q_op": -12.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=085660"
+       }
+      ]
+     },
+     "rs3": -81.5,
+     "rs6": -109.6,
+     "gap": 6.2,
+     "gaplvl": "M",
+     "from_high": -48.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "028300.KQ",
+     "nm": "HLB",
+     "spread": -11.5,
+     "q_spread": -2.6,
+     "accel": 8.9,
+     "op": 12.1,
+     "rev": 23.6,
+     "q_op": 11.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=028300"
+       }
+      ]
+     },
+     "rs3": -46.1,
+     "rs6": -95.3,
+     "gap": 6.2,
+     "gaplvl": "M",
+     "from_high": -25.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "302440.KS",
+     "nm": "SK바이오사이언스",
+     "spread": -132.7,
+     "q_spread": -88.3,
+     "accel": 44.4,
+     "op": 10.8,
+     "rev": 143.5,
+     "q_op": -21.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=302440"
+       }
+      ]
+     },
+     "rs3": -55.9,
+     "rs6": -128.4,
+     "gap": 6.2,
+     "gaplvl": "M",
+     "from_high": -33.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "141080.KQ",
+     "nm": "리가켐바이오",
+     "spread": -421.6,
+     "q_spread": -1250.0,
+     "accel": -828.4,
+     "op": -409.2,
+     "rev": 12.4,
+     "q_op": -1152.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=141080"
+       }
+      ]
+     },
+     "rs3": -74.5,
+     "rs6": -129.4,
+     "gap": 6.7,
+     "gaplvl": "M",
+     "from_high": -36.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 11.9,
+   "n": 10
+  },
+  {
+   "sic": "DEFENSE",
+   "ko": "방산·우주",
+   "desc": "DEFENSE",
+   "gics": "방산·우주",
+   "members": [
+    {
+     "tk": "079550.KS",
+     "nm": "LIG넥스원",
+     "spread": 11.5,
+     "q_spread": 2.9,
+     "accel": -8.6,
+     "op": 43.0,
+     "rev": 31.5,
+     "q_op": 36.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=079550"
+       }
+      ]
+     },
+     "rs3": -50.6,
+     "rs6": -17.5,
+     "gap": 7.7,
+     "gaplvl": "M",
+     "from_high": -28.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "047810.KS",
+     "nm": "한국항공우주",
+     "spread": 10.1,
+     "q_spread": 7.1,
+     "accel": -3.0,
+     "op": 11.8,
+     "rev": 1.7,
+     "q_op": 20.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=047810"
+       }
+      ]
+     },
+     "rs3": -68.3,
+     "rs6": -76.7,
+     "gap": 6.3,
+     "gaplvl": "M",
+     "from_high": -31.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "012450.KS",
+     "nm": "한화에어로스페이스",
+     "spread": -59.2,
+     "q_spread": -40.8,
+     "accel": 18.4,
+     "op": 78.4,
+     "rev": 137.6,
+     "q_op": 40.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=012450"
+       }
+      ]
+     },
+     "rs3": -70.2,
+     "rs6": -82.1,
+     "gap": 6.8,
+     "gaplvl": "M",
+     "from_high": -31.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 10.1,
+   "n": 3
+  },
+  {
+   "sic": "BANK",
+   "ko": "은행·지주",
+   "desc": "BANK",
+   "gics": "금융",
+   "members": [
+    {
+     "tk": "138930.KS",
+     "nm": "BNK금융지주",
+     "spread": 10.4,
+     "q_spread": 36.9,
+     "accel": 26.5,
+     "op": 3.1,
+     "rev": -7.4,
+     "q_op": 27.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=138930"
+       }
+      ]
+     },
+     "rs3": -53.6,
+     "rs6": -86.9,
+     "gap": 4.5,
+     "gaplvl": "M",
+     "from_high": -21.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "086790.KS",
+     "nm": "하나금융지주",
+     "spread": 1.1,
+     "q_spread": -1.5,
+     "accel": -2.6,
+     "op": 10.2,
+     "rev": 9.1,
+     "q_op": 15.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=086790"
+       }
+      ]
+     },
+     "rs3": -34.0,
+     "rs6": -69.6,
+     "gap": 6.8,
+     "gaplvl": "M",
+     "from_high": -4.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "105560.KS",
+     "nm": "KB금융",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "분기 미확인",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=105560"
+       }
+      ]
+     },
+     "rs3": -30.1,
+     "rs6": -63.6,
+     "gap": 7.8,
+     "gaplvl": "M",
+     "from_high": 0.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "055550.KS",
+     "nm": "신한지주",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "분기 미확인",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=055550"
+       }
+      ]
+     },
+     "rs3": -29.6,
+     "rs6": -65.2,
+     "gap": 7.1,
+     "gaplvl": "M",
+     "from_high": 0.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "316140.KS",
+     "nm": "우리금융지주",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "분기 미확인",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=316140"
+       }
+      ]
+     },
+     "rs3": -53.1,
+     "rs6": -82.0,
+     "gap": 5.5,
+     "gaplvl": "M",
+     "from_high": -21.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "175330.KS",
+     "nm": "JB금융지주",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "분기 미확인",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=175330"
+       }
+      ]
+     },
+     "rs3": -57.1,
+     "rs6": -94.2,
+     "gap": 6.9,
+     "gaplvl": "M",
+     "from_high": -29.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "139130.KS",
+     "nm": "DGB금융지주",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "분기 미확인",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=139130"
+       }
+      ]
+     },
+     "rs3": -43.5,
+     "rs6": -76.7,
+     "gap": 4.4,
+     "gaplvl": "M",
+     "from_high": -15.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 5.8,
+   "n": 7
+  },
+  {
+   "sic": "CHEM",
+   "ko": "화학",
+   "desc": "CHEM",
+   "gics": "소재·산업재",
+   "members": [
+    {
+     "tk": "285130.KS",
+     "nm": "SK케미칼",
+     "spread": 63.4,
+     "q_spread": -458.0,
+     "accel": -521.4,
+     "op": 99.5,
+     "rev": 36.2,
+     "q_op": -426.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=285130"
+       }
+      ]
+     },
+     "rs3": -75.4,
+     "rs6": -144.9,
+     "gap": 5.3,
+     "gaplvl": "M",
+     "from_high": -47.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "298000.KS",
+     "nm": "효성화학",
+     "spread": 12.7,
+     "q_spread": 64.2,
+     "accel": 51.5,
+     "op": 8.2,
+     "rev": -4.5,
+     "q_op": 48.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=298000"
+       }
+      ]
+     },
+     "rs3": -46.1,
+     "rs6": -104.7,
+     "gap": 0.0,
+     "gaplvl": "L",
+     "from_high": 0.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "014680.KS",
+     "nm": "한솔케미칼",
+     "spread": 7.4,
+     "q_spread": 1.6,
+     "accel": -5.8,
+     "op": 21.3,
+     "rev": 13.9,
+     "q_op": 16.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=014680"
+       }
+      ]
+     },
+     "rs3": -57.9,
+     "rs6": -96.4,
+     "gap": 7.1,
+     "gaplvl": "M",
+     "from_high": -23.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "011170.KS",
+     "nm": "롯데케미칼",
+     "spread": 4.0,
+     "q_spread": 24.3,
+     "accel": 20.3,
+     "op": -3.1,
+     "rev": -7.1,
+     "q_op": 16.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=011170"
+       }
+      ]
+     },
+     "rs3": -39.3,
+     "rs6": -101.7,
+     "gap": 5.2,
+     "gaplvl": "M",
+     "from_high": -34.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "011780.KS",
+     "nm": "금호석유",
+     "spread": 3.0,
+     "q_spread": -24.9,
+     "accel": -27.9,
+     "op": -0.4,
+     "rev": -3.4,
+     "q_op": -33.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=011780"
+       }
+      ]
+     },
+     "rs3": -42.0,
+     "rs6": -94.8,
+     "gap": 5.5,
+     "gaplvl": "M",
+     "from_high": -17.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "002380.KS",
+     "nm": "KCC",
+     "spread": -6.6,
+     "q_spread": -9.5,
+     "accel": -2.9,
+     "op": -9.2,
+     "rev": -2.6,
+     "q_op": -11.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=002380"
+       }
+      ]
+     },
+     "rs3": -45.6,
+     "rs6": -72.0,
+     "gap": 7.6,
+     "gaplvl": "M",
+     "from_high": -20.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "298050.KS",
+     "nm": "효성첨단소재",
+     "spread": -27.5,
+     "q_spread": -28.3,
+     "accel": -0.8,
+     "op": -28.3,
+     "rev": -0.9,
+     "q_op": -30.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=298050"
+       }
+      ]
+     },
+     "rs3": -51.2,
+     "rs6": -103.5,
+     "gap": 5.9,
+     "gaplvl": "M",
+     "from_high": -28.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "120110.KS",
+     "nm": "코오롱인더",
+     "spread": -32.0,
+     "q_spread": -6.5,
+     "accel": 25.5,
+     "op": -31.4,
+     "rev": 0.6,
+     "q_op": -7.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=120110"
+       }
+      ]
+     },
+     "rs3": -37.8,
+     "rs6": -41.2,
+     "gap": 7.8,
+     "gaplvl": "M",
+     "from_high": -34.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 3.5,
+   "n": 8
+  },
+  {
+   "sic": "LOGI",
+   "ko": "물류",
+   "desc": "LOGI",
+   "gics": "운송",
+   "members": [
+    {
+     "tk": "002320.KS",
+     "nm": "한진",
+     "spread": 10.5,
+     "q_spread": -2.0,
+     "accel": -12.5,
+     "op": 12.1,
+     "rev": 1.6,
+     "q_op": 0.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=002320"
+       }
+      ]
+     },
+     "rs3": -62.8,
+     "rs6": -119.9,
+     "gap": 3.0,
+     "gaplvl": "L",
+     "from_high": -28.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "000120.KS",
+     "nm": "CJ대한통운",
+     "spread": -5.6,
+     "q_spread": -1.0,
+     "accel": 4.6,
+     "op": -4.3,
+     "rev": 1.4,
+     "q_op": 1.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000120"
+       }
+      ]
+     },
+     "rs3": -73.9,
+     "rs6": -115.4,
+     "gap": 4.3,
+     "gaplvl": "M",
+     "from_high": -43.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 2.5,
+   "n": 2
+  },
+  {
+   "sic": "COSM",
+   "ko": "화장품",
+   "desc": "COSM",
+   "gics": "소비재",
+   "members": [
+    {
+     "tk": "090430.KS",
+     "nm": "아모레퍼시픽",
+     "spread": 42.9,
+     "q_spread": 22.9,
+     "accel": -20.0,
+     "op": 52.3,
+     "rev": 9.5,
+     "q_op": 29.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=090430"
+       }
+      ]
+     },
+     "rs3": -62.9,
+     "rs6": -118.0,
+     "gap": 3.9,
+     "gaplvl": "L",
+     "from_high": -34.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "161890.KS",
+     "nm": "한국콜마",
+     "spread": 12.6,
+     "q_spread": 6.2,
+     "accel": -6.4,
+     "op": 23.6,
+     "rev": 11.0,
+     "q_op": 16.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=161890"
+       }
+      ]
+     },
+     "rs3": -24.2,
+     "rs6": -76.4,
+     "gap": 4.2,
+     "gaplvl": "M",
+     "from_high": -22.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "192820.KS",
+     "nm": "코스맥스",
+     "spread": 0.9,
+     "q_spread": -2.9,
+     "accel": -3.8,
+     "op": 11.6,
+     "rev": 10.7,
+     "q_op": 8.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=192820"
+       }
+      ]
+     },
+     "rs3": -45.2,
+     "rs6": -100.3,
+     "gap": 5.9,
+     "gaplvl": "M",
+     "from_high": -40.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "237880.KQ",
+     "nm": "클리오",
+     "spread": -26.8,
+     "q_spread": 26.9,
+     "accel": 53.7,
+     "op": -33.2,
+     "rev": -6.4,
+     "q_op": 22.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=237880"
+       }
+      ]
+     },
+     "rs3": -57.8,
+     "rs6": -122.5,
+     "gap": 6.5,
+     "gaplvl": "M",
+     "from_high": -36.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "051900.KS",
+     "nm": "LG생활건강",
+     "spread": -56.1,
+     "q_spread": -61.7,
+     "accel": -5.6,
+     "op": -62.8,
+     "rev": -6.7,
+     "q_op": -69.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=051900"
+       }
+      ]
+     },
+     "rs3": -40.4,
+     "rs6": -115.6,
+     "gap": 5.7,
+     "gaplvl": "M",
+     "from_high": -28.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 0.9,
+   "n": 5
+  },
+  {
+   "sic": "AUTOPART",
+   "ko": "자동차 부품",
+   "desc": "AUTOPART",
+   "gics": "자동차",
+   "members": [
+    {
+     "tk": "018880.KS",
+     "nm": "한온시스템",
+     "spread": 174.1,
+     "q_spread": 567.6,
+     "accel": 393.5,
+     "op": 183.0,
+     "rev": 8.9,
+     "q_op": 575.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=018880"
+       }
+      ]
+     },
+     "rs3": -27.6,
+     "rs6": -77.8,
+     "gap": 5.1,
+     "gaplvl": "M",
+     "from_high": -18.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "064350.KS",
+     "nm": "현대로템",
+     "spread": 86.8,
+     "q_spread": 39.7,
+     "accel": -47.1,
+     "op": 120.3,
+     "rev": 33.4,
+     "q_op": 67.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=064350"
+       }
+      ]
+     },
+     "rs3": -61.0,
+     "rs6": -97.5,
+     "gap": 5.1,
+     "gaplvl": "M",
+     "from_high": -28.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "086280.KS",
+     "nm": "현대글로비스",
+     "spread": 14.2,
+     "q_spread": 8.1,
+     "accel": -6.1,
+     "op": 18.3,
+     "rev": 4.1,
+     "q_op": 11.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=086280"
+       }
+      ]
+     },
+     "rs3": -59.0,
+     "rs6": -74.2,
+     "gap": 7.0,
+     "gaplvl": "M",
+     "from_high": -26.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "012330.KS",
+     "nm": "현대모비스",
+     "spread": 2.5,
+     "q_spread": -4.3,
+     "accel": -6.8,
+     "op": 9.2,
+     "rev": 6.8,
+     "q_op": 2.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=012330"
+       }
+      ]
+     },
+     "rs3": 17.1,
+     "rs6": 26.9,
+     "gap": 7.6,
+     "gaplvl": "M",
+     "from_high": -9.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "073240.KS",
+     "nm": "금호타이어",
+     "spread": -5.9,
+     "q_spread": -1.6,
+     "accel": 4.3,
+     "op": -2.2,
+     "rev": 3.7,
+     "q_op": -2.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=073240"
+       }
+      ]
+     },
+     "rs3": -69.2,
+     "rs6": -124.9,
+     "gap": 5.3,
+     "gaplvl": "M",
+     "from_high": -38.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "204320.KS",
+     "nm": "HL만도",
+     "spread": -7.3,
+     "q_spread": -2.8,
+     "accel": 4.5,
+     "op": -0.5,
+     "rev": 6.9,
+     "q_op": 2.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=204320"
+       }
+      ]
+     },
+     "rs3": -42.2,
+     "rs6": -74.7,
+     "gap": 6.4,
+     "gaplvl": "M",
+     "from_high": -21.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "011210.KS",
+     "nm": "현대위아",
+     "spread": -10.3,
+     "q_spread": -6.2,
+     "accel": 4.1,
+     "op": -6.6,
+     "rev": 3.7,
+     "q_op": -0.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=011210"
+       }
+      ]
+     },
+     "rs3": -56.8,
+     "rs6": -66.7,
+     "gap": 9.5,
+     "gaplvl": "H",
+     "from_high": -19.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "161390.KS",
+     "nm": "한국타이어앤테크놀로지",
+     "spread": -120.8,
+     "q_spread": -59.9,
+     "accel": 60.9,
+     "op": 4.5,
+     "rev": 125.3,
+     "q_op": 16.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=161390"
+       }
+      ]
+     },
+     "rs3": -33.2,
+     "rs6": -87.9,
+     "gap": 8.3,
+     "gaplvl": "H",
+     "from_high": -8.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -1.7,
+   "n": 8
+  },
+  {
+   "sic": "TELCO",
+   "ko": "통신",
+   "desc": "TELCO",
+   "gics": "통신·유틸리티",
+   "members": [
+    {
+     "tk": "030200.KS",
+     "nm": "KT",
+     "spread": 198.2,
+     "q_spread": 122.3,
+     "accel": -75.9,
+     "op": 205.0,
+     "rev": 6.9,
+     "q_op": 128.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=030200"
+       }
+      ]
+     },
+     "rs3": -51.7,
+     "rs6": -95.4,
+     "gap": 3.8,
+     "gaplvl": "L",
+     "from_high": -20.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "032640.KS",
+     "nm": "LG유플러스",
+     "spread": -2.3,
+     "q_spread": -3.5,
+     "accel": -1.2,
+     "op": 3.4,
+     "rev": 5.7,
+     "q_op": 1.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=032640"
+       }
+      ]
+     },
+     "rs3": -41.4,
+     "rs6": -101.5,
+     "gap": 9.5,
+     "gaplvl": "H",
+     "from_high": -13.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "017670.KS",
+     "nm": "SK텔레콤",
+     "spread": -36.5,
+     "q_spread": -39.9,
+     "accel": -3.4,
+     "op": -41.1,
+     "rev": -4.7,
+     "q_op": -44.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=017670"
+       }
+      ]
+     },
+     "rs3": -8.4,
+     "rs6": -3.8,
+     "gap": 19.4,
+     "gaplvl": "H",
+     "from_high": -15.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -2.3,
+   "n": 3
+  },
+  {
+   "sic": "SEMIEQ",
+   "ko": "반도체 장비·소재",
+   "desc": "SEMIEQ",
+   "gics": "IT·반도체",
+   "members": [
+    {
+     "tk": "240810.KQ",
+     "nm": "원익IPS",
+     "spread": 572.0,
+     "q_spread": 181.4,
+     "accel": -390.6,
+     "op": 593.6,
+     "rev": 21.6,
+     "q_op": 206.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=240810"
+       }
+      ]
+     },
+     "rs3": -46.2,
+     "rs6": 16.0,
+     "gap": 14.9,
+     "gaplvl": "H",
+     "from_high": -6.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "222800.KQ",
+     "nm": "심텍",
+     "spread": 110.7,
+     "q_spread": 163.4,
+     "accel": 52.7,
+     "op": 125.3,
+     "rev": 14.5,
+     "q_op": 186.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=222800"
+       }
+      ]
+     },
+     "rs3": 59.9,
+     "rs6": -12.8,
+     "gap": 11.8,
+     "gaplvl": "H",
+     "from_high": -22.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "058470.KQ",
+     "nm": "리노공업",
+     "spread": 8.6,
+     "q_spread": 8.9,
+     "accel": 0.3,
+     "op": 42.5,
+     "rev": 33.9,
+     "q_op": 39.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=058470"
+       }
+      ]
+     },
+     "rs3": -68.6,
+     "rs6": -57.5,
+     "gap": 8.5,
+     "gaplvl": "H",
+     "from_high": -25.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "095340.KQ",
+     "nm": "ISC",
+     "spread": 7.9,
+     "q_spread": 27.3,
+     "accel": 19.4,
+     "op": 34.1,
+     "rev": 26.2,
+     "q_op": 77.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=095340"
+       }
+      ]
+     },
+     "rs3": -46.1,
+     "rs6": -7.0,
+     "gap": 8.9,
+     "gaplvl": "H",
+     "from_high": -25.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "104830.KQ",
+     "nm": "원익머트리얼즈",
+     "spread": 5.0,
+     "q_spread": -2.3,
+     "accel": -7.3,
+     "op": 8.8,
+     "rev": 3.8,
+     "q_op": 3.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=104830"
+       }
+      ]
+     },
+     "rs3": -58.2,
+     "rs6": -67.7,
+     "gap": 5.5,
+     "gaplvl": "M",
+     "from_high": -25.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "095610.KQ",
+     "nm": "테스",
+     "spread": 4.1,
+     "q_spread": -7.1,
+     "accel": -11.2,
+     "op": 50.3,
+     "rev": 46.3,
+     "q_op": 21.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=095610"
+       }
+      ]
+     },
+     "rs3": 47.5,
+     "rs6": 159.7,
+     "gap": 9.6,
+     "gaplvl": "H",
+     "from_high": 0.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "067310.KQ",
+     "nm": "하나마이크론",
+     "spread": -3.1,
+     "q_spread": 40.8,
+     "accel": 43.9,
+     "op": 19.6,
+     "rev": 22.7,
+     "q_op": 74.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=067310"
+       }
+      ]
+     },
+     "rs3": -26.6,
+     "rs6": -40.1,
+     "gap": 7.6,
+     "gaplvl": "M",
+     "from_high": -23.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "042700.KS",
+     "nm": "한미반도체",
+     "spread": -4.7,
+     "q_spread": -12.2,
+     "accel": -7.5,
+     "op": -1.6,
+     "rev": 3.2,
+     "q_op": -35.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=042700"
+       }
+      ]
+     },
+     "rs3": -56.3,
+     "rs6": 23.7,
+     "gap": 9.7,
+     "gaplvl": "H",
+     "from_high": -30.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "064760.KQ",
+     "nm": "티씨케이",
+     "spread": -5.4,
+     "q_spread": -5.4,
+     "accel": 0.0,
+     "op": 3.9,
+     "rev": 9.3,
+     "q_op": 2.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=064760"
+       }
+      ]
+     },
+     "rs3": -38.4,
+     "rs6": -19.8,
+     "gap": 8.2,
+     "gaplvl": "H",
+     "from_high": -24.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "140860.KQ",
+     "nm": "파크시스템스",
+     "spread": -8.0,
+     "q_spread": -36.0,
+     "accel": -28.0,
+     "op": 9.5,
+     "rev": 17.5,
+     "q_op": -39.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=140860"
+       }
+      ]
+     },
+     "rs3": -39.8,
+     "rs6": -78.2,
+     "gap": 6.0,
+     "gaplvl": "M",
+     "from_high": -10.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005290.KQ",
+     "nm": "동진쎄미켐",
+     "spread": -9.0,
+     "q_spread": 2.3,
+     "accel": 11.3,
+     "op": -1.7,
+     "rev": 7.3,
+     "q_op": -17.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005290"
+       }
+      ]
+     },
+     "rs3": -40.0,
+     "rs6": -44.9,
+     "gap": 6.8,
+     "gaplvl": "M",
+     "from_high": -16.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "089030.KQ",
+     "nm": "테크윙",
+     "spread": -18.1,
+     "q_spread": 22.6,
+     "accel": 40.7,
+     "op": -32.4,
+     "rev": -14.2,
+     "q_op": 21.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=089030"
+       }
+      ]
+     },
+     "rs3": -63.6,
+     "rs6": -87.5,
+     "gap": 7.9,
+     "gaplvl": "M",
+     "from_high": -23.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "357780.KQ",
+     "nm": "솔브레인",
+     "spread": -27.4,
+     "q_spread": -23.3,
+     "accel": 4.1,
+     "op": -20.4,
+     "rev": 7.0,
+     "q_op": -9.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=357780"
+       }
+      ]
+     },
+     "rs3": -69.3,
+     "rs6": -56.8,
+     "gap": 6.4,
+     "gaplvl": "M",
+     "from_high": -27.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "036930.KQ",
+     "nm": "주성엔지니어링",
+     "spread": -43.7,
+     "q_spread": -59.5,
+     "accel": -15.8,
+     "op": -67.8,
+     "rev": -24.1,
+     "q_op": -107.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=036930"
+       }
+      ]
+     },
+     "rs3": 168.2,
+     "rs6": 571.7,
+     "gap": 12.6,
+     "gaplvl": "H",
+     "from_high": -16.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "178320.KQ",
+     "nm": "서진시스템",
+     "spread": -86.8,
+     "q_spread": -152.1,
+     "accel": -65.3,
+     "op": -98.9,
+     "rev": -12.1,
+     "q_op": -161.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=178320"
+       }
+      ]
+     },
+     "rs3": 4.8,
+     "rs6": 82.0,
+     "gap": 12.5,
+     "gaplvl": "H",
+     "from_high": -13.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -4.7,
+   "n": 15
+  },
+  {
+   "sic": "HOLDING",
+   "ko": "지주회사",
+   "desc": "HOLDING",
+   "gics": "지주",
+   "members": [
+    {
+     "tk": "000880.KS",
+     "nm": "한화",
+     "spread": 37.2,
+     "q_spread": 0.5,
+     "accel": -36.7,
+     "op": 71.6,
+     "rev": 34.4,
+     "q_op": 33.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000880"
+       }
+      ]
+     },
+     "rs3": -47.0,
+     "rs6": -46.1,
+     "gap": 6.3,
+     "gaplvl": "M",
+     "from_high": -17.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "001040.KS",
+     "nm": "CJ",
+     "spread": -3.3,
+     "q_spread": -6.8,
+     "accel": -3.5,
+     "op": -0.2,
+     "rev": 3.1,
+     "q_op": -2.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=001040"
+       }
+      ]
+     },
+     "rs3": -44.6,
+     "rs6": -101.2,
+     "gap": 4.9,
+     "gaplvl": "M",
+     "from_high": -19.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "003550.KS",
+     "nm": "LG",
+     "spread": -6.7,
+     "q_spread": -36.9,
+     "accel": -30.2,
+     "op": -5.7,
+     "rev": 1.1,
+     "q_op": -41.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=003550"
+       }
+      ]
+     },
+     "rs3": -16.1,
+     "rs6": -45.2,
+     "gap": 29.4,
+     "gaplvl": "H",
+     "from_high": -25.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "034730.KS",
+     "nm": "SK",
+     "spread": -23.5,
+     "q_spread": 313.8,
+     "accel": 337.3,
+     "op": -24.1,
+     "rev": -0.6,
+     "q_op": 318.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=034730"
+       }
+      ]
+     },
+     "rs3": 31.3,
+     "rs6": 46.4,
+     "gap": 14.4,
+     "gaplvl": "H",
+     "from_high": -8.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "004990.KS",
+     "nm": "롯데지주",
+     "spread": -28.3,
+     "q_spread": -7.3,
+     "accel": 21.0,
+     "op": -29.7,
+     "rev": -1.4,
+     "q_op": -7.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=004990"
+       }
+      ]
+     },
+     "rs3": -62.2,
+     "rs6": -107.8,
+     "gap": 6.2,
+     "gaplvl": "M",
+     "from_high": -31.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -6.7,
+   "n": 5
+  },
+  {
+   "sic": "INS",
+   "ko": "보험·카드",
+   "desc": "INS",
+   "gics": "금융",
+   "members": [
+    {
+     "tk": "001450.KS",
+     "nm": "현대해상",
+     "spread": -0.9,
+     "q_spread": 13.9,
+     "accel": 14.8,
+     "op": 1.4,
+     "rev": 2.2,
+     "q_op": 34.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=001450"
+       }
+      ]
+     },
+     "rs3": -29.5,
+     "rs6": -85.9,
+     "gap": 4.3,
+     "gaplvl": "M",
+     "from_high": -7.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005830.KS",
+     "nm": "DB손해보험",
+     "spread": -3.1,
+     "q_spread": -32.5,
+     "accel": -29.4,
+     "op": -1.7,
+     "rev": 1.5,
+     "q_op": -4.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005830"
+       }
+      ]
+     },
+     "rs3": -68.4,
+     "rs6": -87.1,
+     "gap": 8.4,
+     "gaplvl": "H",
+     "from_high": -27.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "088350.KS",
+     "nm": "한화생명",
+     "spread": -7.0,
+     "q_spread": -19.8,
+     "accel": -12.8,
+     "op": 4.6,
+     "rev": 11.5,
+     "q_op": 17.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=088350"
+       }
+      ]
+     },
+     "rs3": -43.9,
+     "rs6": -44.9,
+     "gap": 8.6,
+     "gaplvl": "H",
+     "from_high": -27.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "000810.KS",
+     "nm": "삼성화재",
+     "spread": -8.2,
+     "q_spread": -16.2,
+     "accel": -8.0,
+     "op": 0.4,
+     "rev": 8.6,
+     "q_op": 7.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000810"
+       }
+      ]
+     },
+     "rs3": 1.1,
+     "rs6": -56.1,
+     "gap": 5.6,
+     "gaplvl": "M",
+     "from_high": -4.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "029780.KS",
+     "nm": "삼성카드",
+     "spread": -53.0,
+     "q_spread": 5.0,
+     "accel": 58.0,
+     "op": -3.6,
+     "rev": 49.4,
+     "q_op": 1.5,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=029780"
+       }
+      ]
+     },
+     "rs3": -65.0,
+     "rs6": -116.4,
+     "gap": 4.3,
+     "gaplvl": "M",
+     "from_high": -28.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "032830.KS",
+     "nm": "삼성생명",
+     "spread": -87.5,
+     "q_spread": -325.5,
+     "accel": -238.0,
+     "op": 3.2,
+     "rev": 90.8,
+     "q_op": 27.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=032830"
+       }
+      ]
+     },
+     "rs3": 46.6,
+     "rs6": 73.3,
+     "gap": 9.4,
+     "gaplvl": "H",
+     "from_high": -14.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -7.6,
+   "n": 6
+  },
+  {
+   "sic": "FOOD",
+   "ko": "음식료·담배",
+   "desc": "FOOD",
+   "gics": "소비재",
+   "members": [
+    {
+     "tk": "003230.KS",
+     "nm": "삼양식품",
+     "spread": 16.0,
+     "q_spread": 6.8,
+     "accel": -9.2,
+     "op": 52.1,
+     "rev": 36.1,
+     "q_op": 42.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=003230"
+       }
+      ]
+     },
+     "rs3": -40.5,
+     "rs6": -127.6,
+     "gap": 6.2,
+     "gaplvl": "M",
+     "from_high": -31.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "004370.KS",
+     "nm": "농심",
+     "spread": 10.6,
+     "q_spread": 21.0,
+     "accel": 10.4,
+     "op": 12.8,
+     "rev": 2.2,
+     "q_op": 23.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=004370"
+       }
+      ]
+     },
+     "rs3": -50.5,
+     "rs6": -119.8,
+     "gap": 2.6,
+     "gaplvl": "L",
+     "from_high": -27.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "033780.KS",
+     "nm": "KT&G",
+     "spread": 1.7,
+     "q_spread": 3.7,
+     "accel": 2.0,
+     "op": 13.0,
+     "rev": 11.4,
+     "q_op": 14.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=033780"
+       }
+      ]
+     },
+     "rs3": -31.6,
+     "rs6": -76.9,
+     "gap": 4.9,
+     "gaplvl": "M",
+     "from_high": -5.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "271560.KS",
+     "nm": "오리온",
+     "spread": -4.6,
+     "q_spread": -1.9,
+     "accel": 2.7,
+     "op": 2.7,
+     "rev": 7.3,
+     "q_op": 7.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=271560"
+       }
+      ]
+     },
+     "rs3": -36.4,
+     "rs6": -74.9,
+     "gap": 5.7,
+     "gaplvl": "M",
+     "from_high": -9.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "001680.KS",
+     "nm": "대상",
+     "spread": -7.8,
+     "q_spread": -10.3,
+     "accel": -2.5,
+     "op": -4.3,
+     "rev": 3.4,
+     "q_op": -9.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=001680"
+       }
+      ]
+     },
+     "rs3": -53.8,
+     "rs6": -112.8,
+     "gap": 2.2,
+     "gaplvl": "L",
+     "from_high": -21.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "097950.KS",
+     "nm": "CJ제일제당",
+     "spread": -15.4,
+     "q_spread": -17.4,
+     "accel": -2.0,
+     "op": -15.0,
+     "rev": 0.4,
+     "q_op": -24.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=097950"
+       }
+      ]
+     },
+     "rs3": -43.9,
+     "rs6": -108.5,
+     "gap": 3.0,
+     "gaplvl": "L",
+     "from_high": -23.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "007310.KS",
+     "nm": "오뚜기",
+     "spread": -24.0,
+     "q_spread": -16.9,
+     "accel": 7.1,
+     "op": -20.2,
+     "rev": 3.8,
+     "q_op": -13.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=007310"
+       }
+      ]
+     },
+     "rs3": -55.8,
+     "rs6": -117.8,
+     "gap": 2.4,
+     "gaplvl": "L",
+     "from_high": -22.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "280360.KS",
+     "nm": "롯데웰푸드",
+     "spread": -34.5,
+     "q_spread": -10.2,
+     "accel": 24.3,
+     "op": -30.3,
+     "rev": 4.2,
+     "q_op": -5.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=280360"
+       }
+      ]
+     },
+     "rs3": -49.9,
+     "rs6": -112.6,
+     "gap": 3.6,
+     "gaplvl": "L",
+     "from_high": -17.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005180.KS",
+     "nm": "빙그레",
+     "spread": -34.5,
+     "q_spread": -29.9,
+     "accel": 4.6,
+     "op": -32.7,
+     "rev": 1.8,
+     "q_op": -28.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005180"
+       }
+      ]
+     },
+     "rs3": -52.8,
+     "rs6": -104.6,
+     "gap": 3.6,
+     "gaplvl": "L",
+     "from_high": -22.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -7.8,
+   "n": 9
+  },
+  {
+   "sic": "ITSVC",
+   "ko": "IT서비스",
+   "desc": "ITSVC",
+   "gics": "IT 서비스",
+   "members": [
+    {
+     "tk": "018260.KS",
+     "nm": "삼성에스디에스",
+     "spread": 4.3,
+     "q_spread": -17.6,
+     "accel": -21.9,
+     "op": 5.0,
+     "rev": 0.7,
+     "q_op": -19.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=018260"
+       }
+      ]
+     },
+     "rs3": 5.1,
+     "rs6": -52.7,
+     "gap": 14.2,
+     "gaplvl": "H",
+     "from_high": -30.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "307950.KS",
+     "nm": "현대오토에버",
+     "spread": -0.7,
+     "q_spread": -0.8,
+     "accel": -0.1,
+     "op": 13.8,
+     "rev": 14.5,
+     "q_op": 13.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=307950"
+       }
+      ]
+     },
+     "rs3": 62.6,
+     "rs6": 241.9,
+     "gap": 10.0,
+     "gaplvl": "H",
+     "from_high": -10.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "030520.KQ",
+     "nm": "한글과컴퓨터",
+     "spread": -17.2,
+     "q_spread": -19.7,
+     "accel": -2.5,
+     "op": -10.0,
+     "rev": 7.2,
+     "q_op": -13.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=030520"
+       }
+      ]
+     },
+     "rs3": -50.9,
+     "rs6": -120.7,
+     "gap": 6.8,
+     "gaplvl": "M",
+     "from_high": -43.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "022100.KQ",
+     "nm": "포스코DX",
+     "spread": -17.6,
+     "q_spread": -34.1,
+     "accel": -16.5,
+     "op": -44.6,
+     "rev": -27.0,
+     "q_op": -57.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=022100"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": null,
+     "gaplvl": "M",
+     "from_high": null,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -8.9,
+   "n": 4
+  },
+  {
+   "sic": "ELEC",
+   "ko": "전자부품",
+   "desc": "ELEC",
+   "gics": "IT·반도체",
+   "members": [
+    {
+     "tk": "009150.KS",
+     "nm": "삼성전기",
+     "spread": 14.3,
+     "q_spread": 18.3,
+     "accel": 4.0,
+     "op": 24.3,
+     "rev": 9.9,
+     "q_op": 31.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=009150"
+       }
+      ]
+     },
+     "rs3": 291.5,
+     "rs6": 490.6,
+     "gap": 11.2,
+     "gaplvl": "H",
+     "from_high": -17.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "011070.KS",
+     "nm": "LG이노텍",
+     "spread": -9.1,
+     "q_spread": 24.7,
+     "accel": 33.8,
+     "op": -5.8,
+     "rev": 3.3,
+     "q_op": 27.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=011070"
+       }
+      ]
+     },
+     "rs3": 296.7,
+     "rs6": 280.5,
+     "gap": 18.5,
+     "gaplvl": "H",
+     "from_high": -24.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "066570.KS",
+     "nm": "LG전자",
+     "spread": -29.2,
+     "q_spread": -14.4,
+     "accel": 14.8,
+     "op": -27.5,
+     "rev": 1.7,
+     "q_op": -13.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=066570"
+       }
+      ]
+     },
+     "rs3": 118.4,
+     "rs6": 152.8,
+     "gap": 28.0,
+     "gaplvl": "H",
+     "from_high": -22.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -9.1,
+   "n": 3
+  },
+  {
+   "sic": "SHIPPING",
+   "ko": "해운",
+   "desc": "SHIPPING",
+   "gics": "운송",
+   "members": [
+    {
+     "tk": "028670.KS",
+     "nm": "팬오션",
+     "spread": -0.9,
+     "q_spread": 7.4,
+     "accel": 8.3,
+     "op": 4.4,
+     "rev": 5.3,
+     "q_op": 6.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=028670"
+       }
+      ]
+     },
+     "rs3": -55.7,
+     "rs6": -62.9,
+     "gap": 4.3,
+     "gaplvl": "M",
+     "from_high": -17.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005880.KS",
+     "nm": "대한해운",
+     "spread": -10.0,
+     "q_spread": 3.6,
+     "accel": 13.6,
+     "op": -37.0,
+     "rev": -26.9,
+     "q_op": -18.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005880"
+       }
+      ]
+     },
+     "rs3": -62.3,
+     "rs6": -86.7,
+     "gap": 7.1,
+     "gaplvl": "M",
+     "from_high": -34.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "011200.KS",
+     "nm": "HMM",
+     "spread": -51.5,
+     "q_spread": -58.0,
+     "accel": -6.5,
+     "op": -58.4,
+     "rev": -6.9,
+     "q_op": -70.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=011200"
+       }
+      ]
+     },
+     "rs3": -54.6,
+     "rs6": -99.2,
+     "gap": 7.6,
+     "gaplvl": "M",
+     "from_high": -22.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -10.0,
+   "n": 3
+  },
+  {
+   "sic": "STEEL",
+   "ko": "철강·비철",
+   "desc": "STEEL",
+   "gics": "소재·산업재",
+   "members": [
+    {
+     "tk": "004020.KS",
+     "nm": "현대제철",
+     "spread": 39.6,
+     "q_spread": 199.7,
+     "accel": 160.1,
+     "op": 37.5,
+     "rev": -2.1,
+     "q_op": 200.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=004020"
+       }
+      ]
+     },
+     "rs3": -44.4,
+     "rs6": -84.3,
+     "gap": 5.7,
+     "gaplvl": "M",
+     "from_high": -22.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "010130.KS",
+     "nm": "고려아연",
+     "spread": 32.7,
+     "q_spread": 71.4,
+     "accel": 38.7,
+     "op": 70.3,
+     "rev": 37.6,
+     "q_op": 110.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=010130"
+       }
+      ]
+     },
+     "rs3": -74.0,
+     "rs6": -107.4,
+     "gap": 6.7,
+     "gaplvl": "M",
+     "from_high": -40.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005490.KS",
+     "nm": "POSCO홀딩스",
+     "spread": -11.0,
+     "q_spread": -5.4,
+     "accel": 5.6,
+     "op": -15.9,
+     "rev": -4.9,
+     "q_op": -9.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005490"
+       }
+      ]
+     },
+     "rs3": -33.1,
+     "rs6": -78.8,
+     "gap": 5.9,
+     "gaplvl": "M",
+     "from_high": -26.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "103140.KS",
+     "nm": "풍산",
+     "spread": -19.0,
+     "q_spread": -15.1,
+     "accel": 3.9,
+     "op": -8.1,
+     "rev": 10.9,
+     "q_op": -6.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=103140"
+       }
+      ]
+     },
+     "rs3": -83.9,
+     "rs6": -130.8,
+     "gap": 23.0,
+     "gaplvl": "H",
+     "from_high": -55.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "000670.KS",
+     "nm": "영풍",
+     "spread": -66.0,
+     "q_spread": -13.9,
+     "accel": 52.1,
+     "op": -61.6,
+     "rev": 4.4,
+     "q_op": 7.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000670"
+       }
+      ]
+     },
+     "rs3": -57.8,
+     "rs6": -130.3,
+     "gap": 7.6,
+     "gaplvl": "M",
+     "from_high": -29.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -11.0,
+   "n": 5
+  },
+  {
+   "sic": "APPAREL",
+   "ko": "의류·패션",
+   "desc": "APPAREL",
+   "gics": "소비재",
+   "members": [
+    {
+     "tk": "111770.KS",
+     "nm": "영원무역",
+     "spread": 47.5,
+     "q_spread": 54.4,
+     "accel": 6.9,
+     "op": 63.0,
+     "rev": 15.5,
+     "q_op": 69.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=111770"
+       }
+      ]
+     },
+     "rs3": -60.1,
+     "rs6": -118.3,
+     "gap": 7.0,
+     "gaplvl": "M",
+     "from_high": -18.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "020000.KS",
+     "nm": "한섬",
+     "spread": -18.2,
+     "q_spread": 23.4,
+     "accel": 41.6,
+     "op": -17.8,
+     "rev": 0.4,
+     "q_op": 26.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=020000"
+       }
+      ]
+     },
+     "rs3": -49.3,
+     "rs6": -58.1,
+     "gap": 4.1,
+     "gaplvl": "M",
+     "from_high": -20.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "105630.KS",
+     "nm": "한세실업",
+     "spread": -49.3,
+     "q_spread": -45.6,
+     "accel": 3.7,
+     "op": -41.3,
+     "rev": 8.0,
+     "q_op": -40.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=105630"
+       }
+      ]
+     },
+     "rs3": -74.9,
+     "rs6": -136.1,
+     "gap": 4.6,
+     "gaplvl": "M",
+     "from_high": -40.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -18.2,
+   "n": 3
+  },
+  {
+   "sic": "MACH",
+   "ko": "기계·중공업",
+   "desc": "MACH",
+   "gics": "소재·산업재",
+   "members": [
+    {
+     "tk": "010120.KS",
+     "nm": "LS일렉트릭",
+     "spread": 0.3,
+     "q_spread": 4.7,
+     "accel": 4.4,
+     "op": 9.4,
+     "rev": 9.1,
+     "q_op": 21.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=010120"
+       }
+      ]
+     },
+     "rs3": 15.8,
+     "rs6": 39.3,
+     "gap": 11.6,
+     "gaplvl": "H",
+     "from_high": -28.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "000150.KS",
+     "nm": "두산",
+     "spread": -3.2,
+     "q_spread": 26.7,
+     "accel": 29.9,
+     "op": 5.9,
+     "rev": 9.1,
+     "q_op": 41.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000150"
+       }
+      ]
+     },
+     "rs3": 16.7,
+     "rs6": -8.4,
+     "gap": 14.4,
+     "gaplvl": "H",
+     "from_high": -21.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "006260.KS",
+     "nm": "LS",
+     "spread": -17.6,
+     "q_spread": -12.9,
+     "accel": 4.7,
+     "op": -1.9,
+     "rev": 15.7,
+     "q_op": 8.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=006260"
+       }
+      ]
+     },
+     "rs3": 19.9,
+     "rs6": 22.9,
+     "gap": 10.8,
+     "gaplvl": "H",
+     "from_high": -25.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "267270.KS",
+     "nm": "HD현대건설기계",
+     "spread": -20.1,
+     "q_spread": 25.5,
+     "accel": 45.6,
+     "op": -10.3,
+     "rev": 9.8,
+     "q_op": 79.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=267270"
+       }
+      ]
+     },
+     "rs3": -29.5,
+     "rs6": -47.9,
+     "gap": 8.5,
+     "gaplvl": "H",
+     "from_high": -25.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "241560.KS",
+     "nm": "두산밥캣",
+     "spread": -23.1,
+     "q_spread": -14.6,
+     "accel": 8.5,
+     "op": -24.5,
+     "rev": -1.4,
+     "q_op": -8.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=241560"
+       }
+      ]
+     },
+     "rs3": -29.5,
+     "rs6": -85.3,
+     "gap": 6.7,
+     "gaplvl": "M",
+     "from_high": -13.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "034020.KS",
+     "nm": "두산에너빌리티",
+     "spread": -30.1,
+     "q_spread": -4.2,
+     "accel": 25.9,
+     "op": -25.0,
+     "rev": 5.1,
+     "q_op": 6.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=034020"
+       }
+      ]
+     },
+     "rs3": -40.5,
+     "rs6": -81.5,
+     "gap": 7.9,
+     "gaplvl": "M",
+     "from_high": -29.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "042670.KS",
+     "nm": "HD현대인프라코어",
+     "spread": -44.3,
+     "q_spread": 25.5,
+     "accel": 69.8,
+     "op": -56.0,
+     "rev": -11.7,
+     "q_op": 30.5,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=042670"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": null,
+     "gaplvl": "M",
+     "from_high": null,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -20.1,
+   "n": 7
+  },
+  {
+   "sic": "MEDDEV",
+   "ko": "의료기기",
+   "desc": "MEDDEV",
+   "gics": "바이오·헬스케어",
+   "members": [
+    {
+     "tk": "214150.KQ",
+     "nm": "클래시스",
+     "spread": 0.7,
+     "q_spread": -3.2,
+     "accel": -3.9,
+     "op": 39.3,
+     "rev": 38.6,
+     "q_op": 25.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=214150"
+       }
+      ]
+     },
+     "rs3": -68.1,
+     "rs6": -120.9,
+     "gap": 5.1,
+     "gaplvl": "M",
+     "from_high": -43.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "145720.KS",
+     "nm": "덴티움",
+     "spread": -19.9,
+     "q_spread": -5.6,
+     "accel": 14.3,
+     "op": -34.9,
+     "rev": -15.0,
+     "q_op": -20.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=145720"
+       }
+      ]
+     },
+     "rs3": -55.6,
+     "rs6": -114.5,
+     "gap": 5.9,
+     "gaplvl": "M",
+     "from_high": -36.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "287410.KQ",
+     "nm": "제이시스메디칼",
+     "spread": -24.2,
+     "q_spread": null,
+     "accel": null,
+     "op": 10.1,
+     "rev": 34.3,
+     "q_op": null,
+     "q_note": "분기 미확인",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=287410"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": null,
+     "gaplvl": "M",
+     "from_high": null,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "041960.KQ",
+     "nm": "코미팜",
+     "spread": -57.6,
+     "q_spread": -52.4,
+     "accel": 5.2,
+     "op": -68.3,
+     "rev": -10.7,
+     "q_op": -69.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=041960"
+       }
+      ]
+     },
+     "rs3": -62.0,
+     "rs6": -89.9,
+     "gap": 4.8,
+     "gaplvl": "M",
+     "from_high": -31.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -22.0,
+   "n": 4
   },
   {
    "sic": "GAME",
@@ -377,290 +6165,336 @@
     {
      "tk": "036570.KS",
      "nm": "엔씨소프트",
-     "spread": 8.6,
-     "q_spread": 21.8,
-     "accel": 13.2,
-     "rs3": 22.5,
-     "rs6": 18.2,
-     "gap": 6.8,
-     "gaplvl": "M",
-     "from_high": -5.2,
-     "foreign_net": -355.5,
-     "inst_net": 313.5,
-     "foreign_pct": 37.5,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 22.5,
-     "rev": 13.9,
-     "q_op": 29.7,
-     "pe": 28.0,
-     "fpe": 25.2,
-     "peg": null,
+     "spread": 119.2,
+     "q_spread": 185.1,
+     "accel": 65.9,
+     "op": 114.7,
+     "rev": -4.5,
+     "q_op": 195.7,
      "q_note": "정상",
-     "d_until": 5,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
         "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=036570"
        }
       ]
-     }
+     },
+     "rs3": -7.8,
+     "rs6": -72.2,
+     "gap": 8.4,
+     "gaplvl": "H",
+     "from_high": -16.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "112040.KQ",
+     "nm": "위메이드",
+     "spread": 64.9,
+     "q_spread": 1.1,
+     "accel": -63.8,
+     "op": 51.2,
+     "rev": -13.7,
+     "q_op": -8.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=112040"
+       }
+      ]
+     },
+     "rs3": -65.0,
+     "rs6": -131.3,
+     "gap": 22.1,
+     "gaplvl": "H",
+     "from_high": -56.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "095660.KQ",
+     "nm": "네오위즈",
+     "spread": 64.2,
+     "q_spread": 76.3,
+     "accel": 12.1,
+     "op": 82.2,
+     "rev": 18.0,
+     "q_op": 100.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=095660"
+       }
+      ]
+     },
+     "rs3": -66.7,
+     "rs6": -126.0,
+     "gap": 4.8,
+     "gaplvl": "M",
+     "from_high": -38.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "251270.KS",
+     "nm": "넷마블",
+     "spread": 57.0,
+     "q_spread": 30.0,
+     "accel": -27.0,
+     "op": 63.5,
+     "rev": 6.4,
+     "q_op": 36.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=251270"
+       }
+      ]
+     },
+     "rs3": -59.5,
+     "rs6": -124.5,
+     "gap": 3.5,
+     "gaplvl": "L",
+     "from_high": -37.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "192080.KQ",
+     "nm": "더블유게임즈",
+     "spread": -20.3,
+     "q_spread": -18.5,
+     "accel": 1.8,
+     "op": -6.7,
+     "rev": 13.6,
+     "q_op": 1.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=192080"
+       }
+      ]
+     },
+     "rs3": -1.8,
+     "rs6": -66.3,
+     "gap": 5.8,
+     "gaplvl": "M",
+     "from_high": 0.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "263750.KQ",
+     "nm": "펄어비스",
+     "spread": -27.2,
+     "q_spread": 1138.4,
+     "accel": 1165.6,
+     "op": -20.5,
+     "rev": 6.8,
+     "q_op": 1217.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=263750"
+       }
+      ]
+     },
+     "rs3": -72.4,
+     "rs6": -90.8,
+     "gap": 27.1,
+     "gaplvl": "H",
+     "from_high": -43.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     },
     {
      "tk": "259960.KS",
      "nm": "크래프톤",
-     "spread": 8.5,
-     "q_spread": 18.3,
-     "accel": 9.8,
-     "rs3": 1.4,
-     "rs6": -0.2,
-     "gap": 8.8,
-     "gaplvl": "H",
-     "from_high": -16.8,
-     "foreign_net": -44.4,
-     "inst_net": -77.7,
-     "foreign_pct": 23.0,
-     "supply": "🔴 동반 순매도(이탈)",
-     "op": 9.2,
-     "rev": 0.7,
-     "q_op": 18.8,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
+     "spread": -33.6,
+     "q_spread": -43.9,
+     "accel": -10.3,
+     "op": -10.8,
+     "rev": 22.8,
+     "q_op": -12.8,
      "q_note": "정상",
-     "d_until": 23,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
         "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=259960"
        }
       ]
-     }
-    }
-   ],
-   "med": 8.6,
-   "n": 2
-  },
-  {
-   "sic": "BATTMAT",
-   "ko": "2차전지 소재",
-   "desc": "BATTMAT",
-   "gics": "2차전지·소재",
-   "members": [
-    {
-     "tk": "086520.KQ",
-     "nm": "에코프로",
-     "spread": 22.1,
-     "q_spread": 30.3,
-     "accel": 8.2,
-     "rs3": 14.9,
-     "rs6": 8.0,
-     "gap": 7.1,
+     },
+     "rs3": -29.1,
+     "rs6": -103.2,
+     "gap": 5.2,
      "gaplvl": "M",
-     "from_high": -6.4,
-     "foreign_net": 22.8,
-     "inst_net": 196.4,
-     "foreign_pct": 43.9,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": 33.0,
-     "rev": 10.9,
-     "q_op": 39.7,
-     "pe": 33.3,
-     "fpe": null,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": -11,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=086520"
-       }
-      ]
-     }
-    },
-    {
-     "tk": "003670.KS",
-     "nm": "포스코퓨처엠",
-     "spread": 8.3,
-     "q_spread": 2.2,
-     "accel": -6.1,
-     "rs3": 14.8,
-     "rs6": 28.7,
-     "gap": 6.7,
-     "gaplvl": "M",
-     "from_high": -4.0,
-     "foreign_net": 557.8,
-     "inst_net": -137.6,
-     "foreign_pct": 17.6,
-     "supply": "🟢 외국인 매집",
-     "op": 3.3,
-     "rev": -5.0,
-     "q_op": 3.5,
+     "from_high": -32.1,
      "pe": null,
      "fpe": null,
      "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "078340.KQ",
+     "nm": "컴투스",
+     "spread": -57.4,
+     "q_spread": -3.8,
+     "accel": 53.6,
+     "op": -57.0,
+     "rev": 0.4,
+     "q_op": -8.2,
      "q_note": "정상",
-     "d_until": 11,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=003670"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=078340"
        }
       ]
-     }
-    },
-    {
-     "tk": "247540.KQ",
-     "nm": "에코프로비엠",
-     "spread": -3.1,
-     "q_spread": -2.6,
-     "accel": 0.5,
-     "rs3": 4.2,
-     "rs6": 9.0,
-     "gap": 8.0,
+     },
+     "rs3": -61.0,
+     "rs6": -116.5,
+     "gap": 4.7,
      "gaplvl": "M",
-     "from_high": -13.4,
-     "foreign_net": -292.6,
-     "inst_net": -47.7,
-     "foreign_pct": 8.4,
-     "supply": "🔴 동반 순매도(이탈)",
-     "op": -1.3,
-     "rev": 1.8,
-     "q_op": 11.9,
+     "from_high": -38.6,
      "pe": null,
      "fpe": null,
      "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "225570.KQ",
+     "nm": "넥슨게임즈",
+     "spread": -225.5,
+     "q_spread": -310.3,
+     "accel": -84.8,
+     "op": -255.5,
+     "rev": -30.0,
+     "q_op": -343.7,
      "q_note": "정상",
-     "d_until": 64,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=247540"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=225570"
        }
       ]
-     }
-    }
-   ],
-   "med": 8.3,
-   "n": 3
-  },
-  {
-   "sic": "SEMI",
-   "ko": "반도체",
-   "desc": "SEMI",
-   "gics": "IT·반도체",
-   "members": [
-    {
-     "tk": "000990.KS",
-     "nm": "DB하이텍",
-     "spread": 17.7,
-     "q_spread": 28.6,
-     "accel": 10.9,
-     "rs3": 29.9,
-     "rs6": 28.2,
-     "gap": 7.7,
-     "gaplvl": "M",
-     "from_high": -14.2,
-     "foreign_net": 85.7,
-     "inst_net": -2.2,
-     "foreign_pct": 24.5,
-     "supply": "🟢 외국인 매집",
-     "op": 36.0,
-     "rev": 18.3,
-     "q_op": 40.5,
+     },
+     "rs3": -55.2,
+     "rs6": -127.1,
+     "gap": 3.3,
+     "gaplvl": "L",
+     "from_high": -40.0,
      "pe": null,
      "fpe": null,
      "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "293490.KQ",
+     "nm": "카카오게임즈",
+     "spread": -280.9,
+     "q_spread": -831.4,
+     "accel": -550.5,
+     "op": -306.8,
+     "rev": -25.9,
+     "q_op": -847.0,
      "q_note": "정상",
-     "d_until": -23,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000990"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=293490"
        }
       ]
-     }
-    },
-    {
-     "tk": "000660.KS",
-     "nm": "SK하이닉스",
-     "spread": 8.2,
-     "q_spread": 12.4,
-     "accel": 4.2,
-     "rs3": 9.6,
-     "rs6": -9.9,
-     "gap": 11.3,
+     },
+     "rs3": -75.1,
+     "rs6": -145.4,
+     "gap": 17.7,
      "gaplvl": "H",
-     "from_high": -28.3,
-     "foreign_net": -5.8,
-     "inst_net": 15.0,
-     "foreign_pct": 17.2,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 19.0,
-     "rev": 10.8,
-     "q_op": 33.9,
-     "pe": 12.4,
-     "fpe": 11.2,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": 42,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000660"
-       }
-      ]
-     }
-    },
-    {
-     "tk": "005930.KS",
-     "nm": "삼성전자",
-     "spread": -9.0,
-     "q_spread": -15.9,
-     "accel": -6.9,
-     "rs3": 9.9,
-     "rs6": -8.5,
-     "gap": 5.4,
-     "gaplvl": "M",
-     "from_high": -38.2,
-     "foreign_net": 527.4,
-     "inst_net": -169.3,
-     "foreign_pct": 36.7,
-     "supply": "🟢 외국인 매집",
-     "op": 14.9,
-     "rev": 23.9,
-     "q_op": 27.1,
-     "pe": 19.5,
+     "from_high": -60.9,
+     "pe": null,
      "fpe": null,
      "peg": null,
-     "q_note": "정상",
-     "d_until": 61,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005930"
-       }
-      ]
-     }
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     }
    ],
-   "med": 8.2,
-   "n": 3
+   "med": -23.8,
+   "n": 10
   },
   {
    "sic": "UTIL",
@@ -671,180 +6505,137 @@
     {
      "tk": "015760.KS",
      "nm": "한국전력",
-     "spread": 8.1,
-     "q_spread": 6.8,
-     "accel": -1.3,
-     "rs3": -21.9,
-     "rs6": -25.6,
-     "gap": 10.0,
-     "gaplvl": "H",
-     "from_high": -4.1,
-     "foreign_net": -234.5,
-     "inst_net": 83.4,
-     "foreign_pct": 49.6,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 21.3,
-     "rev": 13.2,
-     "q_op": 79.8,
-     "pe": 39.2,
-     "fpe": 35.3,
-     "peg": null,
+     "spread": 57.0,
+     "q_spread": 21.5,
+     "accel": -35.5,
+     "op": 61.3,
+     "rev": 4.3,
+     "q_op": 25.0,
      "q_note": "정상",
-     "d_until": 48,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
         "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=015760"
        }
       ]
-     }
-    }
-   ],
-   "med": 8.1,
-   "n": 1
-  },
-  {
-   "sic": "BIO",
-   "ko": "바이오",
-   "desc": "BIO",
-   "gics": "바이오·헬스케어",
-   "members": [
-    {
-     "tk": "068270.KS",
-     "nm": "셀트리온",
-     "spread": 24.7,
-     "q_spread": 18.6,
-     "accel": -6.1,
-     "rs3": 22.8,
-     "rs6": 37.2,
-     "gap": 8.4,
+     },
+     "rs3": -67.1,
+     "rs6": -128.9,
+     "gap": 8.3,
      "gaplvl": "H",
-     "from_high": -23.1,
-     "foreign_net": -225.5,
-     "inst_net": 273.8,
-     "foreign_pct": 41.1,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 34.1,
-     "rev": 9.4,
-     "q_op": 62.6,
-     "pe": 11.3,
+     "from_high": -43.9,
+     "pe": null,
      "fpe": null,
      "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "036460.KS",
+     "nm": "한국가스공사",
+     "spread": -23.1,
+     "q_spread": -16.2,
+     "accel": 6.9,
+     "op": -30.0,
+     "rev": -6.9,
+     "q_op": -25.3,
      "q_note": "정상",
-     "d_until": -4,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=068270"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=036460"
        }
       ]
-     }
-    },
-    {
-     "tk": "028300.KQ",
-     "nm": "HLB",
-     "spread": 11.8,
-     "q_spread": 3.4,
-     "accel": -8.4,
-     "rs3": 17.9,
-     "rs6": 41.2,
-     "gap": 8.9,
-     "gaplvl": "H",
-     "from_high": -6.2,
-     "foreign_net": -323.4,
-     "inst_net": -197.9,
-     "foreign_pct": 43.8,
-     "supply": "🔴 동반 순매도(이탈)",
-     "op": 28.9,
-     "rev": 17.1,
-     "q_op": 38.6,
-     "pe": 6.3,
-     "fpe": 5.7,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": 25,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=028300"
-       }
-      ]
-     }
-    },
-    {
-     "tk": "207940.KS",
-     "nm": "삼성바이오로직스",
-     "spread": 1.3,
-     "q_spread": -5.2,
-     "accel": -6.5,
-     "rs3": 16.1,
-     "rs6": -15.9,
-     "gap": 6.2,
-     "gaplvl": "M",
-     "from_high": -33.3,
-     "foreign_net": -240.0,
-     "inst_net": -36.9,
-     "foreign_pct": 30.5,
-     "supply": "🔴 동반 순매도(이탈)",
-     "op": -3.4,
-     "rev": -4.7,
-     "q_op": -8.0,
-     "pe": 34.7,
-     "fpe": 31.2,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": 8,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=207940"
-       }
-      ]
-     }
-    },
-    {
-     "tk": "196170.KQ",
-     "nm": "알테오젠",
-     "spread": -0.0,
-     "q_spread": 3.9,
-     "accel": 3.9,
-     "rs3": 9.6,
-     "rs6": 10.3,
-     "gap": 4.6,
-     "gaplvl": "M",
-     "from_high": -26.7,
-     "foreign_net": -125.8,
-     "inst_net": 356.6,
-     "foreign_pct": 23.0,
-     "supply": "🟡 기관 매집(외국인 매도)",
-     "op": 17.3,
-     "rev": 17.3,
-     "q_op": 16.6,
-     "pe": 15.1,
+     },
+     "rs3": -52.9,
+     "rs6": -119.5,
+     "gap": 3.4,
+     "gaplvl": "L",
+     "from_high": -24.8,
+     "pe": null,
      "fpe": null,
      "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "051600.KS",
+     "nm": "한전KPS",
+     "spread": -34.4,
+     "q_spread": -6.6,
+     "accel": 27.8,
+     "op": -33.1,
+     "rev": 1.2,
+     "q_op": 2.6,
      "q_note": "정상",
-     "d_until": 29,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=196170"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=051600"
        }
       ]
-     }
+     },
+     "rs3": -57.0,
+     "rs6": -109.7,
+     "gap": 4.9,
+     "gaplvl": "M",
+     "from_high": -27.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "052690.KS",
+     "nm": "한전기술",
+     "spread": -41.1,
+     "q_spread": 0.5,
+     "accel": 41.6,
+     "op": -50.0,
+     "rev": -8.9,
+     "q_op": 3.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=052690"
+       }
+      ]
+     },
+     "rs3": -59.1,
+     "rs6": -66.0,
+     "gap": 5.4,
+     "gaplvl": "M",
+     "from_high": -34.7,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     }
    ],
-   "med": 6.6,
+   "med": -28.8,
    "n": 4
   },
   {
@@ -854,486 +6645,291 @@
    "gics": "자동차",
    "members": [
     {
-     "tk": "000270.KS",
-     "nm": "기아",
-     "spread": 16.3,
-     "q_spread": 18.3,
-     "accel": 2.0,
-     "rs3": -1.6,
-     "rs6": -24.1,
-     "gap": 7.5,
-     "gaplvl": "M",
-     "from_high": -29.6,
-     "foreign_net": -288.2,
-     "inst_net": -75.8,
-     "foreign_pct": 28.6,
-     "supply": "🔴 동반 순매도(이탈)",
-     "op": 22.6,
-     "rev": 6.3,
-     "q_op": 75.2,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": -18,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000270"
-       }
-      ]
-     }
-    },
-    {
      "tk": "005380.KS",
      "nm": "현대차",
-     "spread": -5.1,
-     "q_spread": -0.9,
-     "accel": 4.2,
-     "rs3": -6.3,
-     "rs6": -12.8,
-     "gap": 5.9,
-     "gaplvl": "M",
-     "from_high": -18.4,
-     "foreign_net": 144.0,
-     "inst_net": 133.5,
-     "foreign_pct": 24.8,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": -7.2,
-     "rev": -2.1,
-     "q_op": -6.9,
-     "pe": 18.5,
-     "fpe": 16.7,
-     "peg": null,
+     "spread": -25.8,
+     "q_spread": -32.6,
+     "accel": -6.8,
+     "op": -19.5,
+     "rev": 6.3,
+     "q_op": -27.7,
      "q_note": "정상",
-     "d_until": -8,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
         "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005380"
        }
       ]
-     }
-    }
-   ],
-   "med": 5.6,
-   "n": 2
-  },
-  {
-   "sic": "CONS",
-   "ko": "화장품·음식료",
-   "desc": "CONS",
-   "gics": "소비재",
-   "members": [
-    {
-     "tk": "097950.KS",
-     "nm": "CJ제일제당",
-     "spread": 10.9,
-     "q_spread": 1.0,
-     "accel": -9.9,
-     "rs3": 14.5,
-     "rs6": -10.1,
-     "gap": 3.5,
-     "gaplvl": "L",
-     "from_high": -16.2,
-     "foreign_net": 153.2,
-     "inst_net": 250.3,
-     "foreign_pct": 34.7,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": 36.5,
-     "rev": 25.6,
-     "q_op": 65.2,
-     "pe": 36.5,
-     "fpe": 32.9,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": 45,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=097950"
-       }
-      ]
-     }
-    },
-    {
-     "tk": "090430.KS",
-     "nm": "아모레퍼시픽",
-     "spread": -1.0,
-     "q_spread": 4.2,
-     "accel": 5.2,
-     "rs3": -11.0,
-     "rs6": -7.8,
-     "gap": 2.5,
-     "gaplvl": "L",
-     "from_high": -2.0,
-     "foreign_net": 595.0,
-     "inst_net": -81.0,
-     "foreign_pct": 42.4,
-     "supply": "🟢 외국인 매집",
-     "op": 13.0,
-     "rev": 14.0,
-     "q_op": 28.2,
+     },
+     "rs3": -17.9,
+     "rs6": 65.2,
+     "gap": 6.1,
+     "gaplvl": "M",
+     "from_high": -6.7,
      "pe": null,
      "fpe": null,
      "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "000270.KS",
+     "nm": "기아",
+     "spread": -34.6,
+     "q_spread": -38.3,
+     "accel": -3.7,
+     "op": -28.3,
+     "rev": 6.2,
+     "q_op": -32.5,
      "q_note": "정상",
-     "d_until": -30,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=090430"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000270"
        }
       ]
-     }
+     },
+     "rs3": -45.1,
+     "rs6": -57.2,
+     "gap": 5.9,
+     "gaplvl": "M",
+     "from_high": -18.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     }
    ],
-   "med": 5.0,
+   "med": -30.2,
    "n": 2
   },
   {
-   "sic": "AUTOPART",
-   "ko": "자동차 부품",
-   "desc": "AUTOPART",
-   "gics": "자동차",
-   "members": [
-    {
-     "tk": "012330.KS",
-     "nm": "현대모비스",
-     "spread": 3.7,
-     "q_spread": 12.9,
-     "accel": 9.2,
-     "rs3": 11.2,
-     "rs6": 1.4,
-     "gap": 7.8,
-     "gaplvl": "M",
-     "from_high": -35.2,
-     "foreign_net": 195.8,
-     "inst_net": 37.0,
-     "foreign_pct": 16.1,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": 29.7,
-     "rev": 26.0,
-     "q_op": 38.7,
-     "pe": 24.4,
-     "fpe": null,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": -7,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=012330"
-       }
-      ]
-     }
-    }
-   ],
-   "med": 3.7,
-   "n": 1
-  },
-  {
-   "sic": "BATT",
-   "ko": "2차전지",
-   "desc": "BATT",
-   "gics": "2차전지·소재",
-   "members": [
-    {
-     "tk": "373220.KS",
-     "nm": "LG에너지솔루션",
-     "spread": 6.3,
-     "q_spread": 7.0,
-     "accel": 0.7,
-     "rs3": 5.4,
-     "rs6": -8.3,
-     "gap": 11.6,
-     "gaplvl": "H",
-     "from_high": -11.1,
-     "foreign_net": -309.0,
-     "inst_net": -130.1,
-     "foreign_pct": 25.0,
-     "supply": "🔴 동반 순매도(이탈)",
-     "op": 14.4,
-     "rev": 8.1,
-     "q_op": 59.3,
-     "pe": 28.3,
-     "fpe": null,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": -29,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=373220"
-       }
-      ]
-     }
-    },
-    {
-     "tk": "006400.KS",
-     "nm": "삼성SDI",
-     "spread": 3.4,
-     "q_spread": 17.3,
-     "accel": 13.9,
-     "rs3": 26.9,
-     "rs6": 29.2,
-     "gap": 9.3,
-     "gaplvl": "H",
-     "from_high": -11.6,
-     "foreign_net": 452.6,
-     "inst_net": -179.3,
-     "foreign_pct": 26.9,
-     "supply": "🟢 외국인 매집",
-     "op": 16.4,
-     "rev": 13.0,
-     "q_op": 19.9,
-     "pe": 31.6,
-     "fpe": 28.4,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": 35,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=006400"
-       }
-      ]
-     }
-    },
-    {
-     "tk": "051910.KS",
-     "nm": "LG화학",
-     "spread": -7.1,
-     "q_spread": -17.1,
-     "accel": -10.0,
-     "rs3": -18.5,
-     "rs6": -12.2,
-     "gap": 4.4,
-     "gaplvl": "M",
-     "from_high": -17.8,
-     "foreign_net": 6.8,
-     "inst_net": -136.5,
-     "foreign_pct": 9.5,
-     "supply": "🟢 외국인 매집",
-     "op": 2.1,
-     "rev": 9.2,
-     "q_op": 5.5,
-     "pe": 7.2,
-     "fpe": 6.5,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": -2,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=051910"
-       }
-      ]
-     }
-    }
-   ],
-   "med": 3.4,
-   "n": 3
-  },
-  {
-   "sic": "STEEL",
-   "ko": "철강·비철",
-   "desc": "STEEL",
+   "sic": "TRADE",
+   "ko": "상사",
+   "desc": "TRADE",
    "gics": "소재·산업재",
    "members": [
     {
-     "tk": "005490.KS",
-     "nm": "POSCO홀딩스",
-     "spread": 3.8,
-     "q_spread": -3.4,
-     "accel": -7.2,
-     "rs3": -26.5,
-     "rs6": -15.3,
-     "gap": 9.8,
-     "gaplvl": "H",
-     "from_high": -16.6,
-     "foreign_net": 263.6,
-     "inst_net": -35.7,
-     "foreign_pct": 7.0,
-     "supply": "🟢 외국인 매집",
-     "op": 20.3,
-     "rev": 16.5,
-     "q_op": 23.5,
-     "pe": 23.4,
-     "fpe": 21.1,
-     "peg": null,
+     "tk": "047050.KS",
+     "nm": "포스코인터내셔널",
+     "spread": 0.3,
+     "q_spread": 12.0,
+     "accel": 11.7,
+     "op": 0.6,
+     "rev": 0.3,
+     "q_op": 11.7,
      "q_note": "정상",
-     "d_until": 52,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005490"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=047050"
        }
       ]
-     }
-    },
-    {
-     "tk": "010130.KS",
-     "nm": "고려아연",
-     "spread": -1.4,
-     "q_spread": -4.4,
-     "accel": -3.0,
-     "rs3": 16.7,
-     "rs6": 6.4,
-     "gap": 9.6,
-     "gaplvl": "H",
-     "from_high": -1.6,
-     "foreign_net": 539.2,
-     "inst_net": 334.2,
-     "foreign_pct": 5.0,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": 22.6,
-     "rev": 24.0,
-     "q_op": 62.7,
-     "pe": 20.4,
-     "fpe": 18.4,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": 41,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=010130"
-       }
-      ]
-     }
-    }
-   ],
-   "med": 1.2,
-   "n": 2
-  },
-  {
-   "sic": "BANK",
-   "ko": "은행·지주",
-   "desc": "BANK",
-   "gics": "금융",
-   "members": [
-    {
-     "tk": "105560.KS",
-     "nm": "KB금융",
-     "spread": 16.7,
-     "q_spread": 11.8,
-     "accel": -4.9,
-     "rs3": 13.1,
-     "rs6": -5.4,
-     "gap": 9.1,
-     "gaplvl": "H",
-     "from_high": -38.2,
-     "foreign_net": 25.3,
-     "inst_net": 250.3,
-     "foreign_pct": 51.9,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": 10.9,
-     "rev": -5.8,
-     "q_op": 9.9,
+     },
+     "rs3": -56.4,
+     "rs6": -94.5,
+     "gap": 5.8,
+     "gaplvl": "M",
+     "from_high": -33.0,
      "pe": null,
      "fpe": null,
      "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "001250.KS",
+     "nm": "GS글로벌",
+     "spread": -33.9,
+     "q_spread": -37.3,
+     "accel": -3.4,
+     "op": -32.8,
+     "rev": 1.1,
+     "q_op": -35.9,
      "q_note": "정상",
-     "d_until": 58,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=105560"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=001250"
        }
       ]
-     }
-    },
-    {
-     "tk": "086790.KS",
-     "nm": "하나금융지주",
-     "spread": -9.3,
-     "q_spread": -19.2,
-     "accel": -9.9,
-     "rs3": 4.7,
-     "rs6": 26.9,
-     "gap": 5.1,
+     },
+     "rs3": -28.3,
+     "rs6": -79.0,
+     "gap": 4.4,
      "gaplvl": "M",
-     "from_high": -35.0,
-     "foreign_net": 223.7,
-     "inst_net": 266.7,
-     "foreign_pct": 37.1,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": 17.5,
-     "rev": 26.8,
-     "q_op": 22.7,
-     "pe": 25.4,
-     "fpe": 22.9,
-     "peg": null,
-     "q_note": "정상",
-     "d_until": 33,
-     "ir": {
-      "date": "2026-05",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=086790"
-       }
-      ]
-     }
-    },
-    {
-     "tk": "055550.KS",
-     "nm": "신한지주",
-     "spread": -11.2,
-     "q_spread": -19.6,
-     "accel": -8.4,
-     "rs3": 9.2,
-     "rs6": -29.1,
-     "gap": 4.8,
-     "gaplvl": "M",
-     "from_high": -8.5,
-     "foreign_net": 19.7,
-     "inst_net": 158.3,
-     "foreign_pct": 30.3,
-     "supply": "🟢 쌍끌이 매집(외국인+기관)",
-     "op": 10.5,
-     "rev": 21.7,
-     "q_op": 15.0,
-     "pe": 12.5,
+     "from_high": -45.7,
+     "pe": null,
      "fpe": null,
      "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "001120.KS",
+     "nm": "LX인터내셔널",
+     "spread": -40.7,
+     "q_spread": -42.4,
+     "accel": -1.7,
+     "op": -40.3,
+     "rev": 0.4,
+     "q_op": -42.6,
      "q_note": "정상",
-     "d_until": 46,
+     "d_until": null,
      "ir": {
-      "date": "2026-05",
+      "date": "2026-06",
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=055550"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=001120"
        }
       ]
-     }
+     },
+     "rs3": -46.6,
+     "rs6": -71.4,
+     "gap": 4.4,
+     "gaplvl": "M",
+     "from_high": -30.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
     }
    ],
-   "med": -9.3,
+   "med": -33.9,
+   "n": 3
+  },
+  {
+   "sic": "AIR",
+   "ko": "항공",
+   "desc": "AIR",
+   "gics": "운송",
+   "members": [
+    {
+     "tk": "003490.KS",
+     "nm": "대한항공",
+     "spread": -88.4,
+     "q_spread": -66.6,
+     "accel": 21.8,
+     "op": -47.2,
+     "rev": 41.2,
+     "q_op": -40.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=003490"
+       }
+      ]
+     },
+     "rs3": -41.4,
+     "rs6": -87.0,
+     "gap": 6.9,
+     "gaplvl": "M",
+     "from_high": -11.4,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "272450.KS",
+     "nm": "진에어",
+     "spread": -106.3,
+     "q_spread": -111.8,
+     "accel": -5.5,
+     "op": -111.7,
+     "rev": -5.5,
+     "q_op": -116.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=272450"
+       }
+      ]
+     },
+     "rs3": -57.9,
+     "rs6": -120.8,
+     "gap": 3.9,
+     "gaplvl": "L",
+     "from_high": -42.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "089590.KS",
+     "nm": "제주항공",
+     "spread": -221.3,
+     "q_spread": 71.1,
+     "accel": 292.4,
+     "op": -239.7,
+     "rev": -18.4,
+     "q_op": 68.1,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-06",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=089590"
+       }
+      ]
+     },
+     "rs3": -62.4,
+     "rs6": -122.2,
+     "gap": 8.7,
+     "gaplvl": "H",
+     "from_high": -38.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -106.3,
    "n": 3
   }
  ]
