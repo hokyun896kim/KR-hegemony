@@ -43,11 +43,11 @@ REPRT_ANNUAL = "11011"          # 사업보고서(연간)
 REPRT_QUARTERS = ["11014", "11012", "11013"]  # 3분기 · 반기 · 1분기
 
 
-def _get(url: str, timeout: int = 20, retries: int = 2) -> bytes:
+def _get(url: str, timeout: int = 10, retries: int = 2) -> bytes:
     """일시적 네트워크/throttle 실패를 가벼운 backoff 로 재시도.
 
-    재시도/대기를 짧게(2회·0.6s) 둬서 opendart throttle 시 sleep 누적으로
-    전체 빌드가 길어지는 것을 막는다. 마지막 시도엔 sleep 없음.
+    timeout 을 짧게(10s) 둬서 opendart 가 응답 없이 매달릴 때 빨리 포기하고
+    다음으로 넘어간다(정상 응답은 보통 1~2s). 재시도 2회·마지막 무대기.
     """
     last = None
     for i in range(retries):
