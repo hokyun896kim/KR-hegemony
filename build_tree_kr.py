@@ -545,13 +545,17 @@ def build(mode: str) -> dict:
     if mode == "demo":
         results = [_one(e) for e in UNIVERSE]          # 합성은 즉시 — 병렬 불필요
     else:
-        from concurrent.futures import ThreadPoolExecutor, as_completed
+        import time as _time
+        from concurrent.futures import (ThreadPoolExecutor, as_completed,
+                                        TimeoutError as _FTimeout)
         workers = 4 if mode == "dart" else 10          # DART 는 throttle 회피로 보수적
+        deadline = 1500                                # ★ DART 수집 상한 25분
         results = []
         done = 0
-        with ThreadPoolExecutor(max_workers=workers) as ex:
-            futs = {ex.submit(_one, e): e for e in UNIVERSE}
-            for fut in as_completed(futs):
+        ex = ThreadPoolExecutor(max_workers=workers)
+        futs = {ex.submit(_one, e): e for e in UNIVERSE}
+        try:
+            for fut in as_completed(futs, timeout=deadline):
                 done += 1
                 entry = futs[fut]
                 try:
@@ -559,6 +563,12 @@ def build(mode: str) -> dict:
                     print(f"  [{done}/{len(UNIVERSE)}] {entry[1]} ({entry[0]}) ✓")
                 except Exception as e:  # noqa: BLE001
                     print(f"  [{done}/{len(UNIVERSE)}] {entry[1]} ({entry[0]}) 실패: {e}")
+        except _FTimeout:
+            # opendart 가 매달려 상한 초과 → 수집된 만큼으로 진행(부분 커밋이라도 보장)
+            print(f"  ⏰ DART 수집 {deadline // 60}분 초과 — "
+                  f"{len(results)}/{len(UNIVERSE)}종목으로 진행(나머지 건너뜀)")
+        # 남은 작업 취소(미시작분) — 진행 중인 소수는 timeout(10s)으로 곧 종료
+        ex.shutdown(wait=False, cancel_futures=True)
 
     # 배치 맵 merge — 비데모 멤버에 시세·PER·수급 채우기 (데모는 이미 보유)
     import supply as _supmod
@@ -623,11 +633,17 @@ def main():
     args = ap.parse_args()
     mode = "demo" if args.demo else "dart" if args.dart else "yf"
     tree = build(mode)
+    n = sum(len(s["members"]) for s in tree["subs"])
+    # ★ 안전장치: opendart 가 심하게 막혀 수집이 너무 적으면(<60%) 기존 데이터를
+    #   덮어쓰지 않고 비정상 종료 → 워크플로 커밋 단계가 '변경 없음'으로 보존.
+    if mode != "demo" and n < int(len(UNIVERSE) * 0.6):
+        raise SystemExit(
+            f"⛔ 수집 종목 {n}/{len(UNIVERSE)} (60% 미만) — opendart 장애로 추정. "
+            f"기존 tree_kr.json 보존을 위해 쓰지 않고 종료. 잠시 후 재시도하세요.")
     out = Path(__file__).resolve().parent / args.out
     out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w", encoding="utf-8") as f:
         json.dump(tree, f, ensure_ascii=False, indent=1)
-    n = sum(len(s["members"]) for s in tree["subs"])
     label = {"demo": "데모", "dart": "DART+시세", "yf": "yfinance"}[mode]
     print(f"✅ {out} 생성 — 섹터 {len(tree['sectors'])} · 세부산업 "
           f"{len(tree['subs'])} · 종목 {n} ({label})")
