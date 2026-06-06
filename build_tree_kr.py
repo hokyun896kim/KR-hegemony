@@ -355,42 +355,61 @@ def _member_yf(tk: str, nm: str) -> dict:
     }
 
 
-def _price_maps(tickers: list[str], bench) -> dict:
-    """전 종목 시세를 yf.download 로 '한 번에' 받아 {tk: {rs3,rs6,gap,gaplvl,from_high}}.
+def _price_maps(tickers: list[str]):
+    """전 종목 시세 + 벤치마크를 yf.download 로 '한 번에' 받아
+    ({tk:{rs3,rs6,gap,gaplvl,from_high,close}}, 벤치3M%, 벤치6M%) 반환.
 
-    종목별 t.history(196회) 대신 단일 일괄 호출 → throttle 위험·시간 대폭 감소.
+    벤치마크를 종목과 같은 호출·기간(period="1y")에서 받아 일관성을 보장하고,
+    비상식적 수익률(데이터 오류)은 가드로 걸러 RS 에 쓰레기값이 새지 않게 한다.
     """
     import yfinance as yf
     out = {tk: {"rs3": None, "rs6": None, "gap": None,
                 "gaplvl": "M", "from_high": None, "close": None} for tk in tickers}
+    syms = list(tickers) + [BENCH_SYM]
     try:
-        data = yf.download(tickers, period="1y", auto_adjust=True,
+        data = yf.download(syms, period="1y", auto_adjust=True,
                            group_by="ticker", threads=True, progress=False)
     except Exception:
-        return out
+        return out, None, None
 
-    def series(tk, field):
+    def series(sym, field="Close"):
         try:
-            return data[tk][field].dropna()
+            return data[sym][field].dropna()
         except Exception:
             return None
 
-    have_bench = bench is not None and len(bench) > 130
-
     def ret(s, n):
-        return (s.iloc[-1] / s.iloc[-n] - 1) * 100
+        """최근값 / n거래일 전 대비 수익률(%). 데이터 부족·NaN 이면 None."""
+        if s is None or len(s) <= n:
+            return None
+        a, b = s.iloc[-1], s.iloc[-n]
+        if a != a or b != b or b == 0:    # NaN/0 방어
+            return None
+        return round((a / b - 1) * 100, 1)
+
+    bench = series(BENCH_SYM)
+    b3, b6 = ret(bench, 63), ret(bench, 126)
+    # ★ 벤치마크 신뢰성 가드: 지수가 6개월 ±70% 넘으면 Yahoo 데이터 이상으로 보고
+    #   RS·시장배지를 비활성(— 표시)한다. 쓰레기값(예: −151%) 노출 방지.
+    bench_ok = (b6 is not None and abs(b6) <= 70
+                and (b3 is None or abs(b3) <= 70))
+    spy3, spy6 = (b3, b6) if bench_ok else (None, None)
 
     for tk in tickers:
-        c = series(tk, "Close")
+        c = series(tk)
         if c is None or len(c) == 0:
             continue
         rec = out[tk]
         rec["close"] = float(c.iloc[-1])
         hi = float(c.iloc[-252:].max())
         rec["from_high"] = round((float(c.iloc[-1]) / hi - 1) * 100, 1) if hi else None
-        if len(c) > 130 and have_bench:
-            rec["rs3"] = round(ret(c, 63) - ret(bench, 63), 1)
-            rec["rs6"] = round(ret(c, 126) - ret(bench, 126), 1)
+        if bench_ok:
+            s3, s6 = ret(c, 63), ret(c, 126)
+            # 개별 종목 수익률도 비상식적이면(데이터 오류) 제외
+            if s6 is not None and -95 <= s6 <= 400:
+                rec["rs6"] = round(s6 - b6, 1)
+            if s3 is not None and -95 <= s3 <= 400:
+                rec["rs3"] = round(s3 - b3, 1)
         o = series(tk, "Open")
         if o is not None and len(o):
             g = ((o - c.shift(1)).abs() / c.shift(1) * 100).dropna().iloc[-60:]
@@ -398,7 +417,7 @@ def _price_maps(tickers: list[str], bench) -> dict:
                 gap = round(float(g.max()), 1)
                 rec["gap"] = gap
                 rec["gaplvl"] = "H" if gap > 8 else "L" if gap < 4 else "M"
-    return out
+    return out, spy3, spy6
 
 
 def _per_map_yf(tickers: list[str]) -> dict:
@@ -489,7 +508,6 @@ def _median(xs):
 def build(mode: str) -> dict:
     """mode: 'demo'(합성) / 'yf'(yfinance) / 'dart'(DART+yfinance 하이브리드)."""
     import os
-    bench = None
     dart_key = None
     corp = {}
     if mode == "dart":   # 키부터 확인 (네트워크 낭비 방지)
@@ -497,12 +515,6 @@ def build(mode: str) -> dict:
         if not dart_key:
             raise SystemExit("환경변수 DART_API_KEY 가 필요합니다. "
                              "https://opendart.fss.or.kr 에서 무료 발급.")
-    if mode != "demo":
-        import yfinance as yf
-        try:
-            bench = yf.Ticker(BENCH_SYM).history(period="10mo")["Close"].dropna()
-        except Exception:
-            bench = None
     if mode == "dart":
         import dart as dartmod
         print("· DART 종목코드 매핑 다운로드 중...")
@@ -510,18 +522,18 @@ def build(mode: str) -> dict:
         print(f"  → {len(corp)}개 매핑 확보")
 
     # ── 배치 수집(비데모) — 느린 종목별 호출을 일괄 호출로 ──
-    # 시세는 yf.download 1회, PER·수급·지분율은 pykrx 일괄로 받아 나중에 merge.
-    # (종목별 t.info·pykrx 호출이 34종목에서도 30분 타임아웃을 넘긴 주범)
+    # 시세·벤치마크는 yf.download 1회, PER 은 yfinance, 수급은 pykrx(로컬 전용).
     tickers = [e[0] for e in UNIVERSE]
     price_maps: dict = {}
     per_m: dict = {}
     fnet_m: dict = {}
     inet_m: dict = {}
     fpct_map: dict = {}
+    spy3 = spy6 = None
     if mode != "demo":
         try:
-            print("· 시세 일괄 다운로드(yfinance)…")
-            price_maps = _price_maps(tickers, bench)
+            print("· 시세+벤치마크 일괄 다운로드(yfinance)…")
+            price_maps, spy3, spy6 = _price_maps(tickers)
             ok = sum(1 for v in price_maps.values() if v.get("rs6") is not None)
             print(f"  → 시세 {ok}/{len(tickers)}종목")
         except Exception as e:
@@ -619,24 +631,12 @@ def build(mode: str) -> dict:
                 "n_co": len(v)} for g, v in sec_map.items()]
     sectors.sort(key=lambda x: x["med"], reverse=True)
 
-    # 시장 배지 (코스피 기준) — 데모는 합성, 실시간은 yfinance
+    # 시장 배지 (코스피200=KODEX200 기준) — 시세 일괄 다운로드에서 산출한
+    # 벤치마크 수익률을 재사용(신뢰성 가드 통과 시에만 값, 아니면 None→'—').
     if mode == "demo":
         market = {"vix": 18.5, "vix_state": "경계", "spy3": 4.2, "spy6": 7.8}
     else:
-        import yfinance as yf
-        def chg(sym, n):
-            try:
-                c = yf.Ticker(sym).history(period="10mo")["Close"].dropna()
-                return round((c.iloc[-1] / c.iloc[-n] - 1) * 100, 1)
-            except Exception:
-                return None
-        vk = None
-        try:
-            vk = round(float(yf.Ticker("^KS11").history(period="5d")["Close"].iloc[-1]), 0)
-        except Exception:
-            pass
-        market = {"vix": 18.5, "vix_state": "—",
-                  "spy3": chg(BENCH_SYM, 63), "spy6": chg(BENCH_SYM, 126)}
+        market = {"vix": 18.5, "vix_state": "—", "spy3": spy3, "spy6": spy6}
 
     return {"updated": date.today().isoformat(), "demo": (mode == "demo"),
             "market": market, "sectors": sectors, "subs": subs}
