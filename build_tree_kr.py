@@ -420,42 +420,12 @@ def _price_maps(tickers: list[str]):
     return out, spy3, spy6
 
 
-def _per_map_yf(tickers: list[str]) -> dict:
-    """{종목코드6: PER} — yfinance .info(trailingPE, 없으면 forwardPE) 병렬 수집.
-
-    KRX(pykrx)·네이버는 해외(Actions) IP 를 막지만 Yahoo 는 허용하므로,
-    클라우드 자동 빌드에서 PER 의 안정적 출처가 된다. 결측·적자는 제외.
-    """
-    import yfinance as yf
-    from concurrent.futures import ThreadPoolExecutor, as_completed
-
-    def one(tk):
-        try:
-            info = yf.Ticker(tk).info or {}
-            pe = info.get("trailingPE") or info.get("forwardPE")
-            pe = float(pe) if pe is not None else None
-            return tk.split(".")[0], (round(pe, 1) if pe and pe > 0 else None)
-        except Exception:
-            return tk.split(".")[0], None
-
-    out = {}
-    with ThreadPoolExecutor(max_workers=10) as ex:
-        for f in as_completed([ex.submit(one, tk) for tk in tickers]):
-            try:
-                c6, pe = f.result()
-            except Exception:
-                continue
-            if pe is not None:
-                out[c6] = pe
-    return out
-
-
 def _member_dart(key: str, tk: str, nm: str, corp_map: dict) -> dict:
     """DART 연결재무 기반 스프레드. 시세·PER·수급은 build()에서 일괄 merge."""
     import dart
     code6 = tk.split(".")[0]
     cc = corp_map.get(code6)
-    rev = op = spread = q_spread = q_op = accel = None
+    rev = op = spread = q_spread = q_op = accel = eps = None
     q_note = "정상"
     if cc:
         yr = date.today().year
@@ -466,6 +436,7 @@ def _member_dart(key: str, tk: str, nm: str, corp_map: dict) -> dict:
                 break
         if ann:
             rev, op, spread = ann["rev"], ann["op"], ann["spread"]
+            eps = ann.get("eps")             # PER = 종가 ÷ EPS (merge 에서 계산)
         # ① 정밀 4분기 롤링 TTM (누적공시 역산) — 미국판과 동일
         ttm = dart.ttm_yoy(key, cc)
         if ttm:
@@ -490,7 +461,7 @@ def _member_dart(key: str, tk: str, nm: str, corp_map: dict) -> dict:
 
     return {
         "tk": tk, "nm": nm, "spread": spread, "q_spread": q_spread,
-        "accel": accel, "op": op, "rev": rev, "q_op": q_op,
+        "accel": accel, "op": op, "rev": rev, "q_op": q_op, "_eps": eps,
         "q_note": q_note, "d_until": None,
         "ir": {"date": datetime.today().strftime("%Y-%m"), "docs": [
             {"label": "DART 사업·분기보고서", "url": _dart_url(tk)}]},
@@ -538,13 +509,8 @@ def build(mode: str) -> dict:
             print(f"  → 시세 {ok}/{len(tickers)}종목")
         except Exception as e:
             print(f"  (시세 생략: {e})")
-        # PER: yfinance(Yahoo) — KRX/네이버와 달리 해외(Actions) IP 허용. 안정적.
-        try:
-            print("· PER 수집(yfinance)…")
-            per_m = _per_map_yf(tickers)
-            print(f"  → PER {len(per_m)}/{len(tickers)}종목")
-        except Exception as e:
-            print(f"  (PER 생략: {e})")
+        # PER 은 DART EPS(이미 받은 손익 응답에서 추출) ÷ 종가로 merge 단계에서 계산
+        # — 느린 yfinance .info(196회) 제거로 빌드 시간·에러 대폭 감소.
         # 수급·지분율: pykrx. 로컬(한국 IP)에선 정상 수집, 해외 Actions 에선 KRX 가
         # 차단해 공란 → 도구의 '종목 상세 → AI 웹검색'이 외국인·기관 동향을 보완.
         try:
@@ -603,7 +569,11 @@ def build(mode: str) -> dict:
             m["rs3"], m["rs6"] = pm.get("rs3"), pm.get("rs6")
             m["gap"], m["gaplvl"] = pm.get("gap"), pm.get("gaplvl", "M")
             m["from_high"] = pm.get("from_high")
-            m["pe"], m["fpe"], m["peg"] = per_m.get(c6), None, None
+            # PER = 종가 ÷ DART EPS (양수일 때만). yfinance .info 없이 산출.
+            eps, close = m.pop("_eps", None), pm.get("close")
+            m["pe"] = (round(close / eps, 1)
+                       if (eps and eps > 0 and close) else per_m.get(c6))
+            m["fpe"], m["peg"] = None, None
             fn, ino = fnet_m.get(c6), inet_m.get(c6)
             m["foreign_net"], m["inst_net"] = fn, ino
             m["foreign_pct"] = fpct_map.get(c6)
