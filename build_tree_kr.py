@@ -362,7 +362,7 @@ def _price_maps(tickers: list[str], bench) -> dict:
     """
     import yfinance as yf
     out = {tk: {"rs3": None, "rs6": None, "gap": None,
-                "gaplvl": "M", "from_high": None} for tk in tickers}
+                "gaplvl": "M", "from_high": None, "close": None} for tk in tickers}
     try:
         data = yf.download(tickers, period="1y", auto_adjust=True,
                            group_by="ticker", threads=True, progress=False)
@@ -385,6 +385,7 @@ def _price_maps(tickers: list[str], bench) -> dict:
         if c is None or len(c) == 0:
             continue
         rec = out[tk]
+        rec["close"] = float(c.iloc[-1])
         hi = float(c.iloc[-252:].max())
         rec["from_high"] = round((float(c.iloc[-1]) / hi - 1) * 100, 1) if hi else None
         if len(c) > 130 and have_bench:
@@ -496,15 +497,63 @@ def build(mode: str) -> dict:
         except Exception as e:
             print(f"  (시세 생략: {e})")
         try:
+            import contextlib
+            import io as _io
             import supply as _sup
             print("· PER·수급·지분율 일괄 로드(pykrx)…")
-            per_m = _sup.per_map()
-            fnet_m, inet_m = _sup.net_flow_maps(20)
-            fpct_map = _sup.foreign_pct_map()
-            print(f"  → PER {len(per_m)} · 외국인순매수 {len(fnet_m)} · "
-                  f"기관순매수 {len(inet_m)} · 지분율 {len(fpct_map)}")
+            # pykrx 는 KRX 응답이 비면 "Expecting value…" 를 종목마다 stdout 으로
+            # 쏟아낸다(해외 IP 차단 시 전부 빈 응답). 로그 오염 방지로 캡처.
+            with contextlib.redirect_stdout(_io.StringIO()):
+                per_m = _sup.per_map()
+                fnet_m, inet_m = _sup.net_flow_maps(20)
+                fpct_map = _sup.foreign_pct_map()
+            if per_m or fnet_m or fpct_map:
+                print(f"  → PER {len(per_m)} · 외국인순매수 {len(fnet_m)} · "
+                      f"기관순매수 {len(inet_m)} · 지분율 {len(fpct_map)}")
+            else:
+                print("  ⚠ KRX(pykrx) 응답 없음(해외 IP 차단 추정) "
+                      "→ 네이버 금융 폴백 시도…")
         except Exception as e:
             print(f"  (pykrx 생략: {e})")
+
+        # ── 클라우드 폴백: pykrx 가 비면 네이버에서 종목별로 PER·수급·지분율 ──
+        if not (per_m or fnet_m or fpct_map):
+            try:
+                import naver as _nv
+                from concurrent.futures import ThreadPoolExecutor, as_completed
+                got = 0
+                with contextlib.redirect_stdout(_io.StringIO()), \
+                        ThreadPoolExecutor(max_workers=8) as ex:
+                    def _nv_one(tk):
+                        c6 = tk.split(".")[0]
+                        close = (price_maps.get(tk) or {}).get("close")
+                        return c6, _nv.enrich(c6, 20, close)
+                    nvf = {ex.submit(_nv_one, tk): tk for tk in tickers}
+                    for f in as_completed(nvf):
+                        try:
+                            c6, d = f.result()
+                        except Exception:
+                            continue
+                        if d.get("per") is not None:
+                            per_m[c6] = d["per"]
+                        if d.get("foreign_pct") is not None:
+                            fpct_map[c6] = d["foreign_pct"]
+                        if d.get("foreign_net") is not None:
+                            fnet_m[c6] = d["foreign_net"]
+                        if d.get("inst_net") is not None:
+                            inet_m[c6] = d["inst_net"]
+                        if any(d.get(k) is not None for k in
+                               ("per", "foreign_net", "foreign_pct")):
+                            got += 1
+                if got:
+                    print(f"  → 네이버 폴백 성공: {got}/{len(tickers)}종목 "
+                          f"(PER {len(per_m)} · 외국인순매수 {len(fnet_m)} · "
+                          f"지분율 {len(fpct_map)})")
+                else:
+                    print("  ⚠ 네이버도 응답 없음 — 수급·PER 생략"
+                          "(DART 재무·랭킹은 정상).")
+            except Exception as e:
+                print(f"  (네이버 폴백 생략: {e})")
 
     # 세부산업별 멤버 구성 — 재무(DART/yfinance)는 종목별이라 병렬로 수집.
     def _one(entry):
