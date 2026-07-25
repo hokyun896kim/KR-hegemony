@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-18",
+ "updated": "2026-07-25",
  "demo": false,
  "market": {
   "vix": 18.5,
   "vix_state": "—",
-  "spy3": 18.2,
-  "spy6": 62.1
+  "spy3": 9.8,
+  "spy6": 49.0
  },
  "sectors": [
   {
@@ -28,21 +28,27 @@
   },
   {
    "gics": "바이오·헬스케어",
-   "med": 6.8,
+   "med": 4.6,
    "n_sub": 3,
    "n_co": 22
+  },
+  {
+   "gics": "소재·산업재",
+   "med": 4.0,
+   "n_sub": 7,
+   "n_co": 37
+  },
+  {
+   "gics": "인터넷·게임",
+   "med": 3.6,
+   "n_sub": 2,
+   "n_co": 12
   },
   {
    "gics": "소비재",
    "med": 1.3,
    "n_sub": 4,
    "n_co": 24
-  },
-  {
-   "gics": "소재·산업재",
-   "med": 0.3,
-   "n_sub": 7,
-   "n_co": 37
   },
   {
    "gics": "금융",
@@ -73,12 +79,6 @@
    "med": -8.9,
    "n_sub": 1,
    "n_co": 4
-  },
-  {
-   "gics": "인터넷·게임",
-   "med": -10.4,
-   "n_sub": 2,
-   "n_co": 12
   },
   {
    "gics": "통신·유틸리티",
@@ -120,12 +120,12 @@
        }
       ]
      },
-     "rs3": -49.3,
-     "rs6": -102.6,
+     "rs3": -44.7,
+     "rs6": -89.9,
      "gap": 20.1,
      "gaplvl": "H",
-     "from_high": -42.2,
-     "pe": 21.6,
+     "from_high": -41.4,
+     "pe": 21.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -153,12 +153,12 @@
        }
       ]
      },
-     "rs3": -30.0,
-     "rs6": -82.0,
+     "rs3": -29.5,
+     "rs6": -63.6,
      "gap": 4.5,
      "gaplvl": "M",
-     "from_high": -26.1,
-     "pe": 11.5,
+     "from_high": -22.3,
+     "pe": 12.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -219,12 +219,12 @@
        }
       ]
      },
-     "rs3": -38.8,
-     "rs6": -82.9,
+     "rs3": -37.8,
+     "rs6": -77.1,
      "gap": 7.9,
      "gaplvl": "M",
-     "from_high": -35.2,
-     "pe": 34.9,
+     "from_high": -33.4,
+     "pe": 35.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -234,148 +234,6 @@
     }
    ],
    "med": 149.2,
-   "n": 4
-  },
-  {
-   "sic": "DISP",
-   "ko": "디스플레이",
-   "desc": "DISP",
-   "gics": "IT·반도체",
-   "members": [
-    {
-     "tk": "056190.KQ",
-     "nm": "에스에프에이",
-     "spread": 297.7,
-     "q_spread": 212.4,
-     "accel": -85.3,
-     "op": 277.4,
-     "rev": -20.3,
-     "q_op": 197.6,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=056190"
-       }
-      ]
-     },
-     "rs3": -47.1,
-     "rs6": -75.3,
-     "gap": 5.3,
-     "gaplvl": "M",
-     "from_high": -41.9,
-     "pe": 10.8,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "034220.KS",
-     "nm": "LG디스플레이",
-     "spread": 195.2,
-     "q_spread": 1200.1,
-     "accel": 1004.9,
-     "op": 192.2,
-     "rev": -3.0,
-     "q_op": 1192.3,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=034220"
-       }
-      ]
-     },
-     "rs3": -41.7,
-     "rs6": -75.2,
-     "gap": 9.9,
-     "gaplvl": "H",
-     "from_high": -37.6,
-     "pe": 23.0,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "108320.KQ",
-     "nm": "LX세미콘",
-     "spread": -22.7,
-     "q_spread": -43.7,
-     "accel": -21.0,
-     "op": -34.8,
-     "rev": -12.1,
-     "q_op": -61.4,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=108320"
-       }
-      ]
-     },
-     "rs3": null,
-     "rs6": null,
-     "gap": null,
-     "gaplvl": "M",
-     "from_high": 0.0,
-     "pe": 7.7,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "213420.KQ",
-     "nm": "덕산네오룩스",
-     "spread": -46.5,
-     "q_spread": -61.4,
-     "accel": -14.9,
-     "op": 15.8,
-     "rev": 62.2,
-     "q_op": 30.4,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=213420"
-       }
-      ]
-     },
-     "rs3": -55.7,
-     "rs6": -75.0,
-     "gap": 4.9,
-     "gaplvl": "M",
-     "from_high": -43.1,
-     "pe": 14.7,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    }
-   ],
-   "med": 86.2,
    "n": 4
   },
   {
@@ -404,11 +262,11 @@
        }
       ]
      },
-     "rs3": -36.3,
-     "rs6": -74.0,
+     "rs3": -41.8,
+     "rs6": -66.3,
      "gap": 12.0,
      "gaplvl": "H",
-     "from_high": -35.0,
+     "from_high": -35.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -437,11 +295,11 @@
        }
       ]
      },
-     "rs3": -44.6,
-     "rs6": -80.6,
+     "rs3": -43.7,
+     "rs6": -71.8,
      "gap": 8.2,
      "gaplvl": "H",
-     "from_high": -39.3,
+     "from_high": -39.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -470,11 +328,11 @@
        }
       ]
      },
-     "rs3": -25.9,
-     "rs6": -5.8,
+     "rs3": -44.9,
+     "rs6": -12.7,
      "gap": 11.3,
      "gaplvl": "H",
-     "from_high": -39.0,
+     "from_high": -39.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -513,12 +371,12 @@
        }
       ]
      },
-     "rs3": -42.1,
-     "rs6": -103.2,
+     "rs3": -36.8,
+     "rs6": -93.0,
      "gap": 4.2,
      "gaplvl": "M",
-     "from_high": -62.4,
-     "pe": 20.2,
+     "from_high": -62.8,
+     "pe": 20.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -546,11 +404,11 @@
        }
       ]
      },
-     "rs3": -42.2,
-     "rs6": -102.5,
+     "rs3": -34.5,
+     "rs6": -87.8,
      "gap": 3.4,
      "gaplvl": "L",
-     "from_high": -53.6,
+     "from_high": -53.1,
      "pe": 4.6,
      "fpe": null,
      "peg": null,
@@ -579,12 +437,12 @@
        }
       ]
      },
-     "rs3": -41.6,
-     "rs6": -94.3,
+     "rs3": -39.1,
+     "rs6": -83.8,
      "gap": 5.5,
      "gaplvl": "M",
-     "from_high": -44.4,
-     "pe": 9.6,
+     "from_high": -46.5,
+     "pe": 9.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -612,11 +470,11 @@
        }
       ]
      },
-     "rs3": -36.6,
-     "rs6": -99.2,
+     "rs3": -25.0,
+     "rs6": -91.1,
      "gap": 7.3,
      "gaplvl": "M",
-     "from_high": -48.4,
+     "from_high": -47.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -655,12 +513,12 @@
        }
       ]
      },
-     "rs3": -62.9,
-     "rs6": -52.9,
+     "rs3": -46.9,
+     "rs6": -50.1,
      "gap": 12.9,
      "gaplvl": "H",
-     "from_high": -47.5,
-     "pe": 29.8,
+     "from_high": -43.7,
+     "pe": 32.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -688,12 +546,12 @@
        }
       ]
      },
-     "rs3": -51.6,
-     "rs6": -15.6,
+     "rs3": -37.3,
+     "rs6": 15.9,
      "gap": 16.2,
      "gaplvl": "H",
-     "from_high": -36.7,
-     "pe": 25.4,
+     "from_high": -29.8,
+     "pe": 28.2,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -721,12 +579,12 @@
        }
       ]
      },
-     "rs3": -59.5,
-     "rs6": -18.9,
+     "rs3": -45.3,
+     "rs6": -1.6,
      "gap": 11.5,
      "gaplvl": "H",
-     "from_high": -41.3,
-     "pe": 6.9,
+     "from_high": -38.3,
+     "pe": 7.2,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -754,12 +612,12 @@
        }
       ]
      },
-     "rs3": -41.5,
-     "rs6": -72.4,
+     "rs3": -25.4,
+     "rs6": -45.8,
      "gap": 3.9,
      "gaplvl": "L",
-     "from_high": -25.8,
-     "pe": 7.3,
+     "from_high": -15.6,
+     "pe": 8.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -787,12 +645,12 @@
        }
       ]
      },
-     "rs3": -5.7,
-     "rs6": -32.8,
+     "rs3": 3.8,
+     "rs6": -30.7,
      "gap": 13.4,
      "gaplvl": "H",
-     "from_high": -35.3,
-     "pe": 23.2,
+     "from_high": -36.1,
+     "pe": 22.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -820,12 +678,12 @@
        }
       ]
      },
-     "rs3": -40.2,
-     "rs6": 0.6,
+     "rs3": -15.7,
+     "rs6": 41.0,
      "gap": 14.7,
      "gaplvl": "H",
-     "from_high": -36.6,
-     "pe": 13.0,
+     "from_high": -26.1,
+     "pe": 15.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -853,11 +711,11 @@
        }
       ]
      },
-     "rs3": -65.0,
-     "rs6": 233.5,
+     "rs3": -62.8,
+     "rs6": 190.2,
      "gap": 16.6,
      "gaplvl": "H",
-     "from_high": -59.2,
+     "from_high": -58.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -869,6 +727,181 @@
    ],
    "med": 37.2,
    "n": 7
+  },
+  {
+   "sic": "STEEL",
+   "ko": "철강·비철",
+   "desc": "STEEL",
+   "gics": "소재·산업재",
+   "members": [
+    {
+     "tk": "004020.KS",
+     "nm": "현대제철",
+     "spread": 39.6,
+     "q_spread": 199.7,
+     "accel": 160.1,
+     "op": 37.5,
+     "rev": -2.1,
+     "q_op": 200.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=004020"
+       }
+      ]
+     },
+     "rs3": -40.6,
+     "rs6": -60.3,
+     "gap": 7.4,
+     "gaplvl": "M",
+     "from_high": -39.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "010130.KS",
+     "nm": "고려아연",
+     "spread": 32.7,
+     "q_spread": 71.4,
+     "accel": 38.7,
+     "op": 70.3,
+     "rev": 37.6,
+     "q_op": 110.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=010130"
+       }
+      ]
+     },
+     "rs3": -46.3,
+     "rs6": -80.9,
+     "gap": 9.2,
+     "gaplvl": "H",
+     "from_high": -49.0,
+     "pe": 25.3,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "103140.KS",
+     "nm": "풍산",
+     "spread": 31.2,
+     "q_spread": 19.4,
+     "accel": -11.8,
+     "op": 41.6,
+     "rev": 10.4,
+     "q_op": 29.3,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=103140"
+       }
+      ]
+     },
+     "rs3": -42.4,
+     "rs6": -92.6,
+     "gap": 7.3,
+     "gaplvl": "M",
+     "from_high": -57.8,
+     "pe": 7.9,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005490.KS",
+     "nm": "POSCO홀딩스",
+     "spread": -11.0,
+     "q_spread": -5.4,
+     "accel": 5.6,
+     "op": -15.9,
+     "rev": -4.9,
+     "q_op": -9.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005490"
+       }
+      ]
+     },
+     "rs3": -34.7,
+     "rs6": -58.0,
+     "gap": 7.4,
+     "gaplvl": "M",
+     "from_high": -41.2,
+     "pe": 36.0,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "000670.KS",
+     "nm": "영풍",
+     "spread": -66.0,
+     "q_spread": -13.9,
+     "accel": 52.1,
+     "op": -61.6,
+     "rev": 4.4,
+     "q_op": 7.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000670"
+       }
+      ]
+     },
+     "rs3": -56.9,
+     "rs6": -81.9,
+     "gap": 8.1,
+     "gaplvl": "H",
+     "from_high": -49.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 31.2,
+   "n": 5
   },
   {
    "sic": "SEC",
@@ -896,12 +929,45 @@
        }
       ]
      },
-     "rs3": -52.1,
-     "rs6": -58.8,
+     "rs3": -43.9,
+     "rs6": -50.1,
      "gap": 6.8,
      "gaplvl": "M",
-     "from_high": -45.6,
+     "from_high": -45.8,
      "pe": 10.7,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "016360.KS",
+     "nm": "삼성증권",
+     "spread": 42.6,
+     "q_spread": 4.7,
+     "accel": -37.9,
+     "op": 62.7,
+     "rev": 20.1,
+     "q_op": 82.1,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=016360"
+       }
+      ]
+     },
+     "rs3": -18.1,
+     "rs6": -28.9,
+     "gap": 16.8,
+     "gaplvl": "H",
+     "from_high": -32.9,
+     "pe": 10.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -929,12 +995,12 @@
        }
       ]
      },
-     "rs3": -60.7,
-     "rs6": -20.7,
+     "rs3": -56.4,
+     "rs6": -32.2,
      "gap": 11.2,
      "gaplvl": "H",
-     "from_high": -52.2,
-     "pe": 14.9,
+     "from_high": -56.0,
+     "pe": 13.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -962,45 +1028,12 @@
        }
       ]
      },
-     "rs3": -17.3,
-     "rs6": -49.1,
+     "rs3": -3.0,
+     "rs6": -31.1,
      "gap": 5.4,
      "gaplvl": "M",
-     "from_high": -19.1,
-     "pe": 9.7,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "016360.KS",
-     "nm": "삼성증권",
-     "spread": 9.9,
-     "q_spread": 14.2,
-     "accel": 4.3,
-     "op": 14.1,
-     "rev": 4.2,
-     "q_op": 36.5,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=016360"
-       }
-      ]
-     },
-     "rs3": -21.3,
-     "rs6": -21.5,
-     "gap": 16.8,
-     "gaplvl": "H",
-     "from_high": -28.0,
-     "pe": 9.5,
+     "from_high": -15.7,
+     "pe": 10.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1028,12 +1061,12 @@
        }
       ]
      },
-     "rs3": -49.1,
-     "rs6": -58.6,
+     "rs3": -42.6,
+     "rs6": -56.2,
      "gap": 9.6,
      "gaplvl": "H",
-     "from_high": -35.0,
-     "pe": 7.3,
+     "from_high": -39.8,
+     "pe": 6.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1061,11 +1094,11 @@
        }
       ]
      },
-     "rs3": -30.5,
-     "rs6": -9.0,
+     "rs3": -28.2,
+     "rs6": -14.8,
      "gap": 6.3,
      "gaplvl": "M",
-     "from_high": -19.4,
+     "from_high": -24.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1075,7 +1108,7 @@
      "supply": "— 수급 미확인"
     }
    ],
-   "med": 29.2,
+   "med": 29.5,
    "n": 6
   },
   {
@@ -1106,9 +1139,9 @@
      },
      "rs3": null,
      "rs6": null,
-     "gap": null,
+     "gap": 4.3,
      "gaplvl": "M",
-     "from_high": 0.0,
+     "from_high": -13.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1137,12 +1170,12 @@
        }
       ]
      },
-     "rs3": -64.0,
-     "rs6": -115.2,
+     "rs3": -54.2,
+     "rs6": -100.0,
      "gap": 2.8,
      "gaplvl": "L",
-     "from_high": -63.4,
-     "pe": 20.6,
+     "from_high": -62.1,
+     "pe": 21.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1170,12 +1203,12 @@
        }
       ]
      },
-     "rs3": -60.7,
-     "rs6": -117.2,
+     "rs3": -51.7,
+     "rs6": -104.3,
      "gap": 2.6,
      "gaplvl": "L",
-     "from_high": -59.4,
-     "pe": 59.5,
+     "from_high": -59.1,
+     "pe": 59.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1213,12 +1246,12 @@
        }
       ]
      },
-     "rs3": -50.3,
-     "rs6": -83.5,
+     "rs3": -54.8,
+     "rs6": -77.0,
      "gap": 9.0,
      "gaplvl": "H",
-     "from_high": -50.1,
-     "pe": 2894.1,
+     "from_high": -52.2,
+     "pe": 2776.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1246,12 +1279,12 @@
        }
       ]
      },
-     "rs3": -62.7,
-     "rs6": -87.8,
+     "rs3": -60.1,
+     "rs6": -78.7,
      "gap": 5.8,
      "gaplvl": "M",
-     "from_high": -54.3,
-     "pe": 278.9,
+     "from_high": -56.0,
+     "pe": 268.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1279,11 +1312,11 @@
        }
       ]
      },
-     "rs3": -64.1,
-     "rs6": -76.7,
+     "rs3": -62.3,
+     "rs6": -66.7,
      "gap": 8.5,
      "gaplvl": "H",
-     "from_high": -56.7,
+     "from_high": -57.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1312,11 +1345,11 @@
        }
       ]
      },
-     "rs3": -62.7,
-     "rs6": -93.3,
+     "rs3": -61.9,
+     "rs6": -80.6,
      "gap": 7.2,
      "gaplvl": "M",
-     "from_high": -57.0,
+     "from_high": -57.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1345,11 +1378,11 @@
        }
       ]
      },
-     "rs3": -64.3,
-     "rs6": -80.5,
+     "rs3": -67.7,
+     "rs6": -77.8,
      "gap": 10.7,
      "gaplvl": "H",
-     "from_high": -56.8,
+     "from_high": -61.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1378,12 +1411,12 @@
        }
       ]
      },
-     "rs3": -60.6,
-     "rs6": -81.2,
+     "rs3": -60.2,
+     "rs6": -75.4,
      "gap": 5.5,
      "gaplvl": "M",
-     "from_high": -50.9,
-     "pe": 9.3,
+     "from_high": -51.8,
+     "pe": 9.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1411,11 +1444,11 @@
        }
       ]
      },
-     "rs3": -50.1,
-     "rs6": -68.5,
+     "rs3": -45.3,
+     "rs6": -50.6,
      "gap": 5.8,
      "gaplvl": "M",
-     "from_high": -49.0,
+     "from_high": -45.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1444,11 +1477,11 @@
        }
       ]
      },
-     "rs3": -58.3,
-     "rs6": -124.8,
+     "rs3": -75.7,
+     "rs6": -120.1,
      "gap": 22.9,
      "gaplvl": "H",
-     "from_high": -76.0,
+     "from_high": -81.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1477,11 +1510,11 @@
        }
       ]
      },
-     "rs3": -50.0,
-     "rs6": -75.4,
+     "rs3": -56.5,
+     "rs6": -71.7,
      "gap": 11.3,
      "gaplvl": "H",
-     "from_high": -42.7,
+     "from_high": -46.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1510,11 +1543,11 @@
        }
       ]
      },
-     "rs3": -48.4,
-     "rs6": -54.2,
+     "rs3": -61.2,
+     "rs6": -61.5,
      "gap": 17.6,
      "gaplvl": "H",
-     "from_high": -58.9,
+     "from_high": -61.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1553,12 +1586,12 @@
        }
       ]
      },
-     "rs3": 44.0,
-     "rs6": 84.3,
+     "rs3": 34.1,
+     "rs6": 81.7,
      "gap": 11.1,
      "gaplvl": "H",
-     "from_high": -36.9,
-     "pe": 29.7,
+     "from_high": -39.7,
+     "pe": 28.4,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1586,12 +1619,12 @@
        }
       ]
      },
-     "rs3": 2.7,
-     "rs6": 22.0,
+     "rs3": 4.9,
+     "rs6": 18.5,
      "gap": 10.9,
      "gaplvl": "H",
-     "from_high": -29.7,
-     "pe": 38.6,
+     "from_high": -31.2,
+     "pe": 37.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1619,12 +1652,12 @@
        }
       ]
      },
-     "rs3": -7.0,
-     "rs6": -12.6,
-     "gap": 13.2,
+     "rs3": -31.6,
+     "rs6": -31.3,
+     "gap": 12.6,
      "gaplvl": "H",
-     "from_high": -50.3,
-     "pe": 17.4,
+     "from_high": -54.6,
+     "pe": 15.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1662,12 +1695,12 @@
        }
       ]
      },
-     "rs3": -45.8,
-     "rs6": -100.3,
+     "rs3": -35.1,
+     "rs6": -85.0,
      "gap": 6.0,
      "gaplvl": "M",
-     "from_high": -46.9,
-     "pe": 31.5,
+     "from_high": -46.5,
+     "pe": 31.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1695,12 +1728,12 @@
        }
       ]
      },
-     "rs3": -28.2,
-     "rs6": -87.0,
+     "rs3": -12.8,
+     "rs6": -60.9,
      "gap": 7.3,
      "gaplvl": "M",
-     "from_high": -33.1,
-     "pe": 14.6,
+     "from_high": -26.9,
+     "pe": 16.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1738,12 +1771,12 @@
        }
       ]
      },
-     "rs3": -41.6,
-     "rs6": -93.3,
+     "rs3": -40.0,
+     "rs6": -82.4,
      "gap": 3.9,
      "gaplvl": "L",
-     "from_high": -40.3,
-     "pe": 6.5,
+     "from_high": -44.3,
+     "pe": 6.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1771,11 +1804,11 @@
        }
       ]
      },
-     "rs3": -39.0,
-     "rs6": -88.7,
+     "rs3": -28.1,
+     "rs6": -72.8,
      "gap": 2.4,
      "gaplvl": "L",
-     "from_high": -33.7,
+     "from_high": -33.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1804,12 +1837,12 @@
        }
       ]
      },
-     "rs3": -45.4,
-     "rs6": -98.7,
-     "gap": 4.5,
+     "rs3": -31.0,
+     "rs6": -77.9,
+     "gap": 7.8,
      "gaplvl": "M",
-     "from_high": -47.6,
-     "pe": 27.2,
+     "from_high": -39.8,
+     "pe": 28.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1837,12 +1870,12 @@
        }
       ]
      },
-     "rs3": -39.6,
-     "rs6": -90.7,
+     "rs3": -24.6,
+     "rs6": -69.6,
      "gap": 5.0,
      "gaplvl": "M",
-     "from_high": -37.2,
-     "pe": 7.2,
+     "from_high": -34.2,
+     "pe": 7.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1870,12 +1903,12 @@
        }
       ]
      },
-     "rs3": -42.8,
-     "rs6": -81.6,
+     "rs3": -30.5,
+     "rs6": -60.5,
      "gap": 16.1,
      "gaplvl": "H",
-     "from_high": -38.1,
-     "pe": 28.9,
+     "from_high": -37.2,
+     "pe": 29.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1903,12 +1936,12 @@
        }
       ]
      },
-     "rs3": -40.7,
-     "rs6": -74.0,
+     "rs3": -30.0,
+     "rs6": -58.8,
      "gap": 7.5,
      "gaplvl": "M",
-     "from_high": -36.6,
-     "pe": 9.6,
+     "from_high": -36.8,
+     "pe": 9.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1919,13 +1952,13 @@
     {
      "tk": "185750.KS",
      "nm": "종근당",
-     "spread": -25.7,
-     "q_spread": -5.6,
-     "accel": 20.1,
-     "op": -19.0,
-     "rev": 6.7,
-     "q_op": 1.4,
-     "q_note": "정상",
+     "spread": -54.7,
+     "q_spread": 1.5,
+     "accel": 56.2,
+     "op": -59.7,
+     "rev": -5.0,
+     "q_op": 13.1,
+     "q_note": "분기 근사(누적)",
      "d_until": null,
      "ir": {
       "date": "2026-07",
@@ -1936,12 +1969,12 @@
        }
       ]
      },
-     "rs3": -42.2,
-     "rs6": -78.7,
+     "rs3": -31.1,
+     "rs6": -66.5,
      "gap": 2.6,
      "gaplvl": "L",
-     "from_high": -30.1,
-     "pe": 11.6,
+     "from_high": -29.8,
+     "pe": 8.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -1969,11 +2002,11 @@
        }
       ]
      },
-     "rs3": -72.9,
-     "rs6": -115.2,
+     "rs3": -65.0,
+     "rs6": -102.2,
      "gap": 29.9,
      "gaplvl": "H",
-     "from_high": -69.1,
+     "from_high": -70.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2012,12 +2045,12 @@
        }
       ]
      },
-     "rs3": -37.6,
-     "rs6": -72.0,
+     "rs3": -25.3,
+     "rs6": -58.0,
      "gap": 7.6,
      "gaplvl": "M",
-     "from_high": -33.8,
-     "pe": 15.0,
+     "from_high": -28.0,
+     "pe": 16.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2045,11 +2078,11 @@
        }
       ]
      },
-     "rs3": -18.4,
-     "rs6": -43.7,
+     "rs3": -12.7,
+     "rs6": -26.5,
      "gap": 6.8,
      "gaplvl": "M",
-     "from_high": -19.0,
+     "from_high": -13.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2078,12 +2111,12 @@
        }
       ]
      },
-     "rs3": 5.1,
-     "rs6": 4.8,
+     "rs3": 22.7,
+     "rs6": 19.3,
      "gap": 6.9,
      "gaplvl": "M",
      "from_high": 0.0,
-     "pe": 95.4,
+     "pe": 99.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2121,12 +2154,12 @@
        }
       ]
      },
-     "rs3": -36.6,
-     "rs6": -61.7,
+     "rs3": -29.5,
+     "rs6": -46.3,
      "gap": 5.4,
      "gaplvl": "M",
-     "from_high": -35.9,
-     "pe": 15.7,
+     "from_high": -33.8,
+     "pe": 16.2,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2154,11 +2187,11 @@
        }
       ]
      },
-     "rs3": -22.3,
-     "rs6": -57.2,
+     "rs3": -25.2,
+     "rs6": -46.4,
      "gap": 7.8,
      "gaplvl": "M",
-     "from_high": -31.1,
+     "from_high": -32.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2187,12 +2220,12 @@
        }
       ]
      },
-     "rs3": 65.2,
-     "rs6": 12.7,
+     "rs3": 31.4,
+     "rs6": -6.9,
      "gap": 6.4,
      "gaplvl": "M",
-     "from_high": -24.0,
-     "pe": 16.4,
+     "from_high": -37.4,
+     "pe": 13.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2220,12 +2253,12 @@
        }
       ]
      },
-     "rs3": 13.9,
-     "rs6": 45.9,
+     "rs3": -2.9,
+     "rs6": 24.8,
      "gap": 7.9,
      "gaplvl": "M",
-     "from_high": -30.3,
-     "pe": 77.2,
+     "from_high": -37.7,
+     "pe": 69.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2253,12 +2286,12 @@
        }
       ]
      },
-     "rs3": -2.9,
-     "rs6": -29.9,
+     "rs3": 1.4,
+     "rs6": -22.6,
      "gap": 3.8,
      "gaplvl": "L",
-     "from_high": -10.4,
-     "pe": 45.1,
+     "from_high": -12.6,
+     "pe": 44.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2286,10 +2319,10 @@
        }
       ]
      },
-     "rs3": -5.6,
-     "rs6": 11.0,
-     "gap": 9.7,
-     "gaplvl": "H",
+     "rs3": -0.4,
+     "rs6": 22.1,
+     "gap": 3.9,
+     "gaplvl": "L",
      "from_high": -4.1,
      "pe": 9.9,
      "fpe": null,
@@ -2319,12 +2352,12 @@
        }
       ]
      },
-     "rs3": -22.9,
-     "rs6": -38.8,
+     "rs3": -17.2,
+     "rs6": -37.8,
      "gap": 2.5,
      "gaplvl": "L",
-     "from_high": -14.5,
-     "pe": 11.2,
+     "from_high": -16.5,
+     "pe": 10.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2335,346 +2368,6 @@
    ],
    "med": 17.4,
    "n": 7
-  },
-  {
-   "sic": "BIO",
-   "ko": "바이오",
-   "desc": "BIO",
-   "gics": "바이오·헬스케어",
-   "members": [
-    {
-     "tk": "196170.KQ",
-     "nm": "알테오젠",
-     "spread": 210.9,
-     "q_spread": -11.2,
-     "accel": -222.1,
-     "op": 320.8,
-     "rev": 109.9,
-     "q_op": 23.2,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=196170"
-       }
-      ]
-     },
-     "rs3": -44.1,
-     "rs6": -104.0,
-     "gap": 6.0,
-     "gaplvl": "M",
-     "from_high": -50.5,
-     "pe": 104.2,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "068270.KS",
-     "nm": "셀트리온",
-     "spread": 120.5,
-     "q_spread": 92.3,
-     "accel": -28.2,
-     "op": 137.5,
-     "rev": 17.0,
-     "q_op": 114.2,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=068270"
-       }
-      ]
-     },
-     "rs3": -26.8,
-     "rs6": -75.8,
-     "gap": 6.2,
-     "gaplvl": "M",
-     "from_high": -25.7,
-     "pe": 37.7,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "326030.KS",
-     "nm": "SK바이오팜",
-     "spread": 82.6,
-     "q_spread": 103.2,
-     "accel": 20.6,
-     "op": 111.7,
-     "rev": 29.1,
-     "q_op": 139.9,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=326030"
-       }
-      ]
-     },
-     "rs3": -43.1,
-     "rs6": -97.5,
-     "gap": 5.2,
-     "gaplvl": "M",
-     "from_high": -43.6,
-     "pe": 23.3,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "207940.KS",
-     "nm": "삼성바이오로직스",
-     "spread": 26.3,
-     "q_spread": 44.3,
-     "accel": 18.0,
-     "op": 56.6,
-     "rev": 30.3,
-     "q_op": 36.4,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=207940"
-       }
-      ]
-     },
-     "rs3": -31.1,
-     "rs6": -87.0,
-     "gap": 5.4,
-     "gaplvl": "M",
-     "from_high": -29.0,
-     "pe": 57.9,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "214450.KQ",
-     "nm": "파마리서치",
-     "spread": 16.9,
-     "q_spread": 13.3,
-     "accel": -3.6,
-     "op": 70.1,
-     "rev": 53.2,
-     "q_op": 57.5,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=214450"
-       }
-      ]
-     },
-     "rs3": -5.5,
-     "rs6": -87.6,
-     "gap": 9.9,
-     "gaplvl": "H",
-     "from_high": -52.2,
-     "pe": 22.5,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "145020.KQ",
-     "nm": "휴젤",
-     "spread": 6.9,
-     "q_spread": -0.7,
-     "accel": -7.6,
-     "op": 20.8,
-     "rev": 14.0,
-     "q_op": 15.6,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=145020"
-       }
-      ]
-     },
-     "rs3": -27.3,
-     "rs6": -63.7,
-     "gap": 4.7,
-     "gaplvl": "M",
-     "from_high": -33.5,
-     "pe": 18.3,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "085660.KQ",
-     "nm": "차바이오텍",
-     "spread": -3.1,
-     "q_spread": -28.2,
-     "accel": -25.1,
-     "op": 18.3,
-     "rev": 21.4,
-     "q_op": -12.4,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=085660"
-       }
-      ]
-     },
-     "rs3": -67.9,
-     "rs6": -97.7,
-     "gap": 7.8,
-     "gaplvl": "M",
-     "from_high": -61.8,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "028300.KQ",
-     "nm": "HLB",
-     "spread": -11.5,
-     "q_spread": -2.6,
-     "accel": 8.9,
-     "op": 12.1,
-     "rev": 23.6,
-     "q_op": 11.5,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=028300"
-       }
-      ]
-     },
-     "rs3": -66.4,
-     "rs6": -97.3,
-     "gap": 29.9,
-     "gaplvl": "H",
-     "from_high": -48.2,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "302440.KS",
-     "nm": "SK바이오사이언스",
-     "spread": -132.7,
-     "q_spread": -88.3,
-     "accel": 44.4,
-     "op": 10.8,
-     "rev": 143.5,
-     "q_op": -21.9,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=302440"
-       }
-      ]
-     },
-     "rs3": -37.4,
-     "rs6": -87.4,
-     "gap": 4.9,
-     "gaplvl": "M",
-     "from_high": -41.0,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "141080.KQ",
-     "nm": "리가켐바이오",
-     "spread": -421.6,
-     "q_spread": -1250.0,
-     "accel": -828.4,
-     "op": -409.2,
-     "rev": 12.4,
-     "q_op": -1152.6,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=141080"
-       }
-      ]
-     },
-     "rs3": -64.5,
-     "rs6": -103.5,
-     "gap": 10.0,
-     "gaplvl": "H",
-     "from_high": -51.4,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    }
-   ],
-   "med": 11.9,
-   "n": 10
   },
   {
    "sic": "DEFENSE",
@@ -2702,12 +2395,12 @@
        }
       ]
      },
-     "rs3": -34.3,
-     "rs6": -27.8,
+     "rs3": -35.1,
+     "rs6": -10.9,
      "gap": 11.6,
      "gaplvl": "H",
-     "from_high": -26.6,
-     "pe": 64.5,
+     "from_high": -25.3,
+     "pe": 65.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2735,12 +2428,12 @@
        }
       ]
      },
-     "rs3": -39.7,
-     "rs6": -64.9,
+     "rs3": -24.7,
+     "rs6": -53.2,
      "gap": 9.6,
      "gaplvl": "H",
-     "from_high": -25.9,
-     "pe": 78.2,
+     "from_high": -21.5,
+     "pe": 82.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2768,12 +2461,12 @@
        }
       ]
      },
-     "rs3": -55.7,
-     "rs6": -84.3,
+     "rs3": -40.7,
+     "rs6": -75.4,
      "gap": 9.0,
      "gaplvl": "H",
-     "from_high": -38.6,
-     "pe": 33.1,
+     "from_high": -36.3,
+     "pe": 34.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2811,12 +2504,12 @@
        }
       ]
      },
-     "rs3": -20.3,
-     "rs6": -37.7,
+     "rs3": -13.0,
+     "rs6": -23.9,
      "gap": 3.4,
      "gaplvl": "L",
-     "from_high": -16.9,
-     "pe": 7.3,
+     "from_high": -18.2,
+     "pe": 7.2,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2844,12 +2537,12 @@
        }
       ]
      },
-     "rs3": -4.2,
-     "rs6": -13.7,
+     "rs3": 2.0,
+     "rs6": -8.6,
      "gap": 4.5,
      "gaplvl": "M",
-     "from_high": 0.0,
-     "pe": 9.8,
+     "from_high": -3.2,
+     "pe": 9.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -2877,11 +2570,11 @@
        }
       ]
      },
-     "rs3": -2.9,
-     "rs6": -15.3,
+     "rs3": -0.1,
+     "rs6": -14.3,
      "gap": 5.0,
      "gaplvl": "M",
-     "from_high": -2.7,
+     "from_high": -7.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2910,11 +2603,11 @@
        }
       ]
      },
-     "rs3": -9.3,
-     "rs6": -21.9,
+     "rs3": -3.1,
+     "rs6": -15.9,
      "gap": 6.1,
      "gaplvl": "M",
-     "from_high": -1.2,
+     "from_high": -4.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2943,11 +2636,11 @@
        }
       ]
      },
-     "rs3": -28.5,
-     "rs6": -44.5,
+     "rs3": -20.8,
+     "rs6": -34.0,
      "gap": 3.5,
      "gaplvl": "L",
-     "from_high": -20.7,
+     "from_high": -22.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2976,11 +2669,11 @@
        }
       ]
      },
-     "rs3": -28.0,
-     "rs6": -47.1,
+     "rs3": -19.2,
+     "rs6": -29.6,
      "gap": 4.6,
      "gaplvl": "M",
-     "from_high": -24.6,
+     "from_high": -26.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3009,11 +2702,11 @@
        }
       ]
      },
-     "rs3": -17.4,
-     "rs6": -28.3,
+     "rs3": -13.4,
+     "rs6": -12.2,
      "gap": 2.7,
      "gaplvl": "L",
-     "from_high": -11.9,
+     "from_high": -12.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3052,12 +2745,45 @@
        }
       ]
      },
-     "rs3": -50.2,
-     "rs6": -102.3,
+     "rs3": -39.2,
+     "rs6": -87.5,
      "gap": 5.8,
      "gaplvl": "M",
-     "from_high": -50.1,
-     "pe": 17.0,
+     "from_high": -47.8,
+     "pe": 17.8,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "002380.KS",
+     "nm": "KCC",
+     "spread": 44.9,
+     "q_spread": -16.5,
+     "accel": -61.4,
+     "op": 50.7,
+     "rev": 5.9,
+     "q_op": -14.8,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=002380"
+       }
+      ]
+     },
+     "rs3": -33.3,
+     "rs6": -48.8,
+     "gap": 8.0,
+     "gaplvl": "M",
+     "from_high": -38.0,
+     "pe": 10.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3085,11 +2811,11 @@
        }
       ]
      },
-     "rs3": 31.2,
-     "rs6": -12.7,
+     "rs3": 68.6,
+     "rs6": 29.4,
      "gap": 100.0,
      "gaplvl": "H",
-     "from_high": -23.1,
+     "from_high": -8.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3118,12 +2844,12 @@
        }
       ]
      },
-     "rs3": -31.2,
-     "rs6": -55.3,
+     "rs3": -31.5,
+     "rs6": -56.3,
      "gap": 13.1,
      "gaplvl": "H",
-     "from_high": -27.2,
-     "pe": 18.2,
+     "from_high": -32.9,
+     "pe": 16.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3151,11 +2877,11 @@
        }
       ]
      },
-     "rs3": -50.1,
-     "rs6": -72.9,
+     "rs3": -42.7,
+     "rs6": -65.7,
      "gap": 5.5,
      "gaplvl": "M",
-     "from_high": -48.3,
+     "from_high": -48.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3184,45 +2910,12 @@
        }
       ]
      },
-     "rs3": -25.8,
-     "rs6": -71.0,
+     "rs3": -20.7,
+     "rs6": -60.6,
      "gap": 5.5,
      "gaplvl": "M",
-     "from_high": -19.5,
-     "pe": 10.9,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "002380.KS",
-     "nm": "KCC",
-     "spread": -6.6,
-     "q_spread": -9.5,
-     "accel": -2.9,
-     "op": -9.2,
-     "rev": -2.6,
-     "q_op": -11.8,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=002380"
-       }
-      ]
-     },
-     "rs3": -41.4,
-     "rs6": -57.4,
-     "gap": 8.0,
-     "gaplvl": "M",
-     "from_high": -38.2,
-     "pe": 2.0,
+     "from_high": -18.9,
+     "pe": 11.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3250,11 +2943,11 @@
        }
       ]
      },
-     "rs3": -50.3,
-     "rs6": -82.5,
+     "rs3": -43.5,
+     "rs6": -73.9,
      "gap": 5.7,
      "gaplvl": "M",
-     "from_high": -45.8,
+     "from_high": -44.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3283,12 +2976,12 @@
        }
       ]
      },
-     "rs3": -58.4,
-     "rs6": -38.1,
+     "rs3": -49.3,
+     "rs6": -22.0,
      "gap": 7.8,
      "gaplvl": "M",
-     "from_high": -46.9,
-     "pe": 238.2,
+     "from_high": -47.0,
+     "pe": 237.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3297,8 +2990,348 @@
      "supply": "— 수급 미확인"
     }
    ],
-   "med": 3.5,
+   "med": 5.7,
    "n": 8
+  },
+  {
+   "sic": "BIO",
+   "ko": "바이오",
+   "desc": "BIO",
+   "gics": "바이오·헬스케어",
+   "members": [
+    {
+     "tk": "196170.KQ",
+     "nm": "알테오젠",
+     "spread": 210.9,
+     "q_spread": -11.2,
+     "accel": -222.1,
+     "op": 320.8,
+     "rev": 109.9,
+     "q_op": 23.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=196170"
+       }
+      ]
+     },
+     "rs3": -26.2,
+     "rs6": -88.4,
+     "gap": 6.0,
+     "gaplvl": "M",
+     "from_high": -46.2,
+     "pe": 113.3,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "068270.KS",
+     "nm": "셀트리온",
+     "spread": 120.5,
+     "q_spread": 92.3,
+     "accel": -28.2,
+     "op": 137.5,
+     "rev": 17.0,
+     "q_op": 114.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=068270"
+       }
+      ]
+     },
+     "rs3": -18.4,
+     "rs6": -58.7,
+     "gap": 6.2,
+     "gaplvl": "M",
+     "from_high": -25.0,
+     "pe": 38.0,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "326030.KS",
+     "nm": "SK바이오팜",
+     "spread": 82.6,
+     "q_spread": 103.2,
+     "accel": 20.6,
+     "op": 111.7,
+     "rev": 29.1,
+     "q_op": 139.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=326030"
+       }
+      ]
+     },
+     "rs3": -31.9,
+     "rs6": -80.8,
+     "gap": 5.2,
+     "gaplvl": "M",
+     "from_high": -42.7,
+     "pe": 23.6,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "207940.KS",
+     "nm": "삼성바이오로직스",
+     "spread": 26.3,
+     "q_spread": 44.3,
+     "accel": 18.0,
+     "op": 56.6,
+     "rev": 30.3,
+     "q_op": 36.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=207940"
+       }
+      ]
+     },
+     "rs3": -12.6,
+     "rs6": -70.0,
+     "gap": 5.4,
+     "gaplvl": "M",
+     "from_high": -22.7,
+     "pe": 63.0,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "145020.KQ",
+     "nm": "휴젤",
+     "spread": 6.9,
+     "q_spread": -0.7,
+     "accel": -7.6,
+     "op": 20.8,
+     "rev": 14.0,
+     "q_op": 15.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=145020"
+       }
+      ]
+     },
+     "rs3": -21.0,
+     "rs6": -49.2,
+     "gap": 4.7,
+     "gaplvl": "M",
+     "from_high": -34.9,
+     "pe": 18.0,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "214450.KQ",
+     "nm": "파마리서치",
+     "spread": 2.5,
+     "q_spread": 3.1,
+     "accel": 0.6,
+     "op": 36.6,
+     "rev": 34.1,
+     "q_op": 28.1,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=214450"
+       }
+      ]
+     },
+     "rs3": 7.8,
+     "rs6": -63.8,
+     "gap": 9.9,
+     "gaplvl": "H",
+     "from_high": -49.3,
+     "pe": 39.9,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "085660.KQ",
+     "nm": "차바이오텍",
+     "spread": -3.1,
+     "q_spread": -28.2,
+     "accel": -25.1,
+     "op": 18.3,
+     "rev": 21.4,
+     "q_op": -12.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=085660"
+       }
+      ]
+     },
+     "rs3": -58.4,
+     "rs6": -90.2,
+     "gap": 7.8,
+     "gaplvl": "M",
+     "from_high": -62.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "028300.KQ",
+     "nm": "HLB",
+     "spread": -11.5,
+     "q_spread": -2.6,
+     "accel": 8.9,
+     "op": 12.1,
+     "rev": 23.6,
+     "q_op": 11.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=028300"
+       }
+      ]
+     },
+     "rs3": -58.1,
+     "rs6": -88.3,
+     "gap": 29.9,
+     "gaplvl": "H",
+     "from_high": -54.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "302440.KS",
+     "nm": "SK바이오사이언스",
+     "spread": -132.7,
+     "q_spread": -88.3,
+     "accel": 44.4,
+     "op": 10.8,
+     "rev": 143.5,
+     "q_op": -21.9,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=302440"
+       }
+      ]
+     },
+     "rs3": -31.5,
+     "rs6": -78.2,
+     "gap": 4.9,
+     "gaplvl": "M",
+     "from_high": -42.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "141080.KQ",
+     "nm": "리가켐바이오",
+     "spread": -421.6,
+     "q_spread": -1250.0,
+     "accel": -828.4,
+     "op": -409.2,
+     "rev": 12.4,
+     "q_op": -1152.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=141080"
+       }
+      ]
+     },
+     "rs3": -58.8,
+     "rs6": -91.6,
+     "gap": 10.0,
+     "gaplvl": "H",
+     "from_high": -55.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 4.7,
+   "n": 10
   },
   {
    "sic": "LOGI",
@@ -3326,11 +3359,11 @@
        }
       ]
      },
-     "rs3": -39.0,
-     "rs6": -82.8,
-     "gap": 2.4,
+     "rs3": -31.4,
+     "rs6": -72.1,
+     "gap": 3.5,
      "gaplvl": "L",
-     "from_high": -32.9,
+     "from_high": -33.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3359,12 +3392,12 @@
        }
       ]
      },
-     "rs3": -48.2,
-     "rs6": -87.8,
+     "rs3": -35.4,
+     "rs6": -69.0,
      "gap": 4.6,
      "gaplvl": "M",
-     "from_high": -49.9,
-     "pe": 6.4,
+     "from_high": -46.6,
+     "pe": 6.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3402,12 +3435,12 @@
        }
       ]
      },
-     "rs3": -22.9,
-     "rs6": -56.5,
+     "rs3": -19.9,
+     "rs6": -49.6,
      "gap": 4.9,
      "gaplvl": "M",
-     "from_high": -24.0,
-     "pe": 36.4,
+     "from_high": -27.9,
+     "pe": 34.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3435,12 +3468,12 @@
        }
       ]
      },
-     "rs3": 11.8,
-     "rs6": 8.1,
+     "rs3": 5.4,
+     "rs6": 9.0,
      "gap": 5.7,
      "gaplvl": "M",
-     "from_high": -8.7,
-     "pe": 20.3,
+     "from_high": -14.9,
+     "pe": 18.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3468,12 +3501,12 @@
        }
       ]
      },
-     "rs3": -26.7,
-     "rs6": -55.8,
+     "rs3": -27.8,
+     "rs6": -50.5,
      "gap": 5.9,
      "gaplvl": "M",
-     "from_high": -30.8,
-     "pe": 16.7,
+     "from_high": -31.8,
+     "pe": 16.4,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3501,12 +3534,12 @@
        }
       ]
      },
-     "rs3": -29.5,
-     "rs6": -80.0,
+     "rs3": -30.8,
+     "rs6": -70.8,
      "gap": 13.7,
      "gaplvl": "H",
-     "from_high": -32.7,
-     "pe": 14.2,
+     "from_high": -34.7,
+     "pe": 13.2,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3534,11 +3567,11 @@
        }
       ]
      },
-     "rs3": -19.2,
-     "rs6": -67.6,
+     "rs3": -10.4,
+     "rs6": -54.3,
      "gap": 5.7,
      "gaplvl": "M",
-     "from_high": -25.1,
+     "from_high": -23.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3577,11 +3610,11 @@
        }
       ]
      },
-     "rs3": -32.1,
-     "rs6": -39.4,
+     "rs3": -25.1,
+     "rs6": -37.8,
      "gap": 8.1,
      "gaplvl": "H",
-     "from_high": -39.1,
+     "from_high": -38.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3610,11 +3643,11 @@
        }
       ]
      },
-     "rs3": -42.5,
-     "rs6": -88.9,
+     "rs3": -43.1,
+     "rs6": -75.1,
      "gap": 8.6,
      "gaplvl": "H",
-     "from_high": -40.9,
+     "from_high": -41.1,
      "pe": 22.5,
      "fpe": null,
      "peg": null,
@@ -3643,12 +3676,12 @@
        }
       ]
      },
-     "rs3": -32.7,
-     "rs6": -82.7,
+     "rs3": -21.9,
+     "rs6": -71.2,
      "gap": 9.5,
      "gaplvl": "H",
-     "from_high": -33.6,
-     "pe": 8.2,
+     "from_high": -27.1,
+     "pe": 9.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3676,8 +3709,8 @@
        }
       ]
      },
-     "rs3": -2.2,
-     "rs6": -38.3,
+     "rs3": -4.2,
+     "rs6": -42.4,
      "gap": 13.2,
      "gaplvl": "H",
      "from_high": -37.2,
@@ -3709,12 +3742,12 @@
        }
       ]
      },
-     "rs3": -22.8,
-     "rs6": -58.6,
+     "rs3": -6.6,
+     "rs6": -48.2,
      "gap": 18.3,
      "gaplvl": "H",
-     "from_high": -25.0,
-     "pe": 4.8,
+     "from_high": -21.4,
+     "pe": 5.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3742,12 +3775,12 @@
        }
       ]
      },
-     "rs3": -33.2,
-     "rs6": -81.2,
+     "rs3": -28.0,
+     "rs6": -81.8,
      "gap": 7.2,
      "gaplvl": "M",
-     "from_high": -41.7,
-     "pe": 21.0,
+     "from_high": -42.0,
+     "pe": 20.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3775,12 +3808,12 @@
        }
       ]
      },
-     "rs3": -46.6,
-     "rs6": -94.8,
+     "rs3": -43.7,
+     "rs6": -86.5,
      "gap": 11.8,
      "gaplvl": "H",
-     "from_high": -42.2,
-     "pe": 10.8,
+     "from_high": -43.2,
+     "pe": 10.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3808,12 +3841,12 @@
        }
       ]
      },
-     "rs3": 2.7,
-     "rs6": -30.9,
+     "rs3": 1.0,
+     "rs6": -32.5,
      "gap": 5.6,
      "gaplvl": "M",
-     "from_high": -0.7,
-     "pe": 8.2,
+     "from_high": -8.1,
+     "pe": 7.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3851,12 +3884,12 @@
        }
       ]
      },
-     "rs3": -35.9,
-     "rs6": -58.7,
+     "rs3": -21.3,
+     "rs6": -46.1,
      "gap": 3.4,
      "gaplvl": "L",
-     "from_high": -22.4,
-     "pe": 7.4,
+     "from_high": -19.9,
+     "pe": 7.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3884,12 +3917,12 @@
        }
       ]
      },
-     "rs3": -34.1,
-     "rs6": -59.2,
+     "rs3": -21.7,
+     "rs6": -48.6,
      "gap": 9.5,
      "gaplvl": "H",
-     "from_high": -16.9,
-     "pe": 12.0,
+     "from_high": -16.2,
+     "pe": 12.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3917,12 +3950,12 @@
        }
       ]
      },
-     "rs3": -26.0,
-     "rs6": 8.6,
+     "rs3": -9.3,
+     "rs6": 21.3,
      "gap": 19.4,
      "gaplvl": "H",
-     "from_high": -28.4,
-     "pe": 49.2,
+     "from_high": -20.1,
+     "pe": 54.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3940,6 +3973,39 @@
    "desc": "SEMIEQ",
    "gics": "IT·반도체",
    "members": [
+    {
+     "tk": "095610.KQ",
+     "nm": "테스",
+     "spread": 693.0,
+     "q_spread": 21.4,
+     "accel": -671.6,
+     "op": 756.3,
+     "rev": 63.4,
+     "q_op": 36.5,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=095610"
+       }
+      ]
+     },
+     "rs3": 36.1,
+     "rs6": 120.0,
+     "gap": 10.7,
+     "gaplvl": "H",
+     "from_high": -37.4,
+     "pe": 56.0,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
     {
      "tk": "240810.KQ",
      "nm": "원익IPS",
@@ -3960,12 +4026,12 @@
        }
       ]
      },
-     "rs3": -3.4,
-     "rs6": 29.9,
+     "rs3": -25.4,
+     "rs6": -18.0,
      "gap": 15.7,
      "gaplvl": "H",
-     "from_high": -23.2,
-     "pe": 81.5,
+     "from_high": -45.2,
+     "pe": 58.2,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -3976,13 +4042,13 @@
     {
      "tk": "222800.KQ",
      "nm": "심텍",
-     "spread": 110.7,
-     "q_spread": 163.4,
-     "accel": 52.7,
-     "op": 125.3,
-     "rev": 14.5,
-     "q_op": 186.6,
-     "q_note": "정상",
+     "spread": 28.5,
+     "q_spread": 144.9,
+     "accel": 116.4,
+     "op": 46.7,
+     "rev": 18.2,
+     "q_op": 184.0,
+     "q_note": "분기 근사(누적)",
      "d_until": null,
      "ir": {
       "date": "2026-07",
@@ -3993,12 +4059,45 @@
        }
       ]
      },
-     "rs3": 32.9,
-     "rs6": 67.4,
+     "rs3": -7.6,
+     "rs6": 23.9,
      "gap": 11.8,
      "gaplvl": "H",
-     "from_high": -31.7,
+     "from_high": -43.7,
      "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005290.KQ",
+     "nm": "동진쎄미켐",
+     "spread": 10.7,
+     "q_spread": 26.2,
+     "accel": 15.5,
+     "op": 18.2,
+     "rev": 7.5,
+     "q_op": 39.4,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005290"
+       }
+      ]
+     },
+     "rs3": -41.5,
+     "rs6": -44.4,
+     "gap": 6.9,
+     "gaplvl": "M",
+     "from_high": -37.5,
+     "pe": 13.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4026,12 +4125,12 @@
        }
       ]
      },
-     "rs3": -54.1,
-     "rs6": -47.2,
+     "rs3": -52.7,
+     "rs6": -44.9,
      "gap": 8.5,
      "gaplvl": "H",
-     "from_high": -43.1,
-     "pe": 36.1,
+     "from_high": -46.0,
+     "pe": 34.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4060,11 +4159,11 @@
       ]
      },
      "rs3": -53.6,
-     "rs6": -29.2,
+     "rs6": -17.9,
      "gap": 10.4,
      "gaplvl": "H",
-     "from_high": -46.5,
-     "pe": 52.9,
+     "from_high": -50.3,
+     "pe": 49.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4092,45 +4191,12 @@
        }
       ]
      },
-     "rs3": -44.4,
-     "rs6": -55.5,
-     "gap": 5.5,
+     "rs3": -46.4,
+     "rs6": -49.2,
+     "gap": 5.4,
      "gaplvl": "M",
-     "from_high": -36.8,
-     "pe": 9.0,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "095610.KQ",
-     "nm": "테스",
-     "spread": 4.1,
-     "q_spread": -7.1,
-     "accel": -11.2,
-     "op": 50.3,
-     "rev": 46.3,
-     "q_op": 21.8,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=095610"
-       }
-      ]
-     },
-     "rs3": 97.4,
-     "rs6": 217.4,
-     "gap": 10.7,
-     "gaplvl": "H",
-     "from_high": -10.7,
-     "pe": 59.9,
+     "from_high": -40.8,
+     "pe": 8.4,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4158,12 +4224,12 @@
        }
       ]
      },
-     "rs3": -11.0,
-     "rs6": -28.2,
+     "rs3": -26.6,
+     "rs6": -25.8,
      "gap": 10.0,
      "gaplvl": "H",
-     "from_high": -37.1,
-     "pe": 56.1,
+     "from_high": -41.5,
+     "pe": 52.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4191,12 +4257,12 @@
        }
       ]
      },
-     "rs3": -36.0,
-     "rs6": -17.0,
+     "rs3": -41.7,
+     "rs6": -36.0,
      "gap": 11.5,
      "gaplvl": "H",
-     "from_high": -40.8,
-     "pe": 107.5,
+     "from_high": -51.2,
+     "pe": 88.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4224,12 +4290,12 @@
        }
       ]
      },
-     "rs3": -39.0,
-     "rs6": -26.6,
+     "rs3": -45.2,
+     "rs6": -43.1,
      "gap": 6.6,
      "gaplvl": "M",
-     "from_high": -38.3,
-     "pe": 35.0,
+     "from_high": -47.1,
+     "pe": 30.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4257,45 +4323,12 @@
        }
       ]
      },
-     "rs3": -21.9,
-     "rs6": -50.2,
+     "rs3": -22.1,
+     "rs6": -43.7,
      "gap": 13.7,
      "gaplvl": "H",
-     "from_high": -24.0,
-     "pe": 52.0,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "005290.KQ",
-     "nm": "동진쎄미켐",
-     "spread": -9.0,
-     "q_spread": 2.3,
-     "accel": 11.3,
-     "op": -1.7,
-     "rev": 7.3,
-     "q_op": -17.8,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005290"
-       }
-      ]
-     },
-     "rs3": -41.0,
-     "rs6": -53.9,
-     "gap": 6.9,
-     "gaplvl": "M",
-     "from_high": -33.9,
-     "pe": 22.6,
+     "from_high": -26.5,
+     "pe": 50.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4323,12 +4356,12 @@
        }
       ]
      },
-     "rs3": -32.8,
-     "rs6": -57.9,
+     "rs3": -31.0,
+     "rs6": -56.1,
      "gap": 7.7,
      "gaplvl": "M",
-     "from_high": -30.8,
-     "pe": 187.1,
+     "from_high": -36.6,
+     "pe": 171.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4356,12 +4389,12 @@
        }
       ]
      },
-     "rs3": -49.7,
-     "rs6": -56.2,
+     "rs3": -51.6,
+     "rs6": -59.9,
      "gap": 6.6,
      "gaplvl": "M",
-     "from_high": -41.5,
-     "pe": 28.3,
+     "from_high": -45.8,
+     "pe": 26.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4389,12 +4422,12 @@
        }
       ]
      },
-     "rs3": 147.9,
-     "rs6": null,
+     "rs3": 7.3,
+     "rs6": 296.5,
      "gap": 14.2,
      "gaplvl": "H",
-     "from_high": -25.0,
-     "pe": 240.6,
+     "from_high": -43.7,
+     "pe": 180.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4422,11 +4455,11 @@
        }
       ]
      },
-     "rs3": -41.6,
-     "rs6": -16.5,
+     "rs3": -36.5,
+     "rs6": -15.0,
      "gap": 9.5,
      "gaplvl": "H",
-     "from_high": -51.4,
+     "from_high": -51.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4436,7 +4469,7 @@
      "supply": "— 수급 미확인"
     }
    ],
-   "med": -4.7,
+   "med": -3.1,
    "n": 15
   },
   {
@@ -4465,12 +4498,12 @@
        }
       ]
      },
-     "rs3": -44.6,
-     "rs6": -63.7,
+     "rs3": -34.9,
+     "rs6": -71.4,
      "gap": 10.6,
      "gaplvl": "H",
-     "from_high": -38.2,
-     "pe": 22.9,
+     "from_high": -36.4,
+     "pe": 23.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4498,12 +4531,12 @@
        }
       ]
      },
-     "rs3": -52.0,
-     "rs6": -84.3,
+     "rs3": -46.7,
+     "rs6": -76.8,
      "gap": 6.4,
      "gaplvl": "M",
-     "from_high": -40.5,
-     "pe": 31.8,
+     "from_high": -42.1,
+     "pe": 31.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4531,11 +4564,11 @@
        }
       ]
      },
-     "rs3": -12.3,
-     "rs6": -35.6,
+     "rs3": -7.5,
+     "rs6": -36.3,
      "gap": 29.4,
      "gaplvl": "H",
-     "from_high": -40.4,
+     "from_high": -41.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4564,12 +4597,12 @@
        }
       ]
      },
-     "rs3": 38.8,
-     "rs6": 50.0,
+     "rs3": 55.3,
+     "rs6": 69.7,
      "gap": 9.9,
      "gaplvl": "H",
-     "from_high": -32.4,
-     "pe": 20.0,
+     "from_high": -26.6,
+     "pe": 21.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4597,11 +4630,11 @@
        }
       ]
      },
-     "rs3": -38.6,
-     "rs6": -70.2,
+     "rs3": -26.9,
+     "rs6": -62.8,
      "gap": 5.1,
      "gaplvl": "M",
-     "from_high": -38.4,
+     "from_high": -36.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4640,12 +4673,12 @@
        }
       ]
      },
-     "rs3": 9.0,
-     "rs6": -20.2,
+     "rs3": 23.6,
+     "rs6": 1.6,
      "gap": 4.6,
      "gaplvl": "M",
-     "from_high": -7.2,
-     "pe": 2.9,
+     "from_high": -2.2,
+     "pe": 3.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4673,12 +4706,12 @@
        }
       ]
      },
-     "rs3": -19.3,
-     "rs6": -24.1,
+     "rs3": -12.2,
+     "rs6": -8.1,
      "gap": 3.7,
      "gaplvl": "L",
-     "from_high": -17.5,
-     "pe": 5.5,
+     "from_high": -15.0,
+     "pe": 5.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4706,11 +4739,11 @@
        }
       ]
      },
-     "rs3": -25.3,
-     "rs6": -14.7,
+     "rs3": -15.0,
+     "rs6": -6.9,
      "gap": 4.9,
      "gaplvl": "M",
-     "from_high": -31.2,
+     "from_high": -30.5,
      "pe": 6.6,
      "fpe": null,
      "peg": null,
@@ -4739,12 +4772,12 @@
        }
       ]
      },
-     "rs3": 26.0,
-     "rs6": -9.0,
+     "rs3": 29.7,
+     "rs6": -9.4,
      "gap": 6.0,
      "gaplvl": "M",
-     "from_high": -4.0,
-     "pe": 14.8,
+     "from_high": -11.8,
+     "pe": 13.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4772,12 +4805,12 @@
        }
       ]
      },
-     "rs3": -31.6,
-     "rs6": -66.6,
+     "rs3": -19.6,
+     "rs6": -52.2,
      "gap": 2.3,
      "gaplvl": "L",
-     "from_high": -26.7,
-     "pe": 7.8,
+     "from_high": -24.0,
+     "pe": 8.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4805,12 +4838,12 @@
        }
       ]
      },
-     "rs3": 10.1,
-     "rs6": 47.3,
+     "rs3": 18.7,
+     "rs6": 41.4,
      "gap": 15.2,
      "gaplvl": "H",
-     "from_high": -33.4,
-     "pe": 25.8,
+     "from_high": -36.0,
+     "pe": 24.8,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4848,12 +4881,12 @@
        }
       ]
      },
-     "rs3": -34.7,
-     "rs6": -72.5,
+     "rs3": -25.8,
+     "rs6": -51.7,
      "gap": 6.2,
      "gaplvl": "M",
-     "from_high": -34.3,
-     "pe": 20.5,
+     "from_high": -29.2,
+     "pe": 22.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4881,12 +4914,12 @@
        }
       ]
      },
-     "rs3": -25.5,
-     "rs6": -75.3,
+     "rs3": -12.4,
+     "rs6": -58.4,
      "gap": 3.1,
      "gaplvl": "L",
-     "from_high": -32.0,
-     "pe": 11.9,
+     "from_high": -28.5,
+     "pe": 12.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4914,12 +4947,12 @@
        }
       ]
      },
-     "rs3": -12.6,
-     "rs6": -33.6,
+     "rs3": -3.0,
+     "rs6": -19.6,
      "gap": 2.9,
      "gaplvl": "L",
-     "from_high": -4.8,
-     "pe": 17.6,
+     "from_high": -3.4,
+     "pe": 17.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4947,12 +4980,12 @@
        }
       ]
      },
-     "rs3": -25.2,
-     "rs6": -38.3,
+     "rs3": -13.3,
+     "rs6": -28.9,
      "gap": 5.7,
      "gaplvl": "M",
-     "from_high": -12.1,
-     "pe": 13.3,
+     "from_high": -9.4,
+     "pe": 13.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -4980,11 +5013,11 @@
        }
       ]
      },
-     "rs3": -37.0,
-     "rs6": -77.6,
+     "rs3": -23.6,
+     "rs6": -63.7,
      "gap": 2.5,
      "gaplvl": "L",
-     "from_high": -26.9,
+     "from_high": -24.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5013,11 +5046,11 @@
        }
       ]
      },
-     "rs3": -38.5,
-     "rs6": -72.8,
+     "rs3": -26.2,
+     "rs6": -54.1,
      "gap": 2.8,
      "gaplvl": "L",
-     "from_high": -25.3,
+     "from_high": -20.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5046,12 +5079,12 @@
        }
       ]
      },
-     "rs3": -33.0,
-     "rs6": -76.3,
+     "rs3": -22.3,
+     "rs6": -63.3,
      "gap": 2.8,
      "gaplvl": "L",
-     "from_high": -25.9,
-     "pe": 15.4,
+     "from_high": -24.5,
+     "pe": 15.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5079,12 +5112,12 @@
        }
       ]
      },
-     "rs3": -29.6,
-     "rs6": -64.3,
+     "rs3": -22.5,
+     "rs6": -53.0,
      "gap": 2.4,
      "gaplvl": "L",
-     "from_high": -23.3,
-     "pe": 12.4,
+     "from_high": -22.6,
+     "pe": 12.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5112,12 +5145,12 @@
        }
       ]
      },
-     "rs3": -31.7,
-     "rs6": -70.4,
+     "rs3": -21.2,
+     "rs6": -57.3,
      "gap": 2.4,
      "gaplvl": "L",
-     "from_high": -23.4,
-     "pe": 10.3,
+     "from_high": -20.0,
+     "pe": 10.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5155,12 +5188,12 @@
        }
       ]
      },
-     "rs3": -6.6,
-     "rs6": -48.3,
+     "rs3": 6.5,
+     "rs6": -35.1,
      "gap": 14.2,
      "gaplvl": "H",
-     "from_high": -44.9,
-     "pe": 20.3,
+     "from_high": -42.1,
+     "pe": 21.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5188,12 +5221,12 @@
        }
       ]
      },
-     "rs3": -23.7,
-     "rs6": -76.2,
+     "rs3": -24.5,
+     "rs6": -71.0,
      "gap": 15.0,
      "gaplvl": "H",
-     "from_high": -58.1,
-     "pe": 59.1,
+     "from_high": -59.6,
+     "pe": 57.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5221,12 +5254,12 @@
        }
       ]
      },
-     "rs3": -37.8,
-     "rs6": -88.0,
+     "rs3": -31.1,
+     "rs6": -75.8,
      "gap": 5.9,
      "gaplvl": "M",
-     "from_high": -41.6,
-     "pe": 11.6,
+     "from_high": -39.4,
+     "pe": 11.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5254,12 +5287,12 @@
        }
       ]
      },
-     "rs3": -61.3,
-     "rs6": -94.2,
+     "rs3": -55.9,
+     "rs6": -102.7,
      "gap": 12.5,
      "gaplvl": "H",
-     "from_high": -56.3,
-     "pe": 54.3,
+     "from_high": -55.0,
+     "pe": 56.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5297,12 +5330,12 @@
        }
       ]
      },
-     "rs3": 89.8,
-     "rs6": 295.6,
+     "rs3": 53.5,
+     "rs6": 305.1,
      "gap": 11.4,
      "gaplvl": "H",
-     "from_high": -43.7,
-     "pe": 136.7,
+     "from_high": -41.6,
+     "pe": 141.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5330,12 +5363,12 @@
        }
       ]
      },
-     "rs3": 56.2,
-     "rs6": 87.7,
+     "rs3": 15.2,
+     "rs6": 71.2,
      "gap": 18.5,
      "gaplvl": "H",
-     "from_high": -56.3,
-     "pe": 46.3,
+     "from_high": -59.2,
+     "pe": 43.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5363,12 +5396,12 @@
        }
       ]
      },
-     "rs3": 28.3,
-     "rs6": 42.9,
+     "rs3": 17.6,
+     "rs6": 10.5,
      "gap": 28.0,
      "gaplvl": "H",
-     "from_high": -54.4,
-     "pe": 33.6,
+     "from_high": -56.9,
+     "pe": 31.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5379,6 +5412,346 @@
    ],
    "med": -9.1,
    "n": 3
+  },
+  {
+   "sic": "GAME",
+   "ko": "게임",
+   "desc": "GAME",
+   "gics": "인터넷·게임",
+   "members": [
+    {
+     "tk": "036570.KS",
+     "nm": "엔씨소프트",
+     "spread": 119.2,
+     "q_spread": 185.1,
+     "accel": 65.9,
+     "op": 114.7,
+     "rev": -4.5,
+     "q_op": 195.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=036570"
+       }
+      ]
+     },
+     "rs3": -26.9,
+     "rs6": -51.7,
+     "gap": 9.1,
+     "gaplvl": "H",
+     "from_high": -32.5,
+     "pe": 12.8,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "112040.KQ",
+     "nm": "위메이드",
+     "spread": 64.9,
+     "q_spread": 1.1,
+     "accel": -63.8,
+     "op": 51.2,
+     "rev": -13.7,
+     "q_op": -8.5,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=112040"
+       }
+      ]
+     },
+     "rs3": -43.8,
+     "rs6": -88.3,
+     "gap": 29.8,
+     "gaplvl": "H",
+     "from_high": -53.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "095660.KQ",
+     "nm": "네오위즈",
+     "spread": 64.2,
+     "q_spread": 76.3,
+     "accel": 12.1,
+     "op": 82.2,
+     "rev": 18.0,
+     "q_op": 100.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=095660"
+       }
+      ]
+     },
+     "rs3": -34.2,
+     "rs6": -78.8,
+     "gap": 2.7,
+     "gaplvl": "L",
+     "from_high": -42.4,
+     "pe": 7.1,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "251270.KS",
+     "nm": "넷마블",
+     "spread": 57.0,
+     "q_spread": 30.0,
+     "accel": -27.0,
+     "op": 63.5,
+     "rev": 6.4,
+     "q_op": 36.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=251270"
+       }
+      ]
+     },
+     "rs3": -37.6,
+     "rs6": -72.4,
+     "gap": 3.3,
+     "gaplvl": "L",
+     "from_high": -44.9,
+     "pe": 13.4,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "192080.KQ",
+     "nm": "더블유게임즈",
+     "spread": 7.8,
+     "q_spread": -1.5,
+     "accel": -9.3,
+     "op": 16.6,
+     "rev": 8.8,
+     "q_op": 25.1,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=192080"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": 2.3,
+     "gaplvl": "L",
+     "from_high": -1.3,
+     "pe": 6.4,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "263750.KQ",
+     "nm": "펄어비스",
+     "spread": -27.2,
+     "q_spread": 1138.4,
+     "accel": 1165.6,
+     "op": -20.5,
+     "rev": 6.8,
+     "q_op": 1217.6,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=263750"
+       }
+      ]
+     },
+     "rs3": -52.8,
+     "rs6": -67.7,
+     "gap": 9.5,
+     "gaplvl": "H",
+     "from_high": -54.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "259960.KS",
+     "nm": "크래프톤",
+     "spread": -33.6,
+     "q_spread": -43.9,
+     "accel": -10.3,
+     "op": -10.8,
+     "rev": 22.8,
+     "q_op": -12.8,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=259960"
+       }
+      ]
+     },
+     "rs3": -18.5,
+     "rs6": -46.2,
+     "gap": 5.2,
+     "gaplvl": "M",
+     "from_high": -28.3,
+     "pe": 14.7,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "078340.KQ",
+     "nm": "컴투스",
+     "spread": -57.4,
+     "q_spread": -3.8,
+     "accel": 53.6,
+     "op": -57.0,
+     "rev": 0.4,
+     "q_op": -8.2,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=078340"
+       }
+      ]
+     },
+     "rs3": -33.1,
+     "rs6": -61.5,
+     "gap": 7.5,
+     "gaplvl": "M",
+     "from_high": -33.7,
+     "pe": 8.1,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "225570.KQ",
+     "nm": "넥슨게임즈",
+     "spread": -225.5,
+     "q_spread": -310.3,
+     "accel": -84.8,
+     "op": -255.5,
+     "rev": -30.0,
+     "q_op": -343.7,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=225570"
+       }
+      ]
+     },
+     "rs3": -37.5,
+     "rs6": -76.8,
+     "gap": 3.7,
+     "gaplvl": "L",
+     "from_high": -40.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "293490.KQ",
+     "nm": "카카오게임즈",
+     "spread": -280.9,
+     "q_spread": -831.4,
+     "accel": -550.5,
+     "op": -306.8,
+     "rev": -25.9,
+     "q_op": -847.0,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=293490"
+       }
+      ]
+     },
+     "rs3": -48.7,
+     "rs6": -94.7,
+     "gap": 30.0,
+     "gaplvl": "H",
+     "from_high": -56.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -9.7,
+   "n": 10
   },
   {
    "sic": "SHIPPING",
@@ -5406,12 +5779,12 @@
        }
       ]
      },
-     "rs3": -22.1,
-     "rs6": -30.6,
+     "rs3": -17.7,
+     "rs6": -22.8,
      "gap": 9.6,
      "gaplvl": "H",
-     "from_high": -16.8,
-     "pe": 9.1,
+     "from_high": -14.8,
+     "pe": 9.4,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5439,11 +5812,11 @@
        }
       ]
      },
-     "rs3": -48.6,
-     "rs6": -57.1,
+     "rs3": -41.3,
+     "rs6": -45.7,
      "gap": 6.4,
      "gaplvl": "M",
-     "from_high": -39.9,
+     "from_high": -39.6,
      "pe": 3.3,
      "fpe": null,
      "peg": null,
@@ -5472,12 +5845,12 @@
        }
       ]
      },
-     "rs3": -23.2,
-     "rs6": -60.0,
+     "rs3": -6.0,
+     "rs6": -36.8,
      "gap": 7.6,
      "gaplvl": "M",
-     "from_high": -18.2,
-     "pe": 10.3,
+     "from_high": -11.6,
+     "pe": 11.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5488,181 +5861,6 @@
    ],
    "med": -10.0,
    "n": 3
-  },
-  {
-   "sic": "STEEL",
-   "ko": "철강·비철",
-   "desc": "STEEL",
-   "gics": "소재·산업재",
-   "members": [
-    {
-     "tk": "004020.KS",
-     "nm": "현대제철",
-     "spread": 39.6,
-     "q_spread": 199.7,
-     "accel": 160.1,
-     "op": 37.5,
-     "rev": -2.1,
-     "q_op": 200.0,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=004020"
-       }
-      ]
-     },
-     "rs3": -51.8,
-     "rs6": -73.1,
-     "gap": 7.4,
-     "gaplvl": "M",
-     "from_high": -42.5,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "010130.KS",
-     "nm": "고려아연",
-     "spread": 32.7,
-     "q_spread": 71.4,
-     "accel": 38.7,
-     "op": 70.3,
-     "rev": 37.6,
-     "q_op": 110.7,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=010130"
-       }
-      ]
-     },
-     "rs3": -56.0,
-     "rs6": -76.6,
-     "gap": 9.2,
-     "gaplvl": "H",
-     "from_high": -51.2,
-     "pe": 24.2,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "005490.KS",
-     "nm": "POSCO홀딩스",
-     "spread": -11.0,
-     "q_spread": -5.4,
-     "accel": 5.6,
-     "op": -15.9,
-     "rev": -4.9,
-     "q_op": -9.0,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005490"
-       }
-      ]
-     },
-     "rs3": -33.2,
-     "rs6": -60.4,
-     "gap": 7.4,
-     "gaplvl": "M",
-     "from_high": -41.5,
-     "pe": 35.8,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "103140.KS",
-     "nm": "풍산",
-     "spread": -19.0,
-     "q_spread": -15.1,
-     "accel": 3.9,
-     "op": -8.1,
-     "rev": 10.9,
-     "q_op": -6.3,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=103140"
-       }
-      ]
-     },
-     "rs3": -56.5,
-     "rs6": -111.1,
-     "gap": 7.3,
-     "gaplvl": "M",
-     "from_high": -61.7,
-     "pe": 11.5,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "000670.KS",
-     "nm": "영풍",
-     "spread": -66.0,
-     "q_spread": -13.9,
-     "accel": 52.1,
-     "op": -61.6,
-     "rev": 4.4,
-     "q_op": 7.9,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=000670"
-       }
-      ]
-     },
-     "rs3": -59.3,
-     "rs6": -83.4,
-     "gap": 8.1,
-     "gaplvl": "H",
-     "from_high": -48.0,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    }
-   ],
-   "med": -11.0,
-   "n": 5
   },
   {
    "sic": "APPAREL",
@@ -5690,12 +5888,12 @@
        }
       ]
      },
-     "rs3": -15.0,
-     "rs6": -60.1,
+     "rs3": -5.4,
+     "rs6": -42.6,
      "gap": 7.0,
      "gaplvl": "M",
-     "from_high": -11.3,
-     "pe": 7.5,
+     "from_high": -10.5,
+     "pe": 7.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5723,12 +5921,12 @@
        }
       ]
      },
-     "rs3": -27.6,
-     "rs6": -13.0,
+     "rs3": -29.8,
+     "rs6": -6.0,
      "gap": 4.1,
      "gaplvl": "M",
-     "from_high": -22.5,
-     "pe": 10.1,
+     "from_high": -26.3,
+     "pe": 9.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5756,12 +5954,12 @@
        }
       ]
      },
-     "rs3": -35.7,
-     "rs6": -89.9,
+     "rs3": -30.6,
+     "rs6": -81.1,
      "gap": 4.6,
      "gaplvl": "M",
-     "from_high": -35.6,
-     "pe": 6.5,
+     "from_high": -37.1,
+     "pe": 6.4,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5799,12 +5997,12 @@
        }
       ]
      },
-     "rs3": -16.5,
-     "rs6": 30.2,
+     "rs3": -5.8,
+     "rs6": 41.3,
      "gap": 13.0,
      "gaplvl": "H",
-     "from_high": -40.3,
-     "pe": 19.7,
+     "from_high": -36.6,
+     "pe": 20.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5832,12 +6030,12 @@
        }
       ]
      },
-     "rs3": -29.6,
-     "rs6": -5.3,
+     "rs3": -26.9,
+     "rs6": -5.4,
      "gap": 10.3,
      "gaplvl": "H",
-     "from_high": -45.4,
-     "pe": 284.2,
+     "from_high": -45.9,
+     "pe": 281.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5865,12 +6063,12 @@
        }
       ]
      },
-     "rs3": -34.4,
-     "rs6": -23.0,
+     "rs3": -23.3,
+     "rs6": -6.2,
      "gap": 12.5,
      "gaplvl": "H",
-     "from_high": -47.9,
-     "pe": 29.1,
+     "from_high": -44.5,
+     "pe": 31.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5898,12 +6096,12 @@
        }
       ]
      },
-     "rs3": -36.7,
-     "rs6": -55.0,
+     "rs3": -36.2,
+     "rs6": -40.2,
      "gap": 10.6,
      "gaplvl": "H",
-     "from_high": -34.2,
-     "pe": 22.9,
+     "from_high": -33.0,
+     "pe": 23.3,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5931,12 +6129,12 @@
        }
       ]
      },
-     "rs3": -24.4,
-     "rs6": -58.4,
+     "rs3": -23.7,
+     "rs6": -45.3,
      "gap": 6.0,
      "gaplvl": "M",
-     "from_high": -15.7,
-     "pe": 21796.6,
+     "from_high": -18.2,
+     "pe": 21152.5,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -5964,12 +6162,12 @@
        }
       ]
      },
-     "rs3": -51.3,
-     "rs6": -83.0,
+     "rs3": -47.6,
+     "rs6": -73.4,
      "gap": 9.0,
      "gaplvl": "H",
-     "from_high": -48.9,
-     "pe": 528.0,
+     "from_high": -47.1,
+     "pe": 546.2,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6040,12 +6238,12 @@
        }
       ]
      },
-     "rs3": -40.4,
-     "rs6": -87.0,
+     "rs3": -32.2,
+     "rs6": -72.2,
      "gap": 4.8,
      "gaplvl": "M",
-     "from_high": -41.7,
-     "pe": 21.9,
+     "from_high": -41.2,
+     "pe": 22.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6073,12 +6271,12 @@
        }
       ]
      },
-     "rs3": -43.4,
-     "rs6": -76.0,
+     "rs3": -37.4,
+     "rs6": -65.0,
      "gap": 5.9,
      "gaplvl": "M",
-     "from_high": -40.7,
-     "pe": 21.2,
+     "from_high": -42.0,
+     "pe": 20.4,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6139,11 +6337,11 @@
        }
       ]
      },
-     "rs3": -37.0,
-     "rs6": -69.9,
+     "rs3": -34.6,
+     "rs6": -56.0,
      "gap": 3.7,
      "gaplvl": "L",
-     "from_high": -29.4,
+     "from_high": -32.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6155,346 +6353,6 @@
    ],
    "med": -22.0,
    "n": 4
-  },
-  {
-   "sic": "GAME",
-   "ko": "게임",
-   "desc": "GAME",
-   "gics": "인터넷·게임",
-   "members": [
-    {
-     "tk": "036570.KS",
-     "nm": "엔씨소프트",
-     "spread": 119.2,
-     "q_spread": 185.1,
-     "accel": 65.9,
-     "op": 114.7,
-     "rev": -4.5,
-     "q_op": 195.7,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=036570"
-       }
-      ]
-     },
-     "rs3": -28.1,
-     "rs6": -61.8,
-     "gap": 9.1,
-     "gaplvl": "H",
-     "from_high": -34.0,
-     "pe": 12.5,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "112040.KQ",
-     "nm": "위메이드",
-     "spread": 64.9,
-     "q_spread": 1.1,
-     "accel": -63.8,
-     "op": 51.2,
-     "rev": -13.7,
-     "q_op": -8.5,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=112040"
-       }
-      ]
-     },
-     "rs3": -40.1,
-     "rs6": -102.7,
-     "gap": 29.8,
-     "gaplvl": "H",
-     "from_high": -50.7,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "095660.KQ",
-     "nm": "네오위즈",
-     "spread": 64.2,
-     "q_spread": 76.3,
-     "accel": 12.1,
-     "op": 82.2,
-     "rev": 18.0,
-     "q_op": 100.3,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=095660"
-       }
-      ]
-     },
-     "rs3": -43.5,
-     "rs6": -92.0,
-     "gap": 2.7,
-     "gaplvl": "L",
-     "from_high": -42.7,
-     "pe": 7.0,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "251270.KS",
-     "nm": "넷마블",
-     "spread": 57.0,
-     "q_spread": 30.0,
-     "accel": -27.0,
-     "op": 63.5,
-     "rev": 6.4,
-     "q_op": 36.0,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=251270"
-       }
-      ]
-     },
-     "rs3": -46.7,
-     "rs6": -87.0,
-     "gap": 3.3,
-     "gaplvl": "L",
-     "from_high": -45.8,
-     "pe": 13.2,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "192080.KQ",
-     "nm": "더블유게임즈",
-     "spread": -20.3,
-     "q_spread": -18.5,
-     "accel": 1.8,
-     "op": -6.7,
-     "rev": 13.6,
-     "q_op": 1.7,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=192080"
-       }
-      ]
-     },
-     "rs3": null,
-     "rs6": null,
-     "gap": null,
-     "gaplvl": "M",
-     "from_high": 0.0,
-     "pe": 9.3,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "263750.KQ",
-     "nm": "펄어비스",
-     "spread": -27.2,
-     "q_spread": 1138.4,
-     "accel": 1165.6,
-     "op": -20.5,
-     "rev": 6.8,
-     "q_op": 1217.6,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=263750"
-       }
-      ]
-     },
-     "rs3": -57.2,
-     "rs6": -74.8,
-     "gap": 9.5,
-     "gaplvl": "H",
-     "from_high": -52.5,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "259960.KS",
-     "nm": "크래프톤",
-     "spread": -33.6,
-     "q_spread": -43.9,
-     "accel": -10.3,
-     "op": -10.8,
-     "rev": 22.8,
-     "q_op": -12.8,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=259960"
-       }
-      ]
-     },
-     "rs3": -19.6,
-     "rs6": -59.3,
-     "gap": 5.2,
-     "gaplvl": "M",
-     "from_high": -31.5,
-     "pe": 14.6,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "078340.KQ",
-     "nm": "컴투스",
-     "spread": -57.4,
-     "q_spread": -3.8,
-     "accel": 53.6,
-     "op": -57.0,
-     "rev": 0.4,
-     "q_op": -8.2,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=078340"
-       }
-      ]
-     },
-     "rs3": -41.6,
-     "rs6": -74.6,
-     "gap": 7.5,
-     "gaplvl": "M",
-     "from_high": -35.4,
-     "pe": 8.0,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "225570.KQ",
-     "nm": "넥슨게임즈",
-     "spread": -225.5,
-     "q_spread": -310.3,
-     "accel": -84.8,
-     "op": -255.5,
-     "rev": -30.0,
-     "q_op": -343.7,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=225570"
-       }
-      ]
-     },
-     "rs3": -47.5,
-     "rs6": -94.7,
-     "gap": 3.7,
-     "gaplvl": "L",
-     "from_high": -43.1,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "293490.KQ",
-     "nm": "카카오게임즈",
-     "spread": -280.9,
-     "q_spread": -831.4,
-     "accel": -550.5,
-     "op": -306.8,
-     "rev": -25.9,
-     "q_op": -847.0,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-07",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=293490"
-       }
-      ]
-     },
-     "rs3": -54.3,
-     "rs6": -107.8,
-     "gap": 30.0,
-     "gaplvl": "H",
-     "from_high": -55.8,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    }
-   ],
-   "med": -23.8,
-   "n": 10
   },
   {
    "sic": "UTIL",
@@ -6522,12 +6380,12 @@
        }
       ]
      },
-     "rs3": -41.4,
-     "rs6": -95.3,
+     "rs3": -33.4,
+     "rs6": -86.1,
      "gap": 7.4,
      "gaplvl": "M",
-     "from_high": -49.9,
-     "pe": 2.6,
+     "from_high": -47.9,
+     "pe": 2.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6555,12 +6413,12 @@
        }
       ]
      },
-     "rs3": -28.7,
-     "rs6": -78.2,
+     "rs3": -15.1,
+     "rs6": -58.6,
      "gap": 2.1,
      "gaplvl": "L",
-     "from_high": -28.9,
-     "pe": 22.1,
+     "from_high": -23.4,
+     "pe": 23.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6588,12 +6446,12 @@
        }
       ]
      },
-     "rs3": -44.4,
-     "rs6": -77.4,
+     "rs3": -32.2,
+     "rs6": -65.6,
      "gap": 11.1,
      "gaplvl": "H",
-     "from_high": -35.5,
-     "pe": 15.8,
+     "from_high": -30.2,
+     "pe": 17.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6621,12 +6479,12 @@
        }
       ]
      },
-     "rs3": -66.3,
-     "rs6": -71.7,
+     "rs3": -54.9,
+     "rs6": -74.7,
      "gap": 16.3,
      "gaplvl": "H",
-     "from_high": -52.4,
-     "pe": 41.3,
+     "from_high": -49.1,
+     "pe": 44.2,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6664,12 +6522,12 @@
        }
       ]
      },
-     "rs3": -34.2,
-     "rs6": -45.4,
+     "rs3": -35.4,
+     "rs6": -64.8,
      "gap": 11.3,
      "gaplvl": "H",
-     "from_high": -43.3,
-     "pe": 11.8,
+     "from_high": -46.5,
+     "pe": 11.1,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6697,12 +6555,12 @@
        }
       ]
      },
-     "rs3": -19.4,
-     "rs6": -41.2,
+     "rs3": -28.2,
+     "rs6": -68.6,
      "gap": 7.0,
      "gaplvl": "M",
-     "from_high": -24.1,
-     "pe": 7.7,
+     "from_high": -33.9,
+     "pe": 6.7,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6740,12 +6598,12 @@
        }
       ]
      },
-     "rs3": -48.2,
-     "rs6": -58.9,
+     "rs3": -39.9,
+     "rs6": -57.8,
      "gap": 6.2,
      "gaplvl": "M",
-     "from_high": -41.7,
-     "pe": 14.1,
+     "from_high": -35.5,
+     "pe": 15.6,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6773,12 +6631,12 @@
        }
       ]
      },
-     "rs3": -40.1,
-     "rs6": -47.3,
+     "rs3": -36.4,
+     "rs6": -23.1,
      "gap": 7.1,
      "gaplvl": "M",
-     "from_high": -52.5,
-     "pe": 10.7,
+     "from_high": -46.5,
+     "pe": 12.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6806,12 +6664,12 @@
        }
       ]
      },
-     "rs3": -43.4,
-     "rs6": -44.7,
+     "rs3": -35.5,
+     "rs6": -35.8,
      "gap": 5.8,
      "gaplvl": "M",
-     "from_high": -35.1,
-     "pe": 9.3,
+     "from_high": -30.7,
+     "pe": 10.0,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6822,6 +6680,148 @@
    ],
    "med": -33.9,
    "n": 3
+  },
+  {
+   "sic": "DISP",
+   "ko": "디스플레이",
+   "desc": "DISP",
+   "gics": "IT·반도체",
+   "members": [
+    {
+     "tk": "034220.KS",
+     "nm": "LG디스플레이",
+     "spread": 195.2,
+     "q_spread": 1200.1,
+     "accel": 1004.9,
+     "op": 192.2,
+     "rev": -3.0,
+     "q_op": 1192.3,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=034220"
+       }
+      ]
+     },
+     "rs3": -46.5,
+     "rs6": -70.3,
+     "gap": 9.9,
+     "gaplvl": "H",
+     "from_high": -41.3,
+     "pe": 21.6,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "108320.KQ",
+     "nm": "LX세미콘",
+     "spread": -22.7,
+     "q_spread": -43.7,
+     "accel": -21.0,
+     "op": -34.8,
+     "rev": -12.1,
+     "q_op": -61.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=108320"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": 2.5,
+     "gaplvl": "L",
+     "from_high": -1.1,
+     "pe": 7.6,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "213420.KQ",
+     "nm": "덕산네오룩스",
+     "spread": -46.5,
+     "q_spread": -61.4,
+     "accel": -14.9,
+     "op": 15.8,
+     "rev": 62.2,
+     "q_op": 30.4,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=213420"
+       }
+      ]
+     },
+     "rs3": -54.5,
+     "rs6": -64.1,
+     "gap": 4.9,
+     "gaplvl": "M",
+     "from_high": -47.1,
+     "pe": 13.6,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "056190.KQ",
+     "nm": "에스에프에이",
+     "spread": -164.4,
+     "q_spread": -37.5,
+     "accel": 126.9,
+     "op": -154.4,
+     "rev": 9.9,
+     "q_op": -46.8,
+     "q_note": "분기 근사(누적)",
+     "d_until": null,
+     "ir": {
+      "date": "2026-07",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=056190"
+       }
+      ]
+     },
+     "rs3": -45.8,
+     "rs6": -66.0,
+     "gap": 5.3,
+     "gaplvl": "M",
+     "from_high": -43.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -34.6,
+   "n": 4
   },
   {
    "sic": "AIR",
@@ -6849,12 +6849,12 @@
        }
       ]
      },
-     "rs3": -11.3,
-     "rs6": -38.5,
+     "rs3": -8.8,
+     "rs6": -41.1,
      "gap": 6.0,
      "gaplvl": "M",
-     "from_high": -11.7,
-     "pe": 12.4,
+     "from_high": -15.2,
+     "pe": 11.9,
      "fpe": null,
      "peg": null,
      "foreign_net": null,
@@ -6882,11 +6882,11 @@
        }
       ]
      },
-     "rs3": -40.4,
-     "rs6": -84.8,
+     "rs3": -32.1,
+     "rs6": -76.5,
      "gap": 6.2,
      "gaplvl": "M",
-     "from_high": -45.2,
+     "from_high": -44.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6915,11 +6915,11 @@
        }
       ]
      },
-     "rs3": -38.6,
-     "rs6": -82.9,
+     "rs3": -32.8,
+     "rs6": -77.5,
      "gap": 8.7,
      "gaplvl": "H",
-     "from_high": -40.7,
+     "from_high": -39.7,
      "pe": null,
      "fpe": null,
      "peg": null,
