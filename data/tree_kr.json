@@ -1,11 +1,11 @@
 {
- "updated": "2026-09-19",
+ "updated": "2026-09-26",
  "demo": false,
  "market": {
   "vix": 18.5,
   "vix_state": "—",
-  "spy3": -26.2,
-  "spy6": 26.8
+  "spy3": -22.3,
+  "spy6": 36.4
  },
  "sectors": [
   {
@@ -13,6 +13,12 @@
    "med": 10.1,
    "n_sub": 1,
    "n_co": 3
+  },
+  {
+   "gics": "미디어·엔터",
+   "med": 8.0,
+   "n_sub": 2,
+   "n_co": 7
   },
   {
    "gics": "바이오·헬스케어",
@@ -63,28 +69,22 @@
    "n_co": 4
   },
   {
-   "gics": "미디어·엔터",
-   "med": -13.1,
-   "n_sub": 2,
-   "n_co": 7
-  },
-  {
    "gics": "통신·유틸리티",
    "med": -18.3,
    "n_sub": 2,
    "n_co": 7
   },
   {
-   "gics": "인터넷·게임",
-   "med": -27.0,
-   "n_sub": 2,
-   "n_co": 12
-  },
-  {
    "gics": "운송",
    "med": -30.6,
    "n_sub": 3,
    "n_co": 8
+  },
+  {
+   "gics": "인터넷·게임",
+   "med": -33.6,
+   "n_sub": 2,
+   "n_co": 12
   },
   {
    "gics": "2차전지·소재",
@@ -120,11 +120,11 @@
        }
       ]
      },
-     "rs3": -2.6,
-     "rs6": -63.0,
+     "rs3": -2.3,
+     "rs6": -71.3,
      "gap": 20.1,
      "gaplvl": "H",
-     "from_high": -44.7,
+     "from_high": -46.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -153,11 +153,11 @@
        }
       ]
      },
-     "rs3": 12.5,
-     "rs6": -43.8,
+     "rs3": 14.7,
+     "rs6": -47.3,
      "gap": 3.4,
      "gaplvl": "L",
-     "from_high": -28.4,
+     "from_high": -29.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -186,11 +186,11 @@
        }
       ]
      },
-     "rs3": 5.6,
-     "rs6": -53.8,
+     "rs3": 7.4,
+     "rs6": -59.7,
      "gap": 3.8,
      "gaplvl": "L",
-     "from_high": -39.5,
+     "from_high": -41.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -262,11 +262,11 @@
        }
       ]
      },
-     "rs3": 20.6,
-     "rs6": -28.7,
+     "rs3": 22.2,
+     "rs6": -46.8,
      "gap": 3.0,
      "gaplvl": "L",
-     "from_high": -29.2,
+     "from_high": -31.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -295,11 +295,11 @@
        }
       ]
      },
-     "rs3": 8.9,
-     "rs6": -38.3,
+     "rs3": 10.7,
+     "rs6": -55.5,
      "gap": 3.5,
      "gaplvl": "L",
-     "from_high": -37.8,
+     "from_high": -41.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -328,11 +328,11 @@
        }
       ]
      },
-     "rs3": 27.7,
-     "rs6": 7.6,
+     "rs3": 30.6,
+     "rs6": -5.3,
      "gap": 6.6,
      "gaplvl": "M",
-     "from_high": -24.0,
+     "from_high": -26.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -371,11 +371,11 @@
        }
       ]
      },
-     "rs3": 25.7,
-     "rs6": -53.8,
+     "rs3": 27.9,
+     "rs6": -58.6,
      "gap": 7.2,
      "gaplvl": "M",
-     "from_high": -58.2,
+     "from_high": -59.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -404,11 +404,11 @@
        }
       ]
      },
-     "rs3": 34.7,
-     "rs6": -43.7,
+     "rs3": 42.9,
+     "rs6": -47.9,
      "gap": 3.9,
      "gaplvl": "L",
-     "from_high": -44.0,
+     "from_high": -40.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -437,11 +437,11 @@
        }
       ]
      },
-     "rs3": -3.5,
-     "rs6": -68.5,
+     "rs3": -1.7,
+     "rs6": -76.3,
      "gap": 5.4,
      "gaplvl": "M",
-     "from_high": -54.1,
+     "from_high": -55.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -470,11 +470,11 @@
        }
       ]
      },
-     "rs3": 4.1,
-     "rs6": -80.0,
+     "rs3": 5.8,
+     "rs6": -82.9,
      "gap": 6.7,
      "gaplvl": "M",
-     "from_high": -58.9,
+     "from_high": -61.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -513,11 +513,11 @@
        }
       ]
      },
-     "rs3": 15.9,
-     "rs6": -46.4,
+     "rs3": 10.9,
+     "rs6": -59.5,
      "gap": 2.2,
      "gaplvl": "L",
-     "from_high": -40.5,
+     "from_high": -42.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -546,11 +546,11 @@
        }
       ]
      },
-     "rs3": 3.9,
-     "rs6": -32.6,
+     "rs3": 5.3,
+     "rs6": -43.2,
      "gap": 2.3,
      "gaplvl": "L",
-     "from_high": -41.2,
+     "from_high": -42.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -579,11 +579,11 @@
        }
       ]
      },
-     "rs3": -23.7,
-     "rs6": -10.2,
+     "rs3": -28.4,
+     "rs6": -20.8,
      "gap": 4.0,
      "gaplvl": "M",
-     "from_high": -52.6,
+     "from_high": -53.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -612,11 +612,11 @@
        }
       ]
      },
-     "rs3": -9.3,
-     "rs6": -17.9,
+     "rs3": -16.3,
+     "rs6": -34.2,
      "gap": 3.8,
      "gaplvl": "L",
-     "from_high": -43.9,
+     "from_high": -48.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -645,11 +645,11 @@
        }
       ]
      },
-     "rs3": 31.9,
-     "rs6": -9.8,
+     "rs3": 24.5,
+     "rs6": -24.9,
      "gap": 3.8,
      "gaplvl": "L",
-     "from_high": -20.7,
+     "from_high": -22.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -678,11 +678,11 @@
        }
       ]
      },
-     "rs3": 54.3,
-     "rs6": -12.1,
+     "rs3": 34.9,
+     "rs6": -27.9,
      "gap": 6.3,
      "gaplvl": "M",
-     "from_high": -9.6,
+     "from_high": -13.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -754,11 +754,11 @@
        }
       ]
      },
-     "rs3": 17.4,
-     "rs6": -59.7,
+     "rs3": 20.0,
+     "rs6": -67.0,
      "gap": 2.9,
      "gaplvl": "L",
-     "from_high": -50.4,
+     "from_high": -50.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -787,11 +787,11 @@
        }
       ]
      },
-     "rs3": 15.3,
-     "rs6": -37.1,
+     "rs3": 19.8,
+     "rs6": -45.2,
      "gap": 10.1,
      "gaplvl": "H",
-     "from_high": -30.4,
+     "from_high": -31.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -830,11 +830,11 @@
        }
       ]
      },
-     "rs3": -10.2,
-     "rs6": 56.6,
+     "rs3": -13.9,
+     "rs6": 52.5,
      "gap": 28.4,
      "gaplvl": "H",
-     "from_high": -36.4,
+     "from_high": -36.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -863,11 +863,11 @@
        }
       ]
      },
-     "rs3": 0.1,
-     "rs6": 3.8,
+     "rs3": 2.0,
+     "rs6": 14.6,
      "gap": 24.2,
      "gaplvl": "H",
-     "from_high": -27.9,
+     "from_high": -21.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -896,11 +896,11 @@
        }
       ]
      },
-     "rs3": -1.3,
-     "rs6": 16.7,
+     "rs3": 5.8,
+     "rs6": 21.9,
      "gap": 14.0,
      "gaplvl": "H",
-     "from_high": -42.8,
+     "from_high": -40.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -939,11 +939,11 @@
        }
       ]
      },
-     "rs3": 19.6,
-     "rs6": -46.3,
+     "rs3": 24.4,
+     "rs6": -55.0,
      "gap": 4.8,
      "gaplvl": "M",
-     "from_high": -32.3,
+     "from_high": -33.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -972,11 +972,11 @@
        }
       ]
      },
-     "rs3": 62.5,
-     "rs6": -3.0,
+     "rs3": 80.4,
+     "rs6": -0.9,
      "gap": 6.7,
      "gaplvl": "M",
-     "from_high": -11.0,
+     "from_high": -2.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1005,11 +1005,11 @@
        }
       ]
      },
-     "rs3": 66.7,
-     "rs6": 8.8,
-     "gap": 3.6,
-     "gaplvl": "L",
-     "from_high": -9.9,
+     "rs3": 81.7,
+     "rs6": 8.4,
+     "gap": 4.2,
+     "gaplvl": "M",
+     "from_high": -6.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1048,11 +1048,11 @@
        }
       ]
      },
-     "rs3": 20.2,
-     "rs6": -35.3,
+     "rs3": 9.0,
+     "rs6": -45.0,
      "gap": 9.7,
      "gaplvl": "H",
-     "from_high": -41.0,
+     "from_high": -41.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1081,11 +1081,11 @@
        }
       ]
      },
-     "rs3": 32.7,
-     "rs6": -33.5,
+     "rs3": 24.8,
+     "rs6": -43.1,
      "gap": 4.0,
      "gaplvl": "M",
-     "from_high": -24.2,
+     "from_high": -25.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1114,11 +1114,11 @@
        }
       ]
      },
-     "rs3": 17.1,
-     "rs6": -47.1,
+     "rs3": 8.0,
+     "rs6": -56.5,
      "gap": 4.8,
      "gaplvl": "M",
-     "from_high": -44.8,
+     "from_high": -46.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1147,11 +1147,11 @@
        }
       ]
      },
-     "rs3": 34.2,
-     "rs6": -38.6,
+     "rs3": 20.9,
+     "rs6": -48.1,
      "gap": 5.5,
      "gaplvl": "M",
-     "from_high": -28.9,
+     "from_high": -30.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1180,11 +1180,11 @@
        }
       ]
      },
-     "rs3": 37.8,
-     "rs6": -24.6,
+     "rs3": 22.3,
+     "rs6": -33.2,
      "gap": 3.4,
      "gaplvl": "L",
-     "from_high": -45.7,
+     "from_high": -45.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1213,11 +1213,11 @@
        }
       ]
      },
-     "rs3": 10.8,
-     "rs6": -45.1,
+     "rs3": -4.1,
+     "rs6": -63.5,
      "gap": 3.0,
      "gaplvl": "L",
-     "from_high": -31.1,
+     "from_high": -39.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1246,11 +1246,11 @@
        }
       ]
      },
-     "rs3": -4.7,
-     "rs6": -84.1,
+     "rs3": -4.9,
+     "rs6": -93.4,
      "gap": 5.3,
      "gaplvl": "M",
-     "from_high": -66.5,
+     "from_high": -66.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1280,10 +1280,10 @@
       ]
      },
      "rs3": -15.4,
-     "rs6": -68.0,
+     "rs6": -75.3,
      "gap": 29.9,
      "gaplvl": "H",
-     "from_high": -56.5,
+     "from_high": -55.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1312,11 +1312,11 @@
        }
       ]
      },
-     "rs3": 21.5,
-     "rs6": -43.0,
+     "rs3": 18.9,
+     "rs6": -51.6,
      "gap": 6.7,
      "gaplvl": "M",
-     "from_high": -41.5,
+     "from_high": -40.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1345,11 +1345,11 @@
        }
       ]
      },
-     "rs3": -12.4,
-     "rs6": -85.7,
-     "gap": 7.1,
+     "rs3": -25.8,
+     "rs6": -96.8,
+     "gap": 6.0,
      "gaplvl": "M",
-     "from_high": -61.5,
+     "from_high": -62.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1388,11 +1388,11 @@
        }
       ]
      },
-     "rs3": 29.6,
-     "rs6": -49.9,
+     "rs3": 26.2,
+     "rs6": -58.9,
      "gap": 7.8,
      "gaplvl": "M",
-     "from_high": -39.0,
+     "from_high": -40.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1421,8 +1421,8 @@
        }
       ]
      },
-     "rs3": 23.6,
-     "rs6": -57.8,
+     "rs3": 24.3,
+     "rs6": -63.6,
      "gap": 5.2,
      "gaplvl": "M",
      "from_high": -42.7,
@@ -1454,11 +1454,11 @@
        }
       ]
      },
-     "rs3": 21.7,
-     "rs6": -58.6,
+     "rs3": 17.5,
+     "rs6": -67.7,
      "gap": 4.8,
      "gaplvl": "M",
-     "from_high": -43.7,
+     "from_high": -45.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1487,11 +1487,11 @@
        }
       ]
      },
-     "rs3": 50.9,
-     "rs6": -29.5,
+     "rs3": 54.3,
+     "rs6": -34.3,
      "gap": 5.4,
      "gaplvl": "M",
-     "from_high": -19.4,
+     "from_high": -16.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1520,11 +1520,11 @@
        }
       ]
      },
-     "rs3": 34.4,
-     "rs6": -35.2,
+     "rs3": 28.6,
+     "rs6": -45.9,
      "gap": 20.0,
      "gaplvl": "H",
-     "from_high": -27.3,
+     "from_high": -29.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1553,11 +1553,11 @@
        }
       ]
      },
-     "rs3": 19.7,
-     "rs6": -53.2,
+     "rs3": 19.6,
+     "rs6": -62.6,
      "gap": 2.1,
      "gaplvl": "L",
-     "from_high": -34.7,
+     "from_high": -33.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1586,11 +1586,11 @@
        }
       ]
      },
-     "rs3": 28.5,
-     "rs6": -44.8,
+     "rs3": 25.1,
+     "rs6": -56.6,
      "gap": 3.0,
      "gaplvl": "L",
-     "from_high": -34.6,
+     "from_high": -36.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1619,11 +1619,11 @@
        }
       ]
      },
-     "rs3": 2.3,
-     "rs6": -77.7,
+     "rs3": 3.1,
+     "rs6": -91.9,
      "gap": 29.9,
      "gaplvl": "H",
-     "from_high": -59.6,
+     "from_high": -62.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1662,11 +1662,11 @@
        }
       ]
      },
-     "rs3": 61.9,
-     "rs6": 15.2,
+     "rs3": 64.7,
+     "rs6": -13.7,
      "gap": 7.2,
      "gaplvl": "M",
-     "from_high": -14.5,
+     "from_high": -19.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1695,11 +1695,11 @@
        }
       ]
      },
-     "rs3": 47.2,
-     "rs6": -13.7,
+     "rs3": 53.7,
+     "rs6": -24.4,
      "gap": 2.2,
      "gaplvl": "L",
-     "from_high": -5.0,
+     "from_high": -4.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1728,11 +1728,11 @@
        }
       ]
      },
-     "rs3": 43.6,
-     "rs6": 42.9,
+     "rs3": 53.0,
+     "rs6": -0.4,
      "gap": 4.9,
      "gaplvl": "M",
-     "from_high": -15.2,
+     "from_high": -21.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1761,11 +1761,11 @@
        }
       ]
      },
-     "rs3": -6.3,
-     "rs6": -6.2,
+     "rs3": -7.0,
+     "rs6": -6.0,
      "gap": 13.9,
      "gaplvl": "H",
-     "from_high": -34.4,
+     "from_high": -31.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1794,11 +1794,11 @@
        }
       ]
      },
-     "rs3": 30.0,
-     "rs6": 32.1,
+     "rs3": 36.5,
+     "rs6": 9.6,
      "gap": 4.9,
      "gaplvl": "M",
-     "from_high": -19.6,
+     "from_high": -23.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1827,11 +1827,11 @@
        }
       ]
      },
-     "rs3": 23.9,
-     "rs6": -52.8,
+     "rs3": 29.8,
+     "rs6": -55.2,
      "gap": 5.1,
      "gaplvl": "M",
-     "from_high": -33.9,
+     "from_high": -35.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1860,11 +1860,11 @@
        }
       ]
      },
-     "rs3": 12.9,
-     "rs6": -9.9,
+     "rs3": 10.1,
+     "rs6": -30.1,
      "gap": 6.1,
      "gaplvl": "M",
-     "from_high": -49.1,
+     "from_high": -53.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1903,11 +1903,11 @@
        }
       ]
      },
-     "rs3": 13.9,
-     "rs6": -20.4,
+     "rs3": 11.6,
+     "rs6": -28.0,
      "gap": 7.3,
      "gaplvl": "M",
-     "from_high": -27.1,
+     "from_high": -32.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1936,11 +1936,11 @@
        }
       ]
      },
-     "rs3": 13.5,
-     "rs6": -58.4,
+     "rs3": 12.0,
+     "rs6": -63.9,
      "gap": 6.4,
      "gaplvl": "M",
-     "from_high": -35.6,
+     "from_high": -36.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1969,11 +1969,11 @@
        }
       ]
      },
-     "rs3": 22.0,
-     "rs6": -48.4,
+     "rs3": 17.8,
+     "rs6": -59.9,
      "gap": 9.5,
      "gaplvl": "H",
-     "from_high": -29.9,
+     "from_high": -33.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -1984,6 +1984,115 @@
     }
    ],
    "med": 10.1,
+   "n": 3
+  },
+  {
+   "sic": "MEDIA",
+   "ko": "미디어·콘텐츠",
+   "desc": "MEDIA",
+   "gics": "미디어·엔터",
+   "members": [
+    {
+     "tk": "035760.KQ",
+     "nm": "CJ ENM",
+     "spread": 29.1,
+     "q_spread": null,
+     "accel": null,
+     "op": 27.2,
+     "rev": -1.9,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=035760"
+       }
+      ]
+     },
+     "rs3": 46.5,
+     "rs6": -70.8,
+     "gap": 3.6,
+     "gaplvl": "L",
+     "from_high": -51.6,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "253450.KQ",
+     "nm": "스튜디오드래곤",
+     "spread": -13.1,
+     "q_spread": null,
+     "accel": null,
+     "op": -16.6,
+     "rev": -3.5,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=253450"
+       }
+      ]
+     },
+     "rs3": 22.1,
+     "rs6": -82.4,
+     "gap": 2.9,
+     "gaplvl": "L",
+     "from_high": -59.3,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "036420.KQ",
+     "nm": "콘텐트리중앙",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=036420"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": null,
+     "gaplvl": "M",
+     "from_high": null,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": 8.0,
    "n": 3
   },
   {
@@ -2012,11 +2121,11 @@
        }
       ]
      },
-     "rs3": 16.5,
-     "rs6": -51.6,
+     "rs3": 14.3,
+     "rs6": -65.1,
      "gap": 3.5,
      "gaplvl": "L",
-     "from_high": -37.2,
+     "from_high": -38.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2045,11 +2154,11 @@
        }
       ]
      },
-     "rs3": 18.0,
-     "rs6": -63.8,
+     "rs3": 16.5,
+     "rs6": -71.9,
      "gap": 2.0,
      "gaplvl": "L",
-     "from_high": -51.3,
+     "from_high": -51.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2088,11 +2197,11 @@
        }
       ]
      },
-     "rs3": 5.4,
-     "rs6": -43.0,
+     "rs3": 6.8,
+     "rs6": -54.5,
      "gap": 4.0,
      "gaplvl": "M",
-     "from_high": -39.9,
+     "from_high": -43.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2121,11 +2230,11 @@
        }
       ]
      },
-     "rs3": -13.6,
-     "rs6": -60.8,
+     "rs3": -14.4,
+     "rs6": -71.0,
      "gap": 5.3,
      "gaplvl": "M",
-     "from_high": -54.5,
+     "from_high": -56.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2154,11 +2263,11 @@
        }
       ]
      },
-     "rs3": 26.0,
-     "rs6": -36.2,
+     "rs3": 27.0,
+     "rs6": -45.8,
      "gap": 3.8,
      "gaplvl": "L",
-     "from_high": -28.3,
+     "from_high": -30.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2187,11 +2296,11 @@
        }
       ]
      },
-     "rs3": -7.0,
-     "rs6": -34.8,
+     "rs3": -5.9,
+     "rs6": -42.5,
      "gap": 5.7,
      "gaplvl": "M",
-     "from_high": -50.5,
+     "from_high": -52.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2220,11 +2329,11 @@
        }
       ]
      },
-     "rs3": 80.6,
-     "rs6": -10.5,
-     "gap": 18.3,
-     "gaplvl": "H",
-     "from_high": -13.9,
+     "rs3": 69.0,
+     "rs6": -31.3,
+     "gap": 7.1,
+     "gaplvl": "M",
+     "from_high": -19.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2253,11 +2362,11 @@
        }
       ]
      },
-     "rs3": 4.7,
-     "rs6": -61.3,
+     "rs3": 5.8,
+     "rs6": -71.5,
      "gap": 4.2,
      "gaplvl": "M",
-     "from_high": -45.5,
+     "from_high": -47.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2286,11 +2395,11 @@
        }
       ]
      },
-     "rs3": 21.5,
-     "rs6": -16.2,
-     "gap": 5.0,
+     "rs3": 19.3,
+     "rs6": -29.9,
+     "gap": 4.2,
      "gaplvl": "M",
-     "from_high": -19.9,
+     "from_high": -24.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2319,11 +2428,11 @@
        }
       ]
      },
-     "rs3": 10.9,
-     "rs6": -34.5,
+     "rs3": 15.3,
+     "rs6": -48.8,
      "gap": 6.5,
      "gaplvl": "M",
-     "from_high": -37.3,
+     "from_high": -40.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2362,11 +2471,11 @@
        }
       ]
      },
-     "rs3": 68.6,
-     "rs6": -19.4,
+     "rs3": 68.2,
+     "rs6": -30.5,
      "gap": 4.6,
      "gaplvl": "M",
-     "from_high": -12.4,
+     "from_high": -12.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2395,11 +2504,11 @@
        }
       ]
      },
-     "rs3": 95.4,
-     "rs6": 83.5,
+     "rs3": 92.0,
+     "rs6": 53.6,
      "gap": 5.7,
      "gaplvl": "M",
-     "from_high": -10.2,
+     "from_high": -9.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2428,11 +2537,11 @@
        }
       ]
      },
-     "rs3": 101.2,
-     "rs6": 28.0,
+     "rs3": 106.0,
+     "rs6": 6.5,
      "gap": 10.5,
      "gaplvl": "H",
-     "from_high": -9.9,
+     "from_high": -10.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2461,11 +2570,11 @@
        }
       ]
      },
-     "rs3": 49.8,
-     "rs6": -20.4,
+     "rs3": 48.6,
+     "rs6": -36.3,
      "gap": 18.7,
      "gaplvl": "H",
-     "from_high": -15.6,
+     "from_high": -18.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2494,11 +2603,11 @@
        }
       ]
      },
-     "rs3": 57.3,
-     "rs6": -4.1,
+     "rs3": 53.5,
+     "rs6": -18.4,
      "gap": 2.7,
      "gaplvl": "L",
-     "from_high": -11.0,
+     "from_high": -11.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2517,39 +2626,6 @@
    "desc": "BANK",
    "gics": "금융",
    "members": [
-    {
-     "tk": "086790.KS",
-     "nm": "하나금융지주",
-     "spread": null,
-     "q_spread": null,
-     "accel": null,
-     "op": null,
-     "rev": 7.5,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=086790"
-       }
-      ]
-     },
-     "rs3": 38.4,
-     "rs6": -7.1,
-     "gap": 4.5,
-     "gaplvl": "M",
-     "from_high": -5.5,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
     {
      "tk": "105560.KS",
      "nm": "KB금융",
@@ -2570,44 +2646,11 @@
        }
       ]
      },
-     "rs3": 38.4,
-     "rs6": -12.9,
+     "rs3": 37.1,
+     "rs6": -16.8,
      "gap": 5.0,
      "gaplvl": "M",
-     "from_high": -5.4,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "138930.KS",
-     "nm": "BNK금융지주",
-     "spread": null,
-     "q_spread": null,
-     "accel": null,
-     "op": null,
-     "rev": 4.3,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=138930"
-       }
-      ]
-     },
-     "rs3": 19.2,
-     "rs6": -40.8,
-     "gap": 2.9,
-     "gaplvl": "L",
-     "from_high": -28.6,
+     "from_high": -6.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2636,11 +2679,11 @@
        }
       ]
      },
-     "rs3": 47.9,
-     "rs6": -17.9,
+     "rs3": 44.8,
+     "rs6": -25.5,
      "gap": 3.5,
      "gaplvl": "L",
-     "from_high": -8.6,
+     "from_high": -10.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2669,11 +2712,11 @@
        }
       ]
      },
-     "rs3": 40.0,
-     "rs6": -11.0,
+     "rs3": 38.8,
+     "rs6": -13.1,
      "gap": 4.3,
      "gaplvl": "M",
-     "from_high": -3.9,
+     "from_high": -4.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2683,13 +2726,13 @@
      "supply": "— 수급 미확인"
     },
     {
-     "tk": "175330.KS",
-     "nm": "JB금융지주",
+     "tk": "086790.KS",
+     "nm": "하나금융지주",
      "spread": null,
      "q_spread": null,
      "accel": null,
      "op": null,
-     "rev": 6.3,
+     "rev": 7.5,
      "q_op": null,
      "q_note": "정상",
      "d_until": null,
@@ -2698,15 +2741,48 @@
       "docs": [
        {
         "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=175330"
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=086790"
        }
       ]
      },
-     "rs3": 50.0,
-     "rs6": -22.3,
-     "gap": 4.4,
+     "rs3": 40.1,
+     "rs6": -9.2,
+     "gap": 4.5,
      "gaplvl": "M",
-     "from_high": -14.1,
+     "from_high": -5.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "138930.KS",
+     "nm": "BNK금융지주",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": 4.3,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=138930"
+       }
+      ]
+     },
+     "rs3": 21.3,
+     "rs6": -46.0,
+     "gap": 2.9,
+     "gaplvl": "L",
+     "from_high": -26.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2735,11 +2811,44 @@
        }
       ]
      },
-     "rs3": 36.8,
-     "rs6": -18.3,
+     "rs3": 34.3,
+     "rs6": -29.5,
      "gap": 2.7,
      "gaplvl": "L",
-     "from_high": -12.8,
+     "from_high": -14.8,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "175330.KS",
+     "nm": "JB금융지주",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": 6.3,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=175330"
+       }
+      ]
+     },
+     "rs3": 51.0,
+     "rs6": -29.8,
+     "gap": 4.4,
+     "gaplvl": "M",
+     "from_high": -16.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2778,11 +2887,11 @@
        }
       ]
      },
-     "rs3": 9.2,
-     "rs6": -47.3,
+     "rs3": 11.6,
+     "rs6": -54.4,
      "gap": 4.9,
      "gaplvl": "M",
-     "from_high": -33.6,
+     "from_high": -32.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2811,11 +2920,11 @@
        }
       ]
      },
-     "rs3": 1.0,
-     "rs6": -40.3,
+     "rs3": 4.5,
+     "rs6": -40.1,
      "gap": 5.6,
      "gaplvl": "M",
-     "from_high": -42.9,
+     "from_high": -39.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2844,44 +2953,11 @@
        }
       ]
      },
-     "rs3": -5.1,
-     "rs6": -79.3,
+     "rs3": -3.5,
+     "rs6": -83.6,
      "gap": 6.3,
      "gaplvl": "M",
-     "from_high": -62.2,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "039490.KS",
-     "nm": "키움증권",
-     "spread": null,
-     "q_spread": null,
-     "accel": null,
-     "op": null,
-     "rev": 26.1,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=039490"
-       }
-      ]
-     },
-     "rs3": 4.1,
-     "rs6": -68.3,
-     "gap": 7.4,
-     "gaplvl": "M",
-     "from_high": -47.0,
+     "from_high": -61.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2910,11 +2986,44 @@
        }
       ]
      },
-     "rs3": 17.1,
-     "rs6": -59.5,
+     "rs3": 17.2,
+     "rs6": -66.8,
      "gap": 5.7,
      "gaplvl": "M",
-     "from_high": -45.5,
+     "from_high": -45.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "039490.KS",
+     "nm": "키움증권",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": 26.1,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=039490"
+       }
+      ]
+     },
+     "rs3": 1.1,
+     "rs6": -69.9,
+     "gap": 7.4,
+     "gaplvl": "M",
+     "from_high": -46.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2943,11 +3052,11 @@
        }
       ]
      },
-     "rs3": 46.3,
-     "rs6": -12.4,
+     "rs3": 45.0,
+     "rs6": -18.0,
      "gap": 3.3,
      "gaplvl": "L",
-     "from_high": -13.2,
+     "from_high": -14.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -2986,75 +3095,9 @@
        }
       ]
      },
-     "rs3": 20.8,
-     "rs6": 14.2,
+     "rs3": 21.8,
+     "rs6": 4.0,
      "gap": 4.1,
-     "gaplvl": "M",
-     "from_high": -11.2,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "005830.KS",
-     "nm": "DB손해보험",
-     "spread": null,
-     "q_spread": null,
-     "accel": null,
-     "op": null,
-     "rev": 8.3,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005830"
-       }
-      ]
-     },
-     "rs3": 58.5,
-     "rs6": -21.4,
-     "gap": 3.3,
-     "gaplvl": "L",
-     "from_high": -7.9,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "088350.KS",
-     "nm": "한화생명",
-     "spread": null,
-     "q_spread": null,
-     "accel": null,
-     "op": null,
-     "rev": -3.0,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=088350"
-       }
-      ]
-     },
-     "rs3": 43.4,
-     "rs6": -7.9,
-     "gap": 6.4,
      "gaplvl": "M",
      "from_high": -11.2,
      "pe": null,
@@ -3085,44 +3128,11 @@
        }
       ]
      },
-     "rs3": -10.9,
-     "rs6": -3.8,
+     "rs3": -11.8,
+     "rs6": -3.7,
      "gap": 12.3,
      "gaplvl": "H",
-     "from_high": -43.0,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "001450.KS",
-     "nm": "현대해상",
-     "spread": null,
-     "q_spread": null,
-     "accel": null,
-     "op": null,
-     "rev": 8.3,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=001450"
-       }
-      ]
-     },
-     "rs3": 58.8,
-     "rs6": 34.3,
-     "gap": 2.3,
-     "gaplvl": "L",
-     "from_high": -8.8,
+     "from_high": -40.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3151,11 +3161,110 @@
        }
       ]
      },
-     "rs3": 19.4,
-     "rs6": -50.0,
+     "rs3": 13.8,
+     "rs6": -61.1,
      "gap": 2.0,
      "gaplvl": "L",
-     "from_high": -31.9,
+     "from_high": -33.9,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "088350.KS",
+     "nm": "한화생명",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": -3.0,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=088350"
+       }
+      ]
+     },
+     "rs3": 42.6,
+     "rs6": -20.0,
+     "gap": 6.4,
+     "gaplvl": "M",
+     "from_high": -14.5,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "001450.KS",
+     "nm": "현대해상",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": 8.3,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=001450"
+       }
+      ]
+     },
+     "rs3": 54.6,
+     "rs6": 18.2,
+     "gap": 2.3,
+     "gaplvl": "L",
+     "from_high": -11.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "005830.KS",
+     "nm": "DB손해보험",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": 8.3,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=005830"
+       }
+      ]
+     },
+     "rs3": 58.0,
+     "rs6": -31.8,
+     "gap": 3.3,
+     "gaplvl": "L",
+     "from_high": -9.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3194,11 +3303,11 @@
        }
       ]
      },
-     "rs3": 28.7,
-     "rs6": -35.4,
+     "rs3": 24.8,
+     "rs6": -45.6,
      "gap": 1.9,
      "gaplvl": "L",
-     "from_high": -20.7,
+     "from_high": -21.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3227,11 +3336,11 @@
        }
       ]
      },
-     "rs3": 24.9,
-     "rs6": -32.9,
+     "rs3": 28.6,
+     "rs6": -36.3,
      "gap": 2.4,
      "gaplvl": "L",
-     "from_high": -18.8,
+     "from_high": -15.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3260,11 +3369,11 @@
        }
       ]
      },
-     "rs3": 21.7,
-     "rs6": -10.8,
+     "rs3": 18.4,
+     "rs6": -20.8,
      "gap": 7.0,
      "gaplvl": "M",
-     "from_high": -28.2,
+     "from_high": -29.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3276,6 +3385,148 @@
    ],
    "med": -2.3,
    "n": 3
+  },
+  {
+   "sic": "DISP",
+   "ko": "디스플레이",
+   "desc": "DISP",
+   "gics": "IT·반도체",
+   "members": [
+    {
+     "tk": "056190.KQ",
+     "nm": "에스에프에이",
+     "spread": 99.7,
+     "q_spread": null,
+     "accel": null,
+     "op": 79.4,
+     "rev": -20.3,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=056190"
+       }
+      ]
+     },
+     "rs3": 44.8,
+     "rs6": -36.5,
+     "gap": 7.6,
+     "gaplvl": "M",
+     "from_high": -20.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "034220.KS",
+     "nm": "LG디스플레이",
+     "spread": -4.8,
+     "q_spread": null,
+     "accel": null,
+     "op": -7.8,
+     "rev": -3.0,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=034220"
+       }
+      ]
+     },
+     "rs3": -7.5,
+     "rs6": -62.3,
+     "gap": 6.6,
+     "gaplvl": "M",
+     "from_high": -49.1,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "213420.KQ",
+     "nm": "덕산네오룩스",
+     "spread": -46.4,
+     "q_spread": null,
+     "accel": null,
+     "op": 15.8,
+     "rev": 62.2,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=213420"
+       }
+      ]
+     },
+     "rs3": 13.2,
+     "rs6": -76.1,
+     "gap": 4.9,
+     "gaplvl": "M",
+     "from_high": -48.0,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "108320.KQ",
+     "nm": "LX세미콘",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=108320"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": null,
+     "gaplvl": "M",
+     "from_high": null,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    }
+   ],
+   "med": -4.8,
+   "n": 4
   },
   {
    "sic": "SEMIEQ",
@@ -3303,11 +3554,11 @@
        }
       ]
      },
-     "rs3": -3.4,
-     "rs6": -26.3,
+     "rs3": 8.7,
+     "rs6": -37.1,
      "gap": 18.2,
      "gaplvl": "H",
-     "from_high": -33.7,
+     "from_high": -27.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3336,11 +3587,11 @@
        }
       ]
      },
-     "rs3": 1.5,
-     "rs6": -67.4,
+     "rs3": 6.1,
+     "rs6": -67.2,
      "gap": 8.7,
      "gaplvl": "H",
-     "from_high": -45.2,
+     "from_high": -41.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3369,11 +3620,11 @@
        }
       ]
      },
-     "rs3": 20.2,
-     "rs6": -50.6,
+     "rs3": 33.4,
+     "rs6": -47.3,
      "gap": 14.4,
      "gaplvl": "H",
-     "from_high": -31.3,
+     "from_high": -21.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3402,11 +3653,11 @@
        }
       ]
      },
-     "rs3": -3.2,
-     "rs6": -51.3,
+     "rs3": 15.5,
+     "rs6": -48.5,
      "gap": 9.7,
      "gaplvl": "H",
-     "from_high": -40.6,
+     "from_high": -33.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3435,11 +3686,11 @@
        }
       ]
      },
-     "rs3": 1.5,
-     "rs6": 82.1,
+     "rs3": 19.8,
+     "rs6": 120.6,
      "gap": 25.6,
      "gaplvl": "H",
-     "from_high": -36.5,
+     "from_high": -25.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3468,11 +3719,11 @@
        }
       ]
      },
-     "rs3": -5.8,
-     "rs6": -11.4,
+     "rs3": 17.4,
+     "rs6": 5.1,
      "gap": 14.5,
      "gaplvl": "H",
-     "from_high": -32.0,
+     "from_high": -18.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3501,11 +3752,11 @@
        }
       ]
      },
-     "rs3": 4.5,
-     "rs6": -49.9,
+     "rs3": 11.5,
+     "rs6": -54.3,
      "gap": 16.7,
      "gaplvl": "H",
-     "from_high": -42.4,
+     "from_high": -40.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3534,11 +3785,11 @@
        }
       ]
      },
-     "rs3": 26.6,
-     "rs6": -16.1,
+     "rs3": 34.7,
+     "rs6": -12.1,
      "gap": 10.9,
      "gaplvl": "H",
-     "from_high": -23.0,
+     "from_high": -17.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3567,11 +3818,11 @@
        }
       ]
      },
-     "rs3": 23.5,
-     "rs6": -36.0,
+     "rs3": 33.0,
+     "rs6": -35.1,
      "gap": 6.5,
      "gaplvl": "M",
-     "from_high": -25.8,
+     "from_high": -22.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3600,11 +3851,11 @@
        }
       ]
      },
-     "rs3": -9.2,
-     "rs6": -41.9,
+     "rs3": 5.0,
+     "rs6": -39.3,
      "gap": 10.7,
      "gaplvl": "H",
-     "from_high": -37.6,
+     "from_high": -29.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3633,11 +3884,11 @@
        }
       ]
      },
-     "rs3": 0.4,
-     "rs6": -49.3,
+     "rs3": 16.3,
+     "rs6": -44.2,
      "gap": 13.3,
      "gaplvl": "H",
-     "from_high": -36.2,
+     "from_high": -30.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3666,11 +3917,11 @@
        }
       ]
      },
-     "rs3": 12.2,
-     "rs6": -47.9,
+     "rs3": 28.9,
+     "rs6": -49.2,
      "gap": 9.6,
      "gaplvl": "H",
-     "from_high": -33.5,
+     "from_high": -25.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3699,11 +3950,11 @@
        }
       ]
      },
-     "rs3": 30.0,
-     "rs6": 210.1,
+     "rs3": 47.8,
+     "rs6": 134.3,
      "gap": 18.1,
      "gaplvl": "H",
-     "from_high": -18.0,
+     "from_high": -16.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3732,11 +3983,11 @@
        }
       ]
      },
-     "rs3": -22.8,
-     "rs6": -52.2,
+     "rs3": -17.2,
+     "rs6": -71.1,
      "gap": 10.4,
      "gaplvl": "H",
-     "from_high": -58.1,
+     "from_high": -60.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3765,11 +4016,11 @@
        }
       ]
      },
-     "rs3": 20.0,
-     "rs6": 82.4,
+     "rs3": 40.8,
+     "rs6": 126.8,
      "gap": 22.4,
      "gaplvl": "H",
-     "from_high": -20.1,
+     "from_high": -5.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3808,11 +4059,11 @@
        }
       ]
      },
-     "rs3": 14.9,
-     "rs6": -43.6,
+     "rs3": 14.4,
+     "rs6": -49.7,
      "gap": 9.2,
      "gaplvl": "H",
-     "from_high": -33.6,
+     "from_high": -34.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3841,11 +4092,11 @@
        }
       ]
      },
-     "rs3": 1.8,
-     "rs6": -61.0,
-     "gap": 3.0,
+     "rs3": 3.9,
+     "rs6": -71.6,
+     "gap": 2.6,
      "gaplvl": "L",
-     "from_high": -44.1,
+     "from_high": -43.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3874,8 +4125,8 @@
        }
       ]
      },
-     "rs3": 28.9,
-     "rs6": 0.9,
+     "rs3": 35.8,
+     "rs6": -4.3,
      "gap": 4.3,
      "gaplvl": "M",
      "from_high": -31.9,
@@ -3907,11 +4158,11 @@
        }
       ]
      },
-     "rs3": 1.1,
-     "rs6": 34.4,
+     "rs3": -6.3,
+     "rs6": 45.6,
      "gap": 14.0,
      "gaplvl": "H",
-     "from_high": -36.3,
+     "from_high": -28.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3940,11 +4191,11 @@
        }
       ]
      },
-     "rs3": 24.6,
-     "rs6": -43.3,
+     "rs3": 25.0,
+     "rs6": -53.8,
      "gap": 2.3,
      "gaplvl": "L",
-     "from_high": -33.6,
+     "from_high": -34.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -3983,11 +4234,11 @@
        }
       ]
      },
-     "rs3": 48.0,
-     "rs6": -8.4,
+     "rs3": 28.8,
+     "rs6": -35.2,
      "gap": 4.9,
      "gaplvl": "M",
-     "from_high": -17.1,
+     "from_high": -21.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4017,10 +4268,10 @@
       ]
      },
      "rs3": 39.8,
-     "rs6": -19.6,
+     "rs6": -30.4,
      "gap": 1.9,
      "gaplvl": "L",
-     "from_high": -16.8,
+     "from_high": -16.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4050,10 +4301,10 @@
       ]
      },
      "rs3": 25.7,
-     "rs6": -16.0,
+     "rs6": -24.5,
      "gap": 2.5,
      "gaplvl": "L",
-     "from_high": -7.9,
+     "from_high": -6.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4082,11 +4333,11 @@
        }
       ]
      },
-     "rs3": 13.1,
-     "rs6": -37.9,
-     "gap": 2.0,
+     "rs3": 11.7,
+     "rs6": -50.5,
+     "gap": 1.8,
      "gaplvl": "L",
-     "from_high": -22.6,
+     "from_high": -23.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4115,11 +4366,11 @@
        }
       ]
      },
-     "rs3": 29.9,
-     "rs6": -35.9,
+     "rs3": 30.9,
+     "rs6": -48.0,
      "gap": 2.0,
      "gaplvl": "L",
-     "from_high": -23.1,
+     "from_high": -22.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4148,11 +4399,11 @@
        }
       ]
      },
-     "rs3": 19.9,
-     "rs6": -38.1,
+     "rs3": 21.0,
+     "rs6": -54.3,
      "gap": 2.2,
      "gaplvl": "L",
-     "from_high": -28.1,
+     "from_high": -27.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4181,11 +4432,11 @@
        }
       ]
      },
-     "rs3": 28.5,
-     "rs6": -39.7,
+     "rs3": 26.1,
+     "rs6": -49.6,
      "gap": 2.8,
      "gaplvl": "L",
-     "from_high": -24.8,
+     "from_high": -23.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4214,11 +4465,11 @@
        }
       ]
      },
-     "rs3": 58.3,
-     "rs6": -13.4,
+     "rs3": 55.5,
+     "rs6": -23.1,
      "gap": 2.4,
      "gaplvl": "L",
-     "from_high": -10.1,
+     "from_high": -10.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4247,11 +4498,11 @@
        }
       ]
      },
-     "rs3": 59.7,
-     "rs6": -9.6,
+     "rs3": 56.2,
+     "rs6": -22.5,
      "gap": 5.2,
      "gaplvl": "M",
-     "from_high": -14.8,
+     "from_high": -16.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4290,11 +4541,11 @@
        }
       ]
      },
-     "rs3": 31.5,
-     "rs6": 9.1,
-     "gap": 7.3,
+     "rs3": 38.0,
+     "rs6": 4.0,
+     "gap": 6.7,
      "gaplvl": "M",
-     "from_high": -39.4,
+     "from_high": -39.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4323,11 +4574,11 @@
        }
       ]
      },
-     "rs3": -14.6,
-     "rs6": -39.6,
+     "rs3": -8.6,
+     "rs6": -42.8,
      "gap": 9.8,
      "gaplvl": "H",
-     "from_high": -60.6,
+     "from_high": -59.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4356,11 +4607,11 @@
        }
       ]
      },
-     "rs3": 16.0,
-     "rs6": -44.0,
+     "rs3": 24.4,
+     "rs6": -51.7,
      "gap": 4.9,
      "gaplvl": "M",
-     "from_high": -36.6,
+     "from_high": -35.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4389,11 +4640,11 @@
        }
       ]
      },
-     "rs3": 9.8,
-     "rs6": -60.5,
+     "rs3": 14.1,
+     "rs6": -70.8,
      "gap": 4.7,
      "gaplvl": "M",
-     "from_high": -50.9,
+     "from_high": -53.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4432,11 +4683,11 @@
        }
       ]
      },
-     "rs3": -11.5,
-     "rs6": 162.7,
+     "rs3": -2.2,
+     "rs6": 208.5,
      "gap": 28.3,
      "gaplvl": "H",
-     "from_high": -38.9,
+     "from_high": -33.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4465,11 +4716,11 @@
        }
       ]
      },
-     "rs3": -26.7,
-     "rs6": 60.3,
+     "rs3": -21.6,
+     "rs6": 47.9,
      "gap": 16.2,
      "gaplvl": "H",
-     "from_high": -65.2,
+     "from_high": -65.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4498,11 +4749,11 @@
        }
       ]
      },
-     "rs3": 13.6,
-     "rs6": 45.7,
+     "rs3": 25.5,
+     "rs6": 48.4,
      "gap": 7.0,
      "gaplvl": "M",
-     "from_high": -49.3,
+     "from_high": -46.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4541,11 +4792,11 @@
        }
       ]
      },
-     "rs3": 43.2,
-     "rs6": -12.9,
+     "rs3": 41.3,
+     "rs6": -25.3,
      "gap": 4.8,
      "gaplvl": "M",
-     "from_high": -9.9,
+     "from_high": -12.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4574,11 +4825,11 @@
        }
       ]
      },
-     "rs3": 30.7,
-     "rs6": -36.4,
+     "rs3": 27.9,
+     "rs6": -51.3,
      "gap": 2.5,
      "gaplvl": "L",
-     "from_high": -34.6,
+     "from_high": -35.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4607,8 +4858,8 @@
        }
       ]
      },
-     "rs3": 32.6,
-     "rs6": -27.0,
+     "rs3": 33.8,
+     "rs6": -32.0,
      "gap": 2.6,
      "gaplvl": "L",
      "from_high": -15.1,
@@ -4650,11 +4901,11 @@
        }
       ]
      },
-     "rs3": 42.1,
-     "rs6": -24.9,
+     "rs3": 35.8,
+     "rs6": -44.4,
      "gap": 3.5,
      "gaplvl": "L",
-     "from_high": -22.0,
+     "from_high": -30.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4683,11 +4934,11 @@
        }
       ]
      },
-     "rs3": 24.6,
-     "rs6": -56.5,
+     "rs3": 23.3,
+     "rs6": -63.5,
      "gap": 7.9,
      "gaplvl": "M",
-     "from_high": -46.4,
+     "from_high": -46.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4716,11 +4967,11 @@
        }
       ]
      },
-     "rs3": 20.0,
-     "rs6": -30.2,
+     "rs3": 19.3,
+     "rs6": -43.7,
      "gap": 3.7,
      "gaplvl": "L",
-     "from_high": -39.0,
+     "from_high": -41.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4749,11 +5000,11 @@
        }
       ]
      },
-     "rs3": 41.1,
-     "rs6": -45.9,
+     "rs3": 38.3,
+     "rs6": -54.4,
      "gap": 3.1,
      "gaplvl": "L",
-     "from_high": -38.9,
+     "from_high": -40.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4782,11 +5033,11 @@
        }
       ]
      },
-     "rs3": 38.4,
-     "rs6": -41.3,
+     "rs3": 29.0,
+     "rs6": -68.7,
      "gap": 24.4,
      "gaplvl": "H",
-     "from_high": -32.2,
+     "from_high": -38.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -4798,257 +5049,6 @@
    ],
    "med": -12.8,
    "n": 5
-  },
-  {
-   "sic": "MEDIA",
-   "ko": "미디어·콘텐츠",
-   "desc": "MEDIA",
-   "gics": "미디어·엔터",
-   "members": [
-    {
-     "tk": "035760.KQ",
-     "nm": "CJ ENM",
-     "spread": 29.1,
-     "q_spread": null,
-     "accel": null,
-     "op": 27.2,
-     "rev": -1.9,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=035760"
-       }
-      ]
-     },
-     "rs3": 33.5,
-     "rs6": -67.2,
-     "gap": 3.6,
-     "gaplvl": "L",
-     "from_high": -54.1,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "253450.KQ",
-     "nm": "스튜디오드래곤",
-     "spread": -13.1,
-     "q_spread": null,
-     "accel": null,
-     "op": -16.6,
-     "rev": -3.5,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=253450"
-       }
-      ]
-     },
-     "rs3": 18.8,
-     "rs6": -73.9,
-     "gap": 2.9,
-     "gaplvl": "L",
-     "from_high": -58.7,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "036420.KQ",
-     "nm": "콘텐트리중앙",
-     "spread": -102.0,
-     "q_spread": null,
-     "accel": null,
-     "op": -78.8,
-     "rev": 23.2,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=036420"
-       }
-      ]
-     },
-     "rs3": null,
-     "rs6": null,
-     "gap": null,
-     "gaplvl": "M",
-     "from_high": null,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    }
-   ],
-   "med": -13.1,
-   "n": 3
-  },
-  {
-   "sic": "DISP",
-   "ko": "디스플레이",
-   "desc": "DISP",
-   "gics": "IT·반도체",
-   "members": [
-    {
-     "tk": "056190.KQ",
-     "nm": "에스에프에이",
-     "spread": 99.7,
-     "q_spread": null,
-     "accel": null,
-     "op": 79.4,
-     "rev": -20.3,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=056190"
-       }
-      ]
-     },
-     "rs3": 36.6,
-     "rs6": -27.6,
-     "gap": 7.6,
-     "gaplvl": "M",
-     "from_high": -20.1,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "034220.KS",
-     "nm": "LG디스플레이",
-     "spread": -4.8,
-     "q_spread": null,
-     "accel": null,
-     "op": -7.8,
-     "rev": -3.0,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=034220"
-       }
-      ]
-     },
-     "rs3": -8.8,
-     "rs6": -55.1,
-     "gap": 6.6,
-     "gaplvl": "M",
-     "from_high": -49.7,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "108320.KQ",
-     "nm": "LX세미콘",
-     "spread": -22.7,
-     "q_spread": null,
-     "accel": null,
-     "op": -34.8,
-     "rev": -12.1,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=108320"
-       }
-      ]
-     },
-     "rs3": null,
-     "rs6": null,
-     "gap": null,
-     "gaplvl": "M",
-     "from_high": null,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "213420.KQ",
-     "nm": "덕산네오룩스",
-     "spread": -46.4,
-     "q_spread": null,
-     "accel": null,
-     "op": 15.8,
-     "rev": 62.2,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=213420"
-       }
-      ]
-     },
-     "rs3": 10.7,
-     "rs6": -61.1,
-     "gap": 4.9,
-     "gaplvl": "M",
-     "from_high": -47.6,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    }
-   ],
-   "med": -13.8,
-   "n": 4
   },
   {
    "sic": "APPAREL",
@@ -5076,11 +5076,11 @@
        }
       ]
      },
-     "rs3": 26.1,
-     "rs6": -37.7,
-     "gap": 4.7,
+     "rs3": 19.0,
+     "rs6": -49.5,
+     "gap": 4.0,
      "gaplvl": "M",
-     "from_high": -26.1,
+     "from_high": -28.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5109,11 +5109,11 @@
        }
       ]
      },
-     "rs3": 14.2,
-     "rs6": -55.2,
+     "rs3": 19.1,
+     "rs6": -59.3,
      "gap": 3.2,
      "gaplvl": "L",
-     "from_high": -37.2,
+     "from_high": -29.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5142,11 +5142,11 @@
        }
       ]
      },
-     "rs3": 28.8,
-     "rs6": -50.5,
+     "rs3": 29.0,
+     "rs6": -61.5,
      "gap": 9.8,
      "gaplvl": "H",
-     "from_high": -40.3,
+     "from_high": -42.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5185,11 +5185,11 @@
        }
       ]
      },
-     "rs3": 12.5,
-     "rs6": -5.7,
+     "rs3": 16.1,
+     "rs6": -10.0,
      "gap": 10.2,
      "gaplvl": "H",
-     "from_high": -33.6,
+     "from_high": -35.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5218,11 +5218,11 @@
        }
       ]
      },
-     "rs3": 15.0,
-     "rs6": -0.2,
+     "rs3": 22.6,
+     "rs6": -4.4,
      "gap": 18.9,
      "gaplvl": "H",
-     "from_high": -34.3,
+     "from_high": -31.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5251,11 +5251,11 @@
        }
       ]
      },
-     "rs3": 8.8,
-     "rs6": -13.7,
+     "rs3": 11.7,
+     "rs6": -19.0,
      "gap": 13.4,
      "gaplvl": "H",
-     "from_high": -41.1,
+     "from_high": -41.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5284,11 +5284,11 @@
        }
       ]
      },
-     "rs3": 31.7,
-     "rs6": -20.6,
+     "rs3": 34.9,
+     "rs6": -38.4,
      "gap": 5.2,
      "gaplvl": "M",
-     "from_high": -29.4,
+     "from_high": -34.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5317,11 +5317,11 @@
        }
       ]
      },
-     "rs3": 18.1,
-     "rs6": -29.4,
+     "rs3": 18.9,
+     "rs6": -38.3,
      "gap": 4.9,
      "gaplvl": "M",
-     "from_high": -22.2,
+     "from_high": -23.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5350,11 +5350,11 @@
        }
       ]
      },
-     "rs3": 16.3,
-     "rs6": -46.9,
+     "rs3": 15.4,
+     "rs6": -54.8,
      "gap": 6.3,
      "gaplvl": "M",
-     "from_high": -37.8,
+     "from_high": -40.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5426,11 +5426,11 @@
        }
       ]
      },
-     "rs3": -6.1,
-     "rs6": -67.2,
+     "rs3": -11.7,
+     "rs6": -77.0,
      "gap": 8.0,
      "gaplvl": "M",
-     "from_high": -58.6,
+     "from_high": -59.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5459,11 +5459,11 @@
        }
       ]
      },
-     "rs3": 15.0,
-     "rs6": -52.3,
+     "rs3": 13.9,
+     "rs6": -62.8,
      "gap": 3.8,
      "gaplvl": "L",
-     "from_high": -34.4,
+     "from_high": -37.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5492,11 +5492,11 @@
        }
       ]
      },
-     "rs3": 51.1,
-     "rs6": -6.7,
+     "rs3": 45.6,
+     "rs6": -21.3,
      "gap": 4.0,
      "gaplvl": "M",
-     "from_high": -4.6,
+     "from_high": -4.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5568,11 +5568,11 @@
        }
       ]
      },
-     "rs3": 7.1,
-     "rs6": -63.1,
+     "rs3": 0.3,
+     "rs6": -71.7,
      "gap": 3.1,
      "gaplvl": "L",
-     "from_high": -54.7,
+     "from_high": -55.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5601,11 +5601,11 @@
        }
       ]
      },
-     "rs3": 31.4,
-     "rs6": -29.6,
+     "rs3": 33.2,
+     "rs6": -37.4,
      "gap": 2.1,
      "gaplvl": "L",
-     "from_high": -22.7,
+     "from_high": -21.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5634,11 +5634,11 @@
        }
       ]
      },
-     "rs3": 24.3,
-     "rs6": -51.0,
+     "rs3": 23.4,
+     "rs6": -62.6,
      "gap": 2.6,
      "gaplvl": "L",
-     "from_high": -31.0,
+     "from_high": -32.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5667,11 +5667,11 @@
        }
       ]
      },
-     "rs3": 42.2,
-     "rs6": -47.2,
+     "rs3": 44.6,
+     "rs6": -53.8,
      "gap": 9.1,
      "gaplvl": "H",
-     "from_high": -31.3,
+     "from_high": -33.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5710,11 +5710,11 @@
        }
       ]
      },
-     "rs3": 2.0,
-     "rs6": -50.3,
-     "gap": 7.9,
+     "rs3": 14.3,
+     "rs6": -50.8,
+     "gap": 7.5,
      "gaplvl": "M",
-     "from_high": -36.0,
+     "from_high": -29.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5743,11 +5743,11 @@
        }
       ]
      },
-     "rs3": 25.5,
-     "rs6": -38.0,
+     "rs3": 22.8,
+     "rs6": -44.6,
      "gap": 3.0,
      "gaplvl": "L",
-     "from_high": -22.3,
+     "from_high": -23.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5776,11 +5776,11 @@
        }
       ]
      },
-     "rs3": 17.0,
-     "rs6": -38.9,
+     "rs3": 11.9,
+     "rs6": -44.1,
      "gap": 6.3,
      "gaplvl": "M",
-     "from_high": -31.0,
+     "from_high": -29.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5809,11 +5809,11 @@
        }
       ]
      },
-     "rs3": 15.0,
-     "rs6": -52.6,
+     "rs3": 18.0,
+     "rs6": -63.7,
      "gap": 5.1,
      "gaplvl": "M",
-     "from_high": -40.9,
+     "from_high": -42.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5842,11 +5842,11 @@
        }
       ]
      },
-     "rs3": 15.7,
-     "rs6": -44.9,
+     "rs3": 12.1,
+     "rs6": -61.3,
      "gap": 7.6,
      "gaplvl": "M",
-     "from_high": -42.8,
+     "from_high": -45.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5875,11 +5875,11 @@
        }
       ]
      },
-     "rs3": 52.0,
-     "rs6": -35.9,
+     "rs3": 51.1,
+     "rs6": -44.2,
      "gap": 3.0,
      "gaplvl": "L",
-     "from_high": -35.0,
+     "from_high": -35.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5908,11 +5908,11 @@
        }
       ]
      },
-     "rs3": 3.7,
-     "rs6": 9.4,
+     "rs3": 19.1,
+     "rs6": -3.8,
      "gap": 22.7,
      "gaplvl": "H",
-     "from_high": -30.5,
+     "from_high": -32.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5941,11 +5941,11 @@
        }
       ]
      },
-     "rs3": 14.9,
-     "rs6": -49.2,
+     "rs3": 12.4,
+     "rs6": -60.4,
      "gap": 3.8,
      "gaplvl": "L",
-     "from_high": -46.2,
+     "from_high": -48.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -5984,11 +5984,11 @@
        }
       ]
      },
-     "rs3": -10.6,
-     "rs6": -56.2,
+     "rs3": -7.0,
+     "rs6": -63.8,
      "gap": 5.4,
      "gaplvl": "M",
-     "from_high": -51.0,
+     "from_high": -52.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6017,11 +6017,11 @@
        }
       ]
      },
-     "rs3": 6.7,
-     "rs6": -52.2,
+     "rs3": 5.0,
+     "rs6": -63.3,
      "gap": 4.5,
      "gaplvl": "M",
-     "from_high": -38.2,
+     "from_high": -41.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6060,11 +6060,11 @@
        }
       ]
      },
-     "rs3": 36.9,
-     "rs6": -43.7,
+     "rs3": 39.8,
+     "rs6": -60.5,
      "gap": 3.8,
      "gaplvl": "L",
-     "from_high": -32.5,
+     "from_high": -34.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6093,11 +6093,11 @@
        }
       ]
      },
-     "rs3": 15.9,
-     "rs6": -25.6,
+     "rs3": 17.6,
+     "rs6": -38.7,
      "gap": 4.7,
      "gaplvl": "M",
-     "from_high": -52.6,
+     "from_high": -53.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6126,11 +6126,11 @@
        }
       ]
      },
-     "rs3": 42.9,
-     "rs6": -33.4,
+     "rs3": 37.3,
+     "rs6": -49.4,
      "gap": 5.4,
      "gaplvl": "M",
-     "from_high": -26.7,
+     "from_high": -29.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6169,11 +6169,11 @@
        }
       ]
      },
-     "rs3": 17.8,
-     "rs6": -59.2,
+     "rs3": 22.4,
+     "rs6": -65.4,
      "gap": 29.8,
      "gaplvl": "H",
-     "from_high": -55.6,
+     "from_high": -54.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6202,11 +6202,11 @@
        }
       ]
      },
-     "rs3": 21.9,
-     "rs6": -58.2,
-     "gap": 2.2,
+     "rs3": 30.3,
+     "rs6": -63.1,
+     "gap": 2.3,
      "gaplvl": "L",
-     "from_high": -44.0,
+     "from_high": -42.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6235,44 +6235,11 @@
        }
       ]
      },
-     "rs3": 16.4,
-     "rs6": -58.9,
+     "rs3": 17.7,
+     "rs6": -69.4,
      "gap": 2.4,
      "gaplvl": "L",
-     "from_high": -47.5,
-     "pe": null,
-     "fpe": null,
-     "peg": null,
-     "foreign_net": null,
-     "inst_net": null,
-     "foreign_pct": null,
-     "supply": "— 수급 미확인"
-    },
-    {
-     "tk": "192080.KQ",
-     "nm": "더블유게임즈",
-     "spread": -20.3,
-     "q_spread": null,
-     "accel": null,
-     "op": -6.7,
-     "rev": 13.6,
-     "q_op": null,
-     "q_note": "정상",
-     "d_until": null,
-     "ir": {
-      "date": "2026-09",
-      "docs": [
-       {
-        "label": "DART 사업·분기보고서",
-        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=192080"
-       }
-      ]
-     },
-     "rs3": null,
-     "rs6": null,
-     "gap": null,
-     "gaplvl": "M",
-     "from_high": null,
+     "from_high": -46.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6301,8 +6268,8 @@
        }
       ]
      },
-     "rs3": 17.3,
-     "rs6": -38.4,
+     "rs3": 17.5,
+     "rs6": -52.7,
      "gap": 3.1,
      "gaplvl": "L",
      "from_high": -35.1,
@@ -6334,11 +6301,11 @@
        }
       ]
      },
-     "rs3": 64.3,
-     "rs6": -17.3,
+     "rs3": 74.3,
+     "rs6": -21.4,
      "gap": 15.4,
      "gaplvl": "H",
-     "from_high": -13.4,
+     "from_high": -5.5,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6367,11 +6334,11 @@
        }
       ]
      },
-     "rs3": 6.4,
-     "rs6": -31.8,
-     "gap": 4.1,
-     "gaplvl": "M",
-     "from_high": -38.2,
+     "rs3": 12.7,
+     "rs6": -38.4,
+     "gap": 2.2,
+     "gaplvl": "L",
+     "from_high": -37.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6400,11 +6367,11 @@
        }
       ]
      },
-     "rs3": 49.1,
-     "rs6": -23.2,
+     "rs3": 55.5,
+     "rs6": -36.9,
      "gap": 3.7,
      "gaplvl": "L",
-     "from_high": -23.3,
+     "from_high": -23.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6433,11 +6400,11 @@
        }
       ]
      },
-     "rs3": 17.7,
-     "rs6": -51.0,
+     "rs3": 18.2,
+     "rs6": -53.1,
      "gap": 7.2,
      "gaplvl": "M",
-     "from_high": -51.5,
+     "from_high": -52.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6466,11 +6433,44 @@
        }
       ]
      },
-     "rs3": 17.4,
-     "rs6": -60.2,
+     "rs3": 40.2,
+     "rs6": -71.9,
      "gap": 4.8,
      "gaplvl": "M",
-     "from_high": -48.4,
+     "from_high": -49.2,
+     "pe": null,
+     "fpe": null,
+     "peg": null,
+     "foreign_net": null,
+     "inst_net": null,
+     "foreign_pct": null,
+     "supply": "— 수급 미확인"
+    },
+    {
+     "tk": "192080.KQ",
+     "nm": "더블유게임즈",
+     "spread": null,
+     "q_spread": null,
+     "accel": null,
+     "op": null,
+     "rev": null,
+     "q_op": null,
+     "q_note": "정상",
+     "d_until": null,
+     "ir": {
+      "date": "2026-09",
+      "docs": [
+       {
+        "label": "DART 사업·분기보고서",
+        "url": "https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=192080"
+       }
+      ]
+     },
+     "rs3": null,
+     "rs6": null,
+     "gap": null,
+     "gaplvl": "M",
+     "from_high": null,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6480,7 +6480,7 @@
      "supply": "— 수급 미확인"
     }
    ],
-   "med": -42.9,
+   "med": -52.2,
    "n": 10
   },
   {
@@ -6509,11 +6509,11 @@
        }
       ]
      },
-     "rs3": 22.0,
-     "rs6": -33.8,
+     "rs3": 28.0,
+     "rs6": -44.7,
      "gap": 14.4,
      "gaplvl": "H",
-     "from_high": -37.9,
+     "from_high": -39.2,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6542,8 +6542,8 @@
        }
       ]
      },
-     "rs3": -10.9,
-     "rs6": -71.5,
+     "rs3": -4.8,
+     "rs6": -82.0,
      "gap": 5.8,
      "gaplvl": "M",
      "from_high": -57.3,
@@ -6575,11 +6575,11 @@
        }
       ]
      },
-     "rs3": -1.2,
-     "rs6": -64.8,
+     "rs3": 3.3,
+     "rs6": -77.1,
      "gap": 8.7,
      "gaplvl": "H",
-     "from_high": -52.4,
+     "from_high": -52.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6608,11 +6608,11 @@
        }
       ]
      },
-     "rs3": 57.8,
-     "rs6": -34.4,
+     "rs3": 56.9,
+     "rs6": -52.5,
      "gap": 5.3,
      "gaplvl": "M",
-     "from_high": -35.2,
+     "from_high": -37.1,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6641,11 +6641,11 @@
        }
       ]
      },
-     "rs3": -3.0,
-     "rs6": -73.1,
+     "rs3": 0.8,
+     "rs6": -82.6,
      "gap": 6.8,
      "gaplvl": "M",
-     "from_high": -56.1,
+     "from_high": -56.7,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6674,11 +6674,11 @@
        }
       ]
      },
-     "rs3": 26.0,
-     "rs6": -41.3,
+     "rs3": 34.7,
+     "rs6": -51.7,
      "gap": 5.7,
      "gaplvl": "M",
-     "from_high": -36.3,
+     "from_high": -36.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6707,11 +6707,11 @@
        }
       ]
      },
-     "rs3": 11.4,
-     "rs6": -49.2,
+     "rs3": 12.0,
+     "rs6": -62.6,
      "gap": 11.0,
      "gaplvl": "H",
-     "from_high": -54.1,
+     "from_high": -56.3,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6740,11 +6740,11 @@
        }
       ]
      },
-     "rs3": 14.5,
-     "rs6": -24.3,
+     "rs3": 23.5,
+     "rs6": -49.1,
      "gap": 7.1,
      "gaplvl": "M",
-     "from_high": -47.9,
+     "from_high": -48.8,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6773,11 +6773,11 @@
        }
       ]
      },
-     "rs3": -5.6,
-     "rs6": -88.4,
+     "rs3": -0.7,
+     "rs6": -69.0,
      "gap": 22.9,
      "gaplvl": "H",
-     "from_high": -79.2,
+     "from_high": -79.4,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6807,10 +6807,10 @@
       ]
      },
      "rs3": 15.2,
-     "rs6": -14.2,
+     "rs6": -35.0,
      "gap": 6.6,
      "gaplvl": "M",
-     "from_high": -46.1,
+     "from_high": -48.9,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6849,11 +6849,11 @@
        }
       ]
      },
-     "rs3": 34.5,
-     "rs6": -3.8,
+     "rs3": 30.5,
+     "rs6": -5.8,
      "gap": 3.0,
      "gaplvl": "L",
-     "from_high": -3.5,
+     "from_high": 0.0,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6882,11 +6882,11 @@
        }
       ]
      },
-     "rs3": 25.9,
-     "rs6": -33.9,
+     "rs3": 23.8,
+     "rs6": -40.7,
      "gap": 3.4,
      "gaplvl": "L",
-     "from_high": -31.4,
+     "from_high": -26.6,
      "pe": null,
      "fpe": null,
      "peg": null,
@@ -6915,11 +6915,11 @@
        }
       ]
      },
-     "rs3": 19.8,
-     "rs6": -40.1,
+     "rs3": 19.3,
+     "rs6": -47.5,
      "gap": 3.3,
      "gaplvl": "L",
-     "from_high": -34.8,
+     "from_high": -31.4,
      "pe": null,
      "fpe": null,
      "peg": null,
